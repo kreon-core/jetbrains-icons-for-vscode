@@ -2,46 +2,124 @@
   "name": "extended-jetbrains-icons-for-vscode",
   "displayName": "Extended Jetbrains Icons for VsCode",
   "description": "Jetbrains icons with some additional ones.",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "Keiron Productions",
+  "author": {
+    "name": "Bao (Keiron) Dang",
+    "email": "dang.hbaokody@gmail.com",
+    "url": "https://github.com/keirond"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keirond/extended-jetbrains-icons-for-vscode"
+  },
   "engines": {
-    "vscode": "^1.103.0"
+    "vscode": "^1.103.0",
+    "node": ">=22.15.1"
   },
-  "categories": [
-    "Other"
+  "keywords": [
+    "icons",
+    "icon-theme",
+    "jetbrains",
+    "vscode-icons",
+    "vscode-icon-theme",
+    "vscode-icon-pack"
   ],
-  "activationEvents": [],
-  "main": "./dist/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "extended-jetbrains-icons-for-vscode.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
+  "categories": [
+    "Themes"
+  ],
+  "main": "dist/extended-jetbrains-icons-for-vscode.bundle.js",
+  "icon": "assets/logo.png",
   "scripts": {
-    "vscode:prepublish": "npm run package",
     "compile": "webpack",
     "watch": "webpack --watch",
+    "vscode:prepublish": "npm run package",
     "package": "webpack --mode production --devtool hidden-source-map",
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "npm run compile-tests && npm run compile && npm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "tsc -p ./ && node ./out/test/runTest.js"
   },
   "devDependencies": {
     "@types/vscode": "^1.103.0",
     "@types/mocha": "^10.0.10",
-    "@types/node": "22.x",
+    "@types/node": "^22.15.1",
+    "@types/webpack": "^5.28.5",
+    "@types/semver": "^7.5.4",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2",
+
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
+
     "eslint": "^9.32.0",
+    "prettier": "^3.0.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.4",
+
     "typescript": "^5.9.2",
+    "ts-node": "^10.9.1",
     "ts-loader": "^9.5.2",
+    "mocha": "^11.7.2",
+
     "webpack": "^5.101.0",
-    "webpack-cli": "^6.0.1",
-    "@vscode/test-cli": "^0.0.11",
-    "@vscode/test-electron": "^2.5.2"
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "semver": "^7.5.4"
+  },
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "extended-jetbrains-icons-for-vscode.icon-theme.light",
+        "label": "%lightIconThemeLabel%",
+        "path": "./icons/extended-jetbrains-icons-for-vscode.icons-theme.light.json"
+      },
+      {
+        "id": "extended-jetbrains-icons-for-vscode.icon-theme.dark",
+        "label": "%darkIconThemeLabel%",
+        "path": "./icons/extended-jetbrains-icons-for-vscode.icons-theme.dark.json"
+      },
+      {
+        "id": "extended-jetbrains-icons-for-vscode.icon-theme.auto",
+        "label": "%autoIconThemeLabel%",
+        "path": "./icons/extended-jetbrains-icons-for-vscode.icons-theme.auto.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "extended-jetbrains-icons-for-vscode.product-icon-theme.light",
+        "label": "%lightProductIconThemeLabel%",
+        "path": "./product-icons/extended-jetbrains-icons-for-vscode.product-icons-theme.light.json"
+      },
+      {
+        "id": "extended-jetbrains-icons-for-vscode.product-icon-theme.dark",
+        "label": "%darkProductIconThemeLabel%",
+        "path": "./product-icons/extended-jetbrains-icons-for-vscode.product-icons-theme.dark.json"
+      },
+      {
+        "id": "extended-jetbrains-icons-for-vscode.product-icon-theme.auto",
+        "label": "%autoProductIconThemeLabel%",
+        "path": "./product-icons/extended-jetbrains-icons-for-vscode.product-icons-theme.auto.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "extended-jetbrains-icons-for-vscode.activate-icons",
+        "title": "Extended Jetbrains Icons for VsCode: Activate Icons",
+        "category": "Icons",
+        "callback": "activateCommand",
+        "enablement": "!isWeb"
+      }
+    ]
   }
 }

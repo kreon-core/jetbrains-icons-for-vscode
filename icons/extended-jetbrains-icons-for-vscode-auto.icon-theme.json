@@ -1,0 +1,91 @@
+{
+  "iconDefinitions": {
+    //* root folder
+    "_root_folder": {
+      "iconPath": "../assets/folder/root_folder.svg"
+    },
+    "_root_folder_dark": {
+      "iconPath": "../assets/folder/root_folder_dark.svg"
+    },
+
+    //* normal folder
+    "_folder": {
+      "iconPath": "../assets/folder/folder.svg"
+    },
+    "_folder_dark": {
+      "iconPath": "../assets/folder/folder_dark.svg"
+    },
+
+    //* source folder
+    "_source_folder": {
+      "iconPath": "../assets/folder/source_folder.svg"
+    },
+    "_source_folder_dark": {
+      "iconPath": "../assets/folder/source_folder_dark.svg"
+    },
+
+    //* assets folder
+    "_assets_folder": {
+      "iconPath": "../assets/folder/assets_folder.svg"
+    },
+    "_assets_folder_dark": {
+      "iconPath": "../assets/folder/assets_folder_dark.svg"
+    },
+
+    //* external folder
+    "_external_folder": {
+      "iconPath": "../assets/folder/external_folder.svg"
+    },
+    "_external_folder_dark": {
+      "iconPath": "../assets/folder/external_folder_dark.svg"
+    },
+
+    //* test folder
+    "_test_folder": {
+      "iconPath": "../assets/folder/test_folder.svg"
+    },
+    "_test_folder_dark": {
+      "iconPath": "../assets/folder/test_folder_dark.svg"
+    },
+
+    //* file
+    "_file": {
+      "iconPath": "../assets/file/text.svg"
+    },
+    "_file_dark": {
+      "iconPath": "../assets/file/text_dark.svg"
+    }
+  },
+
+  "languageIds": {},
+
+  "file": "_file_dark",
+  "fileNames": {},
+  "fileExtensions": {},
+
+  "folder": "_folder_dark",
+  "folderNames": {},
+
+  "rootFolder": "_root_folder_dark",
+
+  "hidesExplorerArrows": false,
+  "showLanguageModeIcons": true,
+
+  "light": {
+    "iconDefinitions": {},
+
+    "languageIds": {},
+
+    "file": "_file",
+    "fileNames": {},
+    "fileExtensions": {},
+
+    "folder": "_folder",
+    "folderNames": {},
+
+    "rootFolder": "_root_folder",
+
+    "hidesExplorerArrows": false,
+    "showLanguageModeIcons": true
+  }
+}
