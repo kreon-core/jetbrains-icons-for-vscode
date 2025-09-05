@@ -1,5 +1,5 @@
 import * as manifest from "@root/package.json" with { type: "json" };
-import { IPackageManifest } from "@models/package_manifest.js";
+import { IPackageManifest } from "../models/package_manifest.js";
 
 const pkg = (manifest as { default: IPackageManifest }).default;
 
