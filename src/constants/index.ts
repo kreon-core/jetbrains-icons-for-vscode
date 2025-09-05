@@ -1,10 +1,9 @@
-import * as manifest from "../../package.json";
-import { IPackageManifest } from "../models/packageManifest";
+import * as manifest from "@root/package.json" with { type: "json" };
+import { IPackageManifest } from "@models/package_manifest.js";
+
+const pkg = (manifest as { default: IPackageManifest }).default;
 
 export const constants = {
   environment: { production: false },
-  extension: {
-    name: "extended-jetbrains-icons-for-vscode",
-    version: (manifest as IPackageManifest).version,
-  },
+  extension: { name: pkg.name, version: pkg.version }
 };

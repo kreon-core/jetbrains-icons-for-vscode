@@ -1,15 +1,39 @@
 {
   "compilerOptions": {
-    "module": "node20",
-    "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "skipLibCheck": true,
-    "target": "es6",
-    "outDir": "out",
-    "lib": ["es6"],
-    "sourceMap": true,
-    "rootDir": "."
+    "target": "es2022", // Target modern JavaScript
+    "module": "nodenext", // Use Node.js-style modules
+    "allowJs": false, // Only TypeScript files
+    "sourceMap": true, // Enable source maps for debugging
+    "rootDir": ".", // Root directory of input files
+    "outDir": "dist", // Output directory for compiled files
+
+    "moduleResolution": "nodenext", // Use Node.js-style module resolution
+    "resolveJsonModule": true, // Allow importing JSON files
+    "isolatedModules": true, // Ensure each file can be transpiled independently
+
+    "strict": true, // Enable all strict type-checking options
+    "noImplicitAny": true, // Prevent implicit any types
+    "noImplicitThis": true, // Ensure 'this' is typed
+    "noImplicitReturns": true, // Ensure all code paths return a value
+    "noFallthroughCasesInSwitch": true, // Prevent fallthrough in switch statements
+    "alwaysStrict": true, // Always use strict mode
+    "strictBindCallApply": true, // Disable strict bind/call/apply checks
+    "strictNullChecks": true, // Enable strict null checks
+    "strictFunctionTypes": true, // Enable strict function types
+    "strictPropertyInitialization": true, // Ensure class properties are initialized
+
+    "baseUrl": ".", // Base directory for non-relative module names
+    "paths": {
+      "@root/*": ["*"],
+      "@constants/*": ["src/constants/*"],
+      "@models/*": ["src/models/*"]
+    }, // Path aliases
+
+    "incremental": true, // Enable incremental compilation
+    "tsBuildInfoFile": ".tsbuildinfo", // File to store incremental build info
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true // Ensure consistent casing in file names
   },
-  "include": ["src/**/*.ts", "test/**/*.ts"]
+  "include": ["src/**/*.ts", "test/**/*.ts"],
+  "exclude": ["node_modules", "dist", "build"]
 }

@@ -3,9 +3,9 @@
   "displayName": "Extended Jetbrains Icons for VsCode",
   "description": "Jetbrains icons with some additional ones.",
   "version": "1.0.0",
-  "publisher": "Keiron Productions",
+  "publisher": "Kreon Core",
   "author": {
-    "name": "Bao (Keiron) Dang",
+    "name": "Keiron Dang",
     "email": "dang.hbaokody@gmail.com",
     "url": "https://github.com/keirond"
   },
@@ -13,62 +13,46 @@
     "type": "git",
     "url": "https://github.com/keirond/extended-jetbrains-icons-for-vscode"
   },
-  "engines": {
-    "vscode": "^1.103.0",
-    "node": ">=22.15.1"
-  },
   "keywords": [
     "icons",
     "icon-theme",
-    "jetbrains",
+    "jetbrains-icons",
     "vscode-icons",
     "vscode-icon-theme",
     "vscode-icon-pack"
   ],
+  "engines": {
+    "vscode": "^1.103.0"
+  },
   "categories": [
     "Themes"
   ],
   "main": "dist/extended-jetbrains-icons-for-vscode.bundle.js",
   "icon": "assets/logo.png",
+  "type": "module",
   "scripts": {
+    "vscode:prepublish": "npm run package",
     "compile": "webpack",
     "watch": "webpack --watch",
-    "vscode:prepublish": "npm run package",
-    "package": "webpack --mode production --devtool hidden-source-map",
-    "compile-tests": "tsc -p . --outDir out",
-    "watch-tests": "tsc -p . -w --outDir out",
-    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "package": "webpack --mode production",
     "lint": "eslint src",
-    "test": "tsc -p ./ && node ./out/test/runTest.js"
+    "format": "prettier --write ."
   },
   "devDependencies": {
-    "@types/vscode": "^1.103.0",
-    "@types/mocha": "^10.0.10",
-    "@types/node": "^22.15.1",
-    "@types/webpack": "^5.28.5",
-    "@types/semver": "^7.5.4",
     "@vscode/test-cli": "^0.0.11",
     "@vscode/test-electron": "^2.5.2",
-
-    "@typescript-eslint/eslint-plugin": "^8.39.0",
-    "@typescript-eslint/parser": "^8.39.0",
-
-    "eslint": "^9.32.0",
-    "prettier": "^3.0.1",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-prettier": "^5.5.4",
-
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
     "typescript": "^5.9.2",
-    "ts-node": "^10.9.1",
     "ts-loader": "^9.5.2",
-    "mocha": "^11.7.2",
-
-    "webpack": "^5.101.0",
-    "webpack-cli": "^6.0.1"
-  },
-  "dependencies": {
-    "semver": "^7.5.4"
+    "@types/vscode": "^1.103.0",
+    "@types/node": "^24.3.1",
+    "@types/webpack": "^5.28.5",
+    "prettier": "^3.6.2",
+    "eslint": "^9.34.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.4"
   },
   "extensionKind": [
     "ui",

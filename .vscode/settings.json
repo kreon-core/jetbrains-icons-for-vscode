@@ -1,8 +1,5 @@
 {
-  "files.exclude": {
-    "node_modules": true
-  },
+  "files.exclude": { "node_modules": true },
   "search.exclude": {},
-
   "typescript.tsc.autoDetect": "off"
 }
