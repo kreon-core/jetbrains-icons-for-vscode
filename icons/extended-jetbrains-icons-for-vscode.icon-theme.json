@@ -10,6 +10,10 @@
     "_folder": { "iconPath": "../assets/folder/folder.svg" },
     "_folder_dark": { "iconPath": "../assets/folder/folder_dark.svg" },
 
+    // hidden folder
+    "_hidden_folder": { "iconPath": "../assets/folder/hidden_folder.svg" },
+    "_hidden_folder_dark": { "iconPath": "../assets/folder/hidden_folder_dark.svg" },
+
     // source folder
     "_source_folder": { "iconPath": "../assets/folder/source_folder.svg" },
     "_source_folder_dark": { "iconPath": "../assets/folder/source_folder_dark.svg" },
@@ -17,6 +21,10 @@
     // assets folder
     "_assets_folder": { "iconPath": "../assets/folder/assets_folder.svg" },
     "_assets_folder_dark": { "iconPath": "../assets/folder/assets_folder_dark.svg" },
+
+    // data folder
+    "_data_folder": { "iconPath": "../assets/folder/data_folder.svg" },
+    "_data_folder_dark": { "iconPath": "../assets/folder/data_folder_dark.svg" },
 
     // external folder
     "_external_folder": { "iconPath": "../assets/folder/external_folder.svg" },
@@ -58,7 +66,20 @@
 
     // svg
     "_svg": { "iconPath": "../assets/file/svg.svg" },
-    "_svg_dark": { "iconPath": "../assets/file/svg_dark.svg" }
+    "_svg_dark": { "iconPath": "../assets/file/svg_dark.svg" },
+
+    // javaScript
+    "_javascript": { "iconPath": "../assets/file/javascript.svg" },
+    "_javascript_dark": { "iconPath": "../assets/file/javascript_dark.svg" },
+    // typeScript
+    "_typescript": { "iconPath": "../assets/file/typescript.svg" },
+    "_typescript_dark": { "iconPath": "../assets/file/typescript_dark.svg" },
+    // javaScript React (jsx)
+    "_javascript_react": { "iconPath": "../assets/file/jsx.svg" },
+    "_javascript_react_dark": { "iconPath": "../assets/file/jsx_dark.svg" },
+    // typeScript React (tsx)
+    "_typescript_react": { "iconPath": "../assets/file/tsx.svg" },
+    "_typescript_react_dark": { "iconPath": "../assets/file/tsx_dark.svg" }
   },
 
   "file": "_file_dark",
@@ -70,10 +91,24 @@
     "jpeg": "_image_dark",
     "svg": "_svg_dark"
   },
-  "languageIds": { "json": "_json_dark", "jsonc": "_jsonc_dark", "yaml": "_yaml_dark" },
+  "languageIds": {
+    "json": "_json_dark",
+    "jsonc": "_jsonc_dark",
+    "yaml": "_yaml_dark",
+    "javascript": "_javascript_dark",
+    "typescript": "_typescript_dark",
+    "javascriptreact": "_javascript_react_dark",
+    "typescriptreact": "_typescript_react_dark"
+  },
 
   "folder": "_folder_dark",
   "folderNames": {
+    ".git": "_hidden_folder_dark",
+    ".vscode": "_hidden_folder_dark",
+    ".github": "_hidden_folder_dark",
+    ".idea": "_hidden_folder_dark",
+    "node_modules": "_hidden_folder_dark",
+
     "app": "_source_folder_dark",
     "src": "_source_folder_dark",
     "source": "_source_folder_dark",
@@ -82,6 +117,10 @@
     "assets": "_assets_folder_dark",
     "public": "_assets_folder_dark",
     "static": "_assets_folder_dark",
+
+    "db": "_data_folder_dark",
+    "data": "_data_folder_dark",
+    "database": "_data_folder_dark",
 
     "external": "_external_folder_dark",
     "vendor": "_external_folder_dark",
@@ -111,10 +150,24 @@
       "jpeg": "_image",
       "svg": "_svg"
     },
-    "languageIds": { "json": "_json", "jsonc": "_jsonc", "yaml": "_yaml" },
+    "languageIds": {
+      "json": "_json",
+      "jsonc": "_jsonc",
+      "yaml": "_yaml",
+      "javascript": "_javascript",
+      "typescript": "_typescript",
+      "javascriptreact": "_javascript_react",
+      "typescriptreact": "_typescript_react"
+    },
 
     "folder": "_folder",
     "folderNames": {
+      ".git": "_hidden_folder",
+      ".vscode": "_hidden_folder",
+      ".github": "_hidden_folder",
+      ".idea": "_hidden_folder",
+      "node_modules": "_hidden_folder",
+
       "app": "_source_folder",
       "src": "_source_folder",
       "source": "_source_folder",
@@ -123,6 +176,10 @@
       "assets": "_assets_folder",
       "public": "_assets_folder",
       "static": "_assets_folder",
+
+      "db": "_data_folder",
+      "data": "_data_folder",
+      "database": "_data_folder",
 
       "external": "_external_folder",
       "vendor": "_external_folder",
