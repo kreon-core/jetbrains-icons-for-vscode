@@ -54,6 +54,10 @@
     "_json_schema": { "iconPath": "../assets/file/json_schema.svg" },
     "_json_schema_dark": { "iconPath": "../assets/file/json_schema_dark.svg" },
 
+    // markdown
+    "_markdown": { "iconPath": "../assets/file/markdown.svg" },
+    "_markdown_dark": { "iconPath": "../assets/file/markdown_dark.svg" },
+
     // yaml/yml
     "_yaml": { "iconPath": "../assets/file/yaml.svg" },
     "_yaml_dark": { "iconPath": "../assets/file/yaml_dark.svg" },
@@ -70,6 +74,23 @@
     "_ignore_dark": { "iconPath": "../assets/file/ignore_dark.svg" },
     "_gitignore": { "iconPath": "../assets/file/gitignore.svg" },
     "_gitignore_dark": { "iconPath": "../assets/file/gitignore.svg" },
+
+    // license
+    "_license": { "iconPath": "../assets/file/license.svg" },
+    "_license_dark": { "iconPath": "../assets/file/license_dark.svg" },
+
+    // webpack
+    "_webpack": { "iconPath": "../assets/file/webpack.svg" },
+    "_webpack_dark": { "iconPath": "../assets/file/webpack.svg" },
+    // eslint
+    "_eslint": { "iconPath": "../assets/file/eslint.svg" },
+    "_eslint_dark": { "iconPath": "../assets/file/eslint_dark.svg" },
+    // prettier
+    "_prettier": { "iconPath": "../assets/file/prettier.svg" },
+    "_prettier_dark": { "iconPath": "../assets/file/prettier.svg" },
+    // tsconfig
+    "_tsconfig": { "iconPath": "../assets/file/ts_config.svg" },
+    "_tsconfig_dark": { "iconPath": "../assets/file/ts_config_dark.svg" },
 
     // javaScript
     "_javascript": { "iconPath": "../assets/file/javascript.svg" },
@@ -94,7 +115,43 @@
   },
 
   "file": "_file_dark",
-  "fileNames": { ".gitignore": "_gitignore_dark", ".vscodeignore": "_ignore_dark" },
+  "fileNames": {
+    ".gitignore": "_gitignore_dark",
+    ".vscodeignore": "_ignore_dark",
+
+    "webpack.config.js": "_webpack_dark",
+    "webpack.config.cjs": "_webpack_dark",
+    "webpack.config.mjs": "_webpack_dark",
+    "webpack.config.ts": "_webpack_dark",
+
+    "eslint.config.js": "_eslint_dark",
+    "eslint.config.cjs": "_eslint_dark",
+    "eslint.config.mjs": "_eslint_dark",
+    "eslint.config.ts": "_eslint_dark",
+    ".eslintrc.js": "_eslint_dark",
+    ".eslintrc.cjs": "_eslint_dark",
+    ".eslintrc.json": "_eslint_dark",
+    ".eslintrc.yaml": "_eslint_dark",
+    ".eslintrc.yml": "_eslint_dark",
+
+    "prettier.config.js": "_prettier_dark",
+    "prettier.config.cjs": "_prettier_dark",
+    "prettier.config.mjs": "_prettier_dark",
+    "prettier.config.ts": "_prettier_dark",
+    ".prettierrc": "_prettier_dark",
+    ".prettierrc.js": "_prettier_dark",
+    ".prettierrc.cjs": "_prettier_dark",
+    ".prettierrc.json": "_prettier_dark",
+    ".prettierrc.yaml": "_prettier_dark",
+    ".prettierrc.yml": "_prettier_dark",
+
+    "tsconfig.json": "_tsconfig_dark",
+    "tsconfig.prod.json": "_tsconfig_dark",
+
+    "LICENSE": "_license_dark",
+    "LICENSE.txt": "_license_dark",
+    "LICENSE.md": "_license_dark"
+  },
   "fileExtensions": {
     "schema.json": "_json_schema_dark",
 
@@ -117,6 +174,8 @@
     "jsonc": "_jsonc_dark",
 
     "yaml": "_yaml_dark",
+
+    "markdown": "_markdown_dark",
 
     "javascript": "_javascript_dark",
     "typescript": "_typescript_dark",
@@ -165,7 +224,43 @@
 
   "light": {
     "file": "_file",
-    "fileNames": { ".gitignore": "_gitignore", ".vscodeignore": "_ignore" },
+    "fileNames": {
+      ".gitignore": "_gitignore",
+      ".vscodeignore": "_ignore",
+
+      "webpack.config.js": "_webpack",
+      "webpack.config.cjs": "_webpack",
+      "webpack.config.mjs": "_webpack",
+      "webpack.config.ts": "_webpack",
+
+      "eslint.config.js": "_eslint",
+      "eslint.config.cjs": "_eslint",
+      "eslint.config.mjs": "_eslint",
+      "eslint.config.ts": "_eslint",
+      ".eslintrc.js": "_eslint",
+      ".eslintrc.cjs": "_eslint",
+      ".eslintrc.json": "_eslint",
+      ".eslintrc.yaml": "_eslint",
+      ".eslintrc.yml": "_eslint",
+
+      "prettier.config.js": "_prettier",
+      "prettier.config.cjs": "_prettier",
+      "prettier.config.mjs": "_prettier",
+      "prettier.config.ts": "_prettier",
+      ".prettierrc": "_prettier",
+      ".prettierrc.js": "_prettier",
+      ".prettierrc.cjs": "_prettier",
+      ".prettierrc.json": "_prettier",
+      ".prettierrc.yaml": "_prettier",
+      ".prettierrc.yml": "_prettier",
+
+      "tsconfig.json": "_tsconfig",
+      "tsconfig.prod.json": "_tsconfig",
+
+      "LICENSE": "_license",
+      "LICENSE.txt": "_license",
+      "LICENSE.md": "_license"
+    },
     "fileExtensions": {
       "schema.json": "_json_schema",
 
@@ -188,6 +283,8 @@
       "jsonc": "_jsonc",
 
       "yaml": "_yaml",
+
+      "markdown": "_markdown",
 
       "javascript": "_javascript",
       "typescript": "_typescript",
