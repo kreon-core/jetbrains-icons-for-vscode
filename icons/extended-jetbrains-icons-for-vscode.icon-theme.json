@@ -22,6 +22,10 @@
     "_external_folder": { "iconPath": "../assets/folder/external_folder.svg" },
     "_external_folder_dark": { "iconPath": "../assets/folder/external_folder_dark.svg" },
 
+    // build folder
+    "_build_folder": { "iconPath": "../assets/folder/build_folder.svg" },
+    "_build_folder_dark": { "iconPath": "../assets/folder/build_folder_dark.svg" },
+
     // test folder
     "_test_folder": { "iconPath": "../assets/folder/test_folder.svg" },
     "_test_folder_dark": { "iconPath": "../assets/folder/test_folder_dark.svg" },
@@ -30,17 +34,41 @@
 
     // file
     "_file": { "iconPath": "../assets/file/text.svg" },
-    "_file_dark": { "iconPath": "../assets/file/text_dark.svg" }
-  },
+    "_file_dark": { "iconPath": "../assets/file/text_dark.svg" },
 
-  "languageIds": {},
+    // json
+    "_json": { "iconPath": "../assets/file/json.svg" },
+    "_json_dark": { "iconPath": "../assets/file/json_dark.svg" }
+  },
 
   "file": "_file_dark",
   "fileNames": {},
   "fileExtensions": {},
+  "languageIds": { "json": "_json_dark" },
 
   "folder": "_folder_dark",
-  "folderNames": {},
+  "folderNames": {
+    "app": "_source_folder_dark",
+    "src": "_source_folder_dark",
+    "source": "_source_folder_dark",
+    "engine": "_source_folder_dark",
+
+    "assets": "_assets_folder_dark",
+    "public": "_assets_folder_dark",
+    "static": "_assets_folder_dark",
+
+    "external": "_external_folder_dark",
+    "vendor": "_external_folder_dark",
+    "lib": "_external_folder_dark",
+
+    "build": "_build_folder_dark",
+    "dist": "_build_folder_dark",
+    "out": "_build_folder_dark",
+    "bin": "_build_folder_dark",
+
+    "test": "_test_folder_dark",
+    "tests": "_test_folder_dark"
+  },
 
   "rootFolder": "_root_folder_dark",
 
@@ -48,16 +76,34 @@
   "showLanguageModeIcons": true,
 
   "light": {
-    "iconDefinitions": {},
-
-    "languageIds": {},
-
     "file": "_file",
     "fileNames": {},
     "fileExtensions": {},
+    "languageIds": { "json": "_json" },
 
     "folder": "_folder",
-    "folderNames": {},
+    "folderNames": {
+      "app": "_source_folder",
+      "src": "_source_folder",
+      "source": "_source_folder",
+      "engine": "_source_folder",
+
+      "assets": "_assets_folder",
+      "public": "_assets_folder",
+      "static": "_assets_folder",
+
+      "external": "_external_folder",
+      "vendor": "_external_folder",
+      "lib": "_external_folder",
+
+      "build": "_build_folder",
+      "dist": "_build_folder",
+      "out": "_build_folder",
+      "bin": "_build_folder",
+
+      "test": "_test_folder",
+      "tests": "_test_folder"
+    },
 
     "rootFolder": "_root_folder",
 
