@@ -38,13 +38,39 @@
 
     // json
     "_json": { "iconPath": "../assets/file/json.svg" },
-    "_json_dark": { "iconPath": "../assets/file/json_dark.svg" }
+    "_json_dark": { "iconPath": "../assets/file/json_dark.svg" },
+
+    // json with comments (jsonc)
+    "_jsonc": { "iconPath": "../assets/file/json_w_comment.svg" },
+    "_jsonc_dark": { "iconPath": "../assets/file/json_w_comment_dark.svg" },
+
+    // json schema (jsons)
+    "_json_schema": { "iconPath": "../assets/file/json_schema.svg" },
+    "_json_schema_dark": { "iconPath": "../assets/file/json_schema_dark.svg" },
+
+    // yaml/yml
+    "_yaml": { "iconPath": "../assets/file/yaml.svg" },
+    "_yaml_dark": { "iconPath": "../assets/file/yaml_dark.svg" },
+
+    // png/jpg/jpeg
+    "_image": { "iconPath": "../assets/file/image.svg" },
+    "_image_dark": { "iconPath": "../assets/file/image_dark.svg" },
+
+    // svg
+    "_svg": { "iconPath": "../assets/file/svg.svg" },
+    "_svg_dark": { "iconPath": "../assets/file/svg_dark.svg" }
   },
 
   "file": "_file_dark",
   "fileNames": {},
-  "fileExtensions": {},
-  "languageIds": { "json": "_json_dark" },
+  "fileExtensions": {
+    "schema.json": "_json_schema_dark",
+    "png": "_image_dark",
+    "jpg": "_image_dark",
+    "jpeg": "_image_dark",
+    "svg": "_svg_dark"
+  },
+  "languageIds": { "json": "_json_dark", "jsonc": "_jsonc_dark", "yaml": "_yaml_dark" },
 
   "folder": "_folder_dark",
   "folderNames": {
@@ -78,8 +104,14 @@
   "light": {
     "file": "_file",
     "fileNames": {},
-    "fileExtensions": {},
-    "languageIds": { "json": "_json" },
+    "fileExtensions": {
+      "schema.json": "_json_schema",
+      "png": "_image",
+      "jpg": "_image",
+      "jpeg": "_image",
+      "svg": "_svg"
+    },
+    "languageIds": { "json": "_json", "jsonc": "_jsonc", "yaml": "_yaml" },
 
     "folder": "_folder",
     "folderNames": {
