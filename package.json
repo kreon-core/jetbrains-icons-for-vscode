@@ -3,7 +3,7 @@
   "displayName": "Extended Jetbrains Icons for VsCode",
   "description": "Jetbrains icons with some additional ones.",
   "version": "1.0.0",
-  "publisher": "Kreon Core",
+  "publisher": "kreon-core",
   "author": {
     "name": "Keiron Dang",
     "email": "dang.hbaokody@gmail.com",
@@ -16,27 +16,27 @@
   "keywords": [
     "icons",
     "icon-theme",
-    "jetbrains-icons",
     "vscode-icons",
     "vscode-icon-theme",
-    "vscode-icon-pack"
+    "vscode-icon-pack",
+    "jetbrains-icons"
   ],
   "engines": {
-    "vscode": "^1.103.0"
+    "vscode": "^1.22.0"
   },
   "categories": [
     "Themes"
   ],
   "main": "dist/extended-jetbrains-icons-for-vscode.bundle.js",
   "icon": "assets/logo.png",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "vscode:prepublish": "npm run package",
-    "compile": "webpack",
-    "watch": "webpack --watch --mode development",
-    "package": "webpack --mode production",
     "lint": "eslint src",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "compile": "webpack --mode development",
+    "watch": "webpack --watch --mode development",
+    "vscode:prepublish": "npm run package",
+    "package": "webpack --mode production"
   },
   "devDependencies": {
     "@vscode/test-cli": "^0.0.11",
@@ -44,9 +44,11 @@
     "webpack": "^5.101.3",
     "webpack-cli": "^6.0.1",
     "typescript": "^5.9.2",
+    "ts-node": "^10.9.2",
     "ts-loader": "^9.5.2",
     "tsconfig-paths-webpack-plugin": "^4.2.0",
-    "@types/vscode": "^1.103.0",
+    "@tsconfig/node10": "^1.0.11",
+    "@types/vscode": "^1.22.0",
     "@types/node": "^24.3.1",
     "@types/webpack": "^5.28.5",
     "prettier": "^3.6.2",
@@ -65,43 +67,23 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "extended-jetbrains-icons-for-vscode.icon-theme.light",
-        "label": "%lightIconThemeLabel%",
-        "path": "./icons/extended-jetbrains-icons-for-vscode.icons-theme.light.json"
-      },
-      {
-        "id": "extended-jetbrains-icons-for-vscode.icon-theme.dark",
-        "label": "%darkIconThemeLabel%",
-        "path": "./icons/extended-jetbrains-icons-for-vscode.icons-theme.dark.json"
-      },
-      {
-        "id": "extended-jetbrains-icons-for-vscode.icon-theme.auto",
-        "label": "%autoIconThemeLabel%",
-        "path": "./icons/extended-jetbrains-icons-for-vscode.icons-theme.auto.json"
+        "id": "extended-jetbrains-icons-for-vscode.icon-theme",
+        "label": "Jetbrains Icons",
+        "path": "./icons/extended-jetbrains-icons-for-vscode.icon-theme.json"
       }
     ],
     "productIconThemes": [
       {
-        "id": "extended-jetbrains-icons-for-vscode.product-icon-theme.light",
-        "label": "%lightProductIconThemeLabel%",
-        "path": "./product-icons/extended-jetbrains-icons-for-vscode.product-icons-theme.light.json"
-      },
-      {
-        "id": "extended-jetbrains-icons-for-vscode.product-icon-theme.dark",
-        "label": "%darkProductIconThemeLabel%",
-        "path": "./product-icons/extended-jetbrains-icons-for-vscode.product-icons-theme.dark.json"
-      },
-      {
-        "id": "extended-jetbrains-icons-for-vscode.product-icon-theme.auto",
-        "label": "%autoProductIconThemeLabel%",
-        "path": "./product-icons/extended-jetbrains-icons-for-vscode.product-icons-theme.auto.json"
+        "id": "extended-jetbrains-icons-for-vscode.product-icon-theme",
+        "label": "Jetbrains Product Icons",
+        "path": "./product-icons/extended-jetbrains-icons-for-vscode.product-icon-theme.json"
       }
     ],
     "commands": [
       {
+        "category": "Icons",
         "command": "extended-jetbrains-icons-for-vscode.activate-icons",
         "title": "Extended Jetbrains Icons for VsCode: Activate Icons",
-        "category": "Icons",
         "callback": "activateCommand",
         "enablement": "!isWeb"
       }

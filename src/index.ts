@@ -1,8 +1,11 @@
 import * as vscode from "vscode";
-import { constants } from "./constants/index.js";
+import { constants } from "./constants";
 
-export function activate(_context: vscode.ExtensionContext): void {
-  console.info(`[${constants.extension.name}] v${constants.extension.version} is now active!`);
+export function activate(context: vscode.ExtensionContext): void {
+  if (context.globalState.get("installed") !== true) {
+    vscode.window.showInformationMessage(`${constants.extension.displayName} is installed!`);
+    context.globalState.update("installed", true);
+  }
 }
 
 export function deactivate() {}
