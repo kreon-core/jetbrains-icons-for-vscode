@@ -44,24 +44,6 @@
     "_file": { "iconPath": "../assets/file/text.svg" },
     "_file_dark": { "iconPath": "../assets/file/text_dark.svg" },
 
-    // json
-    "_json": { "iconPath": "../assets/file/json.svg" },
-    "_json_dark": { "iconPath": "../assets/file/json_dark.svg" },
-    // json with comments (jsonc)
-    "_jsonc": { "iconPath": "../assets/file/json_w_comment.svg" },
-    "_jsonc_dark": { "iconPath": "../assets/file/json_w_comment_dark.svg" },
-    // json schema
-    "_json_schema": { "iconPath": "../assets/file/json_schema.svg" },
-    "_json_schema_dark": { "iconPath": "../assets/file/json_schema_dark.svg" },
-
-    // markdown
-    "_markdown": { "iconPath": "../assets/file/markdown.svg" },
-    "_markdown_dark": { "iconPath": "../assets/file/markdown_dark.svg" },
-
-    // yaml/yml
-    "_yaml": { "iconPath": "../assets/file/yaml.svg" },
-    "_yaml_dark": { "iconPath": "../assets/file/yaml_dark.svg" },
-
     // png/jpg/jpeg
     "_image": { "iconPath": "../assets/file/image.svg" },
     "_image_dark": { "iconPath": "../assets/file/image_dark.svg" },
@@ -72,12 +54,15 @@
     // ignore
     "_ignore": { "iconPath": "../assets/file/ignore.svg" },
     "_ignore_dark": { "iconPath": "../assets/file/ignore_dark.svg" },
-    "_gitignore": { "iconPath": "../assets/file/gitignore.svg" },
-    "_gitignore_dark": { "iconPath": "../assets/file/gitignore.svg" },
-
+    // git
+    "_git": { "iconPath": "../assets/file/git.svg" },
+    "_git_dark": { "iconPath": "../assets/file/git.svg" },
     // license
     "_license": { "iconPath": "../assets/file/license.svg" },
     "_license_dark": { "iconPath": "../assets/file/license_dark.svg" },
+    // mailmap
+    "_mail": { "iconPath": "../assets/file/mailer.svg" },
+    "_mail_dark": { "iconPath": "../assets/file/mailer_dark.svg" },
 
     // webpack
     "_webpack": { "iconPath": "../assets/file/webpack.svg" },
@@ -91,6 +76,9 @@
     // tsconfig
     "_tsconfig": { "iconPath": "../assets/file/ts_config.svg" },
     "_tsconfig_dark": { "iconPath": "../assets/file/ts_config_dark.svg" },
+    // config
+    "_config": { "iconPath": "../assets/file/config.svg" },
+    "_config_dark": { "iconPath": "../assets/file/config_dark.svg" },
 
     // javaScript
     "_javascript": { "iconPath": "../assets/file/javascript.svg" },
@@ -111,12 +99,50 @@
     "_typescript_react": { "iconPath": "../assets/file/tsx.svg" },
     "_typescript_react_dark": { "iconPath": "../assets/file/tsx_dark.svg" },
     "_typescript_react_test": { "iconPath": "../assets/file/tsx_test.svg" },
-    "_typescript_react_test_dark": { "iconPath": "../assets/file/tsx_test_dark.svg" }
+    "_typescript_react_test_dark": { "iconPath": "../assets/file/tsx_test_dark.svg" },
+
+    // python
+    "_python": { "iconPath": "../assets/file/python.svg" },
+    "_python_dark": { "iconPath": "../assets/file/python_dark.svg" },
+    "_python_test": { "iconPath": "../assets/file/python_test.svg" },
+    "_python_test_dark": { "iconPath": "../assets/file/python_test_dark.svg" },
+
+    // json
+    "_json": { "iconPath": "../assets/file/json.svg" },
+    "_json_dark": { "iconPath": "../assets/file/json_dark.svg" },
+    // json with comments (jsonc)
+    "_jsonc": { "iconPath": "../assets/file/json_w_comment.svg" },
+    "_jsonc_dark": { "iconPath": "../assets/file/json_w_comment_dark.svg" },
+    // json schema
+    "_json_schema": { "iconPath": "../assets/file/json_schema.svg" },
+    "_json_schema_dark": { "iconPath": "../assets/file/json_schema_dark.svg" },
+    // markdown
+    "_markdown": { "iconPath": "../assets/file/markdown.svg" },
+    "_markdown_dark": { "iconPath": "../assets/file/markdown_dark.svg" },
+    // yaml/yml
+    "_yaml": { "iconPath": "../assets/file/yaml.svg" },
+    "_yaml_dark": { "iconPath": "../assets/file/yaml_dark.svg" },
+    // xml
+    "_xml": { "iconPath": "../assets/file/xml.svg" },
+    "_xml_dark": { "iconPath": "../assets/file/xml_dark.svg" },
+    //shell
+    "_shell": { "iconPath": "../assets/file/shell.svg" },
+    "_shell_dark": { "iconPath": "../assets/file/shell_dark.svg" },
+
+    // CMake
+    "_cmake": { "iconPath": "../assets/file/cmake.svg" },
+    "_cmake_dark": { "iconPath": "../assets/file/cmake_dark.svg" }
   },
 
   "file": "_file_dark",
   "fileNames": {
-    ".gitignore": "_gitignore_dark",
+    ".gitignore": "_git_dark",
+    ".gitattributes": "_git_dark",
+    ".git-blame-ignore-revs": "_git_dark",
+    ".gitconfig": "_git_dark",
+
+    ".mailmap": "_mail_dark",
+
     ".vscodeignore": "_ignore_dark",
 
     "webpack.config.js": "_webpack_dark",
@@ -148,9 +174,13 @@
     "tsconfig.json": "_tsconfig_dark",
     "tsconfig.prod.json": "_tsconfig_dark",
 
+    ".editorconfig": "_config_dark",
+
     "LICENSE": "_license_dark",
     "LICENSE.txt": "_license_dark",
-    "LICENSE.md": "_license_dark"
+    "LICENSE.md": "_license_dark",
+
+    "CMakeLists.txt": "_cmake_dark"
   },
   "fileExtensions": {
     "schema.json": "_json_schema_dark",
@@ -167,20 +197,24 @@
     "test.jsx": "_javascript_react_test_dark",
     "spec.jsx": "_javascript_react_test_dark",
     "test.tsx": "_typescript_react_test_dark",
-    "spec.tsx": "_typescript_react_test_dark"
+    "spec.tsx": "_typescript_react_test_dark",
+
+    "test.py": "_python_test_dark"
   },
   "languageIds": {
-    "json": "_json_dark",
-    "jsonc": "_jsonc_dark",
-
-    "yaml": "_yaml_dark",
-
-    "markdown": "_markdown_dark",
-
     "javascript": "_javascript_dark",
     "typescript": "_typescript_dark",
     "javascriptreact": "_javascript_react_dark",
-    "typescriptreact": "_typescript_react_dark"
+    "typescriptreact": "_typescript_react_dark",
+
+    "python": "_python_dark",
+
+    "json": "_json_dark",
+    "jsonc": "_jsonc_dark",
+    "yaml": "_yaml_dark",
+    "markdown": "_markdown_dark",
+    "xml": "_xml_dark",
+    "shellscript": "_shell_dark"
   },
 
   "folder": "_folder_dark",
@@ -188,6 +222,7 @@
     ".git": "_hidden_folder_dark",
     ".vscode": "_hidden_folder_dark",
     ".github": "_hidden_folder_dark",
+    ".githooks": "_hidden_folder_dark",
     ".idea": "_hidden_folder_dark",
     "node_modules": "_hidden_folder_dark",
 
@@ -225,7 +260,13 @@
   "light": {
     "file": "_file",
     "fileNames": {
-      ".gitignore": "_gitignore",
+      ".gitignore": "_git",
+      ".gitattributes": "_git",
+      ".git-blame-ignore-revs": "_git",
+      ".gitconfig": "_git",
+
+      ".mailmap": "_mail",
+
       ".vscodeignore": "_ignore",
 
       "webpack.config.js": "_webpack",
@@ -257,9 +298,13 @@
       "tsconfig.json": "_tsconfig",
       "tsconfig.prod.json": "_tsconfig",
 
+      ".editorconfig": "_config",
+
       "LICENSE": "_license",
       "LICENSE.txt": "_license",
-      "LICENSE.md": "_license"
+      "LICENSE.md": "_license",
+
+      "CMakeLists.txt": "_cmake"
     },
     "fileExtensions": {
       "schema.json": "_json_schema",
@@ -276,20 +321,24 @@
       "test.jsx": "_javascript_react_test",
       "spec.jsx": "_javascript_react_test",
       "test.tsx": "_typescript_react_test",
-      "spec.tsx": "_typescript_react_test"
+      "spec.tsx": "_typescript_react_test",
+
+      "test.py": "_python_test"
     },
     "languageIds": {
-      "json": "_json",
-      "jsonc": "_jsonc",
-
-      "yaml": "_yaml",
-
-      "markdown": "_markdown",
-
       "javascript": "_javascript",
       "typescript": "_typescript",
       "javascriptreact": "_javascript_react",
-      "typescriptreact": "_typescript_react"
+      "typescriptreact": "_typescript_react",
+
+      "python": "_python",
+
+      "json": "_json",
+      "jsonc": "_jsonc",
+      "yaml": "_yaml",
+      "markdown": "_markdown",
+      "xml": "_xml",
+      "shellscript": "_shell"
     },
 
     "folder": "_folder",
@@ -297,6 +346,7 @@
       ".git": "_hidden_folder",
       ".vscode": "_hidden_folder",
       ".github": "_hidden_folder",
+      ".githooks": "_hidden_folder",
       ".idea": "_hidden_folder",
       "node_modules": "_hidden_folder",
 
