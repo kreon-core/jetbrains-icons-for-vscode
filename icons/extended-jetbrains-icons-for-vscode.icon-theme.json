@@ -47,12 +47,10 @@
     // json
     "_json": { "iconPath": "../assets/file/json.svg" },
     "_json_dark": { "iconPath": "../assets/file/json_dark.svg" },
-
     // json with comments (jsonc)
     "_jsonc": { "iconPath": "../assets/file/json_w_comment.svg" },
     "_jsonc_dark": { "iconPath": "../assets/file/json_w_comment_dark.svg" },
-
-    // json schema (jsons)
+    // json schema
     "_json_schema": { "iconPath": "../assets/file/json_schema.svg" },
     "_json_schema_dark": { "iconPath": "../assets/file/json_schema_dark.svg" },
 
@@ -63,38 +61,63 @@
     // png/jpg/jpeg
     "_image": { "iconPath": "../assets/file/image.svg" },
     "_image_dark": { "iconPath": "../assets/file/image_dark.svg" },
-
     // svg
     "_svg": { "iconPath": "../assets/file/svg.svg" },
     "_svg_dark": { "iconPath": "../assets/file/svg_dark.svg" },
 
+    // ignore
+    "_ignore": { "iconPath": "../assets/file/ignore.svg" },
+    "_ignore_dark": { "iconPath": "../assets/file/ignore_dark.svg" },
+    "_gitignore": { "iconPath": "../assets/file/gitignore.svg" },
+    "_gitignore_dark": { "iconPath": "../assets/file/gitignore.svg" },
+
     // javaScript
     "_javascript": { "iconPath": "../assets/file/javascript.svg" },
     "_javascript_dark": { "iconPath": "../assets/file/javascript_dark.svg" },
+    "_javascript_test": { "iconPath": "../assets/file/js_test.svg" },
+    "_javascript_test_dark": { "iconPath": "../assets/file/js_test_dark.svg" },
     // typeScript
     "_typescript": { "iconPath": "../assets/file/typescript.svg" },
     "_typescript_dark": { "iconPath": "../assets/file/typescript_dark.svg" },
+    "_typescript_test": { "iconPath": "../assets/file/ts_test.svg" },
+    "_typescript_test_dark": { "iconPath": "../assets/file/ts_test_dark.svg" },
     // javaScript React (jsx)
     "_javascript_react": { "iconPath": "../assets/file/jsx.svg" },
     "_javascript_react_dark": { "iconPath": "../assets/file/jsx_dark.svg" },
+    "_javascript_react_test": { "iconPath": "../assets/file/jsx_test.svg" },
+    "_javascript_react_test_dark": { "iconPath": "../assets/file/jsx_test_dark.svg" },
     // typeScript React (tsx)
     "_typescript_react": { "iconPath": "../assets/file/tsx.svg" },
-    "_typescript_react_dark": { "iconPath": "../assets/file/tsx_dark.svg" }
+    "_typescript_react_dark": { "iconPath": "../assets/file/tsx_dark.svg" },
+    "_typescript_react_test": { "iconPath": "../assets/file/tsx_test.svg" },
+    "_typescript_react_test_dark": { "iconPath": "../assets/file/tsx_test_dark.svg" }
   },
 
   "file": "_file_dark",
-  "fileNames": {},
+  "fileNames": { ".gitignore": "_gitignore_dark", ".vscodeignore": "_ignore_dark" },
   "fileExtensions": {
     "schema.json": "_json_schema_dark",
+
     "png": "_image_dark",
     "jpg": "_image_dark",
     "jpeg": "_image_dark",
-    "svg": "_svg_dark"
+    "svg": "_svg_dark",
+
+    "test.js": "_javascript_test_dark",
+    "spec.js": "_javascript_test_dark",
+    "test.ts": "_typescript_test_dark",
+    "spec.ts": "_typescript_test_dark",
+    "test.jsx": "_javascript_react_test_dark",
+    "spec.jsx": "_javascript_react_test_dark",
+    "test.tsx": "_typescript_react_test_dark",
+    "spec.tsx": "_typescript_react_test_dark"
   },
   "languageIds": {
     "json": "_json_dark",
     "jsonc": "_jsonc_dark",
+
     "yaml": "_yaml_dark",
+
     "javascript": "_javascript_dark",
     "typescript": "_typescript_dark",
     "javascriptreact": "_javascript_react_dark",
@@ -142,18 +165,30 @@
 
   "light": {
     "file": "_file",
-    "fileNames": {},
+    "fileNames": { ".gitignore": "_gitignore", ".vscodeignore": "_ignore" },
     "fileExtensions": {
       "schema.json": "_json_schema",
+
       "png": "_image",
       "jpg": "_image",
       "jpeg": "_image",
-      "svg": "_svg"
+      "svg": "_svg",
+
+      "test.js": "_javascript_test",
+      "spec.js": "_javascript_test",
+      "test.ts": "_typescript_test",
+      "spec.ts": "_typescript_test",
+      "test.jsx": "_javascript_react_test",
+      "spec.jsx": "_javascript_react_test",
+      "test.tsx": "_typescript_react_test",
+      "spec.tsx": "_typescript_react_test"
     },
     "languageIds": {
       "json": "_json",
       "jsonc": "_jsonc",
+
       "yaml": "_yaml",
+
       "javascript": "_javascript",
       "typescript": "_typescript",
       "javascriptreact": "_javascript_react",
