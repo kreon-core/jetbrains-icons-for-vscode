@@ -66,7 +66,7 @@
 
     // webpack
     "_webpack": { "iconPath": "../assets/file/webpack.svg" },
-    "_webpack_dark": { "iconPath": "../assets/file/_webpack_dark.svg" },
+    "_webpack_dark": { "iconPath": "../assets/file/webpack_dark.svg" },
     // eslint
     "_eslint": { "iconPath": "../assets/file/eslint.svg" },
     "_eslint_dark": { "iconPath": "../assets/file/eslint_dark.svg" },
