@@ -1,154 +1,150 @@
 {
   "iconDefinitions": {
+    //* ===============================================================================
     //* folder icons *//
 
-    // root folder
+    //* root folder
     "_root_folder": { "iconPath": "../assets/folder/root_folder.svg" },
     "_root_folder_dark": { "iconPath": "../assets/folder/root_folder_dark.svg" },
-
-    // normal folder
+    //* normal folder
     "_folder": { "iconPath": "../assets/folder/folder.svg" },
     "_folder_dark": { "iconPath": "../assets/folder/folder_dark.svg" },
-
-    // hidden folder
+    //* hidden folder
     "_hidden_folder": { "iconPath": "../assets/folder/hidden_folder.svg" },
     "_hidden_folder_dark": { "iconPath": "../assets/folder/hidden_folder_dark.svg" },
-
-    // source folder
+    //* source folder
     "_source_folder": { "iconPath": "../assets/folder/source_folder.svg" },
     "_source_folder_dark": { "iconPath": "../assets/folder/source_folder_dark.svg" },
-
-    // assets folder
+    //* assets folder
     "_assets_folder": { "iconPath": "../assets/folder/assets_folder.svg" },
     "_assets_folder_dark": { "iconPath": "../assets/folder/assets_folder_dark.svg" },
-
-    // data folder
+    //* data folder
     "_data_folder": { "iconPath": "../assets/folder/data_folder.svg" },
     "_data_folder_dark": { "iconPath": "../assets/folder/data_folder_dark.svg" },
-
-    // external folder
+    //* external folder
     "_external_folder": { "iconPath": "../assets/folder/external_folder.svg" },
     "_external_folder_dark": { "iconPath": "../assets/folder/external_folder_dark.svg" },
-
-    // build folder
+    //* build folder
     "_build_folder": { "iconPath": "../assets/folder/build_folder.svg" },
     "_build_folder_dark": { "iconPath": "../assets/folder/build_folder_dark.svg" },
-
-    // test folder
+    //* test folder
     "_test_folder": { "iconPath": "../assets/folder/test_folder.svg" },
     "_test_folder_dark": { "iconPath": "../assets/folder/test_folder_dark.svg" },
 
+    //* ===============================================================================
     //* file icons *//
 
-    // file
-    "_file": { "iconPath": "../assets/file/text.svg" },
-    "_file_dark": { "iconPath": "../assets/file/text_dark.svg" },
+    //* file
+    "_file": { "iconPath": "../assets/file/file.svg" },
+    "_file_dark": { "iconPath": "../assets/file/file_dark.svg" },
 
-    // png/jpg/jpeg
+    //* image (png/jpg/jpeg)
     "_image": { "iconPath": "../assets/file/image.svg" },
     "_image_dark": { "iconPath": "../assets/file/image_dark.svg" },
-    // svg
+    //* svg
     "_svg": { "iconPath": "../assets/file/svg.svg" },
     "_svg_dark": { "iconPath": "../assets/file/svg_dark.svg" },
 
-    // ignore
+    //* ignore
     "_ignore": { "iconPath": "../assets/file/ignore.svg" },
     "_ignore_dark": { "iconPath": "../assets/file/ignore_dark.svg" },
-    // git
+    //* git
     "_git": { "iconPath": "../assets/file/git.svg" },
-    "_git_dark": { "iconPath": "../assets/file/git.svg" },
-    // license
+    "_git_dark": { "iconPath": "../assets/file/git_dark.svg" },
+    //* license
     "_license": { "iconPath": "../assets/file/license.svg" },
     "_license_dark": { "iconPath": "../assets/file/license_dark.svg" },
-    // mailmap
-    "_mail": { "iconPath": "../assets/file/mailer.svg" },
-    "_mail_dark": { "iconPath": "../assets/file/mailer_dark.svg" },
+    //* mail
+    "_mail": { "iconPath": "../assets/file/mail.svg" },
+    "_mail_dark": { "iconPath": "../assets/file/mail_dark.svg" },
 
-    // webpack
-    "_webpack": { "iconPath": "../assets/file/webpack.svg" },
-    "_webpack_dark": { "iconPath": "../assets/file/webpack_dark.svg" },
-    // eslint
-    "_eslint": { "iconPath": "../assets/file/eslint.svg" },
-    "_eslint_dark": { "iconPath": "../assets/file/eslint_dark.svg" },
-    // prettier
-    "_prettier": { "iconPath": "../assets/file/prettier.svg" },
-    "_prettier_dark": { "iconPath": "../assets/file/prettier.svg" },
-    // tsconfig
-    "_tsconfig": { "iconPath": "../assets/file/ts_config.svg" },
-    "_tsconfig_dark": { "iconPath": "../assets/file/ts_config_dark.svg" },
-    // config
+    //* configuration
     "_config": { "iconPath": "../assets/file/config.svg" },
     "_config_dark": { "iconPath": "../assets/file/config_dark.svg" },
+    //* tsconfig
+    "_tsconfig": { "iconPath": "../assets/file/ts_config.svg" },
+    "_tsconfig_dark": { "iconPath": "../assets/file/ts_config_dark.svg" },
+    //* webpack
+    "_webpack": { "iconPath": "../assets/file/webpack.svg" },
+    "_webpack_dark": { "iconPath": "../assets/file/webpack_dark.svg" },
+    //* eslint
+    "_eslint": { "iconPath": "../assets/file/eslint.svg" },
+    "_eslint_dark": { "iconPath": "../assets/file/eslint_dark.svg" },
+    //* prettier
+    "_prettier": { "iconPath": "../assets/file/prettier.svg" },
+    "_prettier_dark": { "iconPath": "../assets/file/prettier_dark.svg" },
 
-    // javaScript
+    //* javascript
     "_javascript": { "iconPath": "../assets/file/javascript.svg" },
     "_javascript_dark": { "iconPath": "../assets/file/javascript_dark.svg" },
-    "_javascript_test": { "iconPath": "../assets/file/js_test.svg" },
-    "_javascript_test_dark": { "iconPath": "../assets/file/js_test_dark.svg" },
-    // typeScript
+    //* javascript test
+    "_javascript_test": { "iconPath": "../assets/file/javascript_test.svg" },
+    "_javascript_test_dark": { "iconPath": "../assets/file/javascript_test_dark.svg" },
+    //* typescript
     "_typescript": { "iconPath": "../assets/file/typescript.svg" },
     "_typescript_dark": { "iconPath": "../assets/file/typescript_dark.svg" },
-    "_typescript_test": { "iconPath": "../assets/file/ts_test.svg" },
-    "_typescript_test_dark": { "iconPath": "../assets/file/ts_test_dark.svg" },
-    // javaScript React (jsx)
+    //* typescript test
+    "_typescript_test": { "iconPath": "../assets/file/typescript_test.svg" },
+    "_typescript_test_dark": { "iconPath": "../assets/file/typescript_test_dark.svg" },
+    //* javascript react (jsx)
     "_javascript_react": { "iconPath": "../assets/file/jsx.svg" },
     "_javascript_react_dark": { "iconPath": "../assets/file/jsx_dark.svg" },
+    //* javascript react test (jsx)
     "_javascript_react_test": { "iconPath": "../assets/file/jsx_test.svg" },
     "_javascript_react_test_dark": { "iconPath": "../assets/file/jsx_test_dark.svg" },
-    // typeScript React (tsx)
+    //* typescript react (tsx)
     "_typescript_react": { "iconPath": "../assets/file/tsx.svg" },
     "_typescript_react_dark": { "iconPath": "../assets/file/tsx_dark.svg" },
+    //* typescript react test (tsx)
     "_typescript_react_test": { "iconPath": "../assets/file/tsx_test.svg" },
     "_typescript_react_test_dark": { "iconPath": "../assets/file/tsx_test_dark.svg" },
-
-    // python
+    //* python
     "_python": { "iconPath": "../assets/file/python.svg" },
     "_python_dark": { "iconPath": "../assets/file/python_dark.svg" },
+    //* python test
     "_python_test": { "iconPath": "../assets/file/python_test.svg" },
     "_python_test_dark": { "iconPath": "../assets/file/python_test_dark.svg" },
-
-    // c/c++
+    //* c
     "_c": { "iconPath": "../assets/file/c.svg" },
     "_c_dark": { "iconPath": "../assets/file/c_dark.svg" },
+    //* c++
     "_cpp": { "iconPath": "../assets/file/cpp.svg" },
     "_cpp_dark": { "iconPath": "../assets/file/cpp_dark.svg" },
+    //* c/c++ header
     "_c_header": { "iconPath": "../assets/file/c_header.svg" },
     "_c_header_dark": { "iconPath": "../assets/file/c_header_dark.svg" },
 
-    // binary
+    //* binary
     "_binary": { "iconPath": "../assets/file/binary.svg" },
     "_binary_dark": { "iconPath": "../assets/file/binary_dark.svg" },
-
-    // json
+    //* json
     "_json": { "iconPath": "../assets/file/json.svg" },
     "_json_dark": { "iconPath": "../assets/file/json_dark.svg" },
-    // json with comments (jsonc)
+    //* json with comments (jsonc)
     "_jsonc": { "iconPath": "../assets/file/json_w_comment.svg" },
     "_jsonc_dark": { "iconPath": "../assets/file/json_w_comment_dark.svg" },
-    // json schema
+    //* json schema
     "_json_schema": { "iconPath": "../assets/file/json_schema.svg" },
     "_json_schema_dark": { "iconPath": "../assets/file/json_schema_dark.svg" },
-    // markdown
+    //* markdown
     "_markdown": { "iconPath": "../assets/file/markdown.svg" },
     "_markdown_dark": { "iconPath": "../assets/file/markdown_dark.svg" },
-    // yaml/yml
+    //* yaml/yml
     "_yaml": { "iconPath": "../assets/file/yaml.svg" },
     "_yaml_dark": { "iconPath": "../assets/file/yaml_dark.svg" },
-    // xml
+    //* xml
     "_xml": { "iconPath": "../assets/file/xml.svg" },
     "_xml_dark": { "iconPath": "../assets/file/xml_dark.svg" },
-    //shell
+    //* shellscript
     "_shell": { "iconPath": "../assets/file/shell.svg" },
     "_shell_dark": { "iconPath": "../assets/file/shell_dark.svg" },
-
-    // CMake
+    //* cmake
     "_cmake": { "iconPath": "../assets/file/cmake.svg" },
     "_cmake_dark": { "iconPath": "../assets/file/cmake_dark.svg" },
-    // Makefile
+    //* makefile
     "_makefile": { "iconPath": "../assets/file/makefile.svg" },
     "_makefile_dark": { "iconPath": "../assets/file/makefile_dark.svg" },
-
-    // clangd
+    //* clangd
     "_clangd": { "iconPath": "../assets/file/clangd.svg" },
     "_clangd_dark": { "iconPath": "../assets/file/clangd.svg" }
   },
@@ -215,14 +211,18 @@
     "png": "_image_dark",
     "jpg": "_image_dark",
     "jpeg": "_image_dark",
+
     "svg": "_svg_dark",
 
     "test.js": "_javascript_test_dark",
     "spec.js": "_javascript_test_dark",
+
     "test.ts": "_typescript_test_dark",
     "spec.ts": "_typescript_test_dark",
+
     "test.jsx": "_javascript_react_test_dark",
     "spec.jsx": "_javascript_react_test_dark",
+
     "test.tsx": "_typescript_react_test_dark",
     "spec.tsx": "_typescript_react_test_dark",
 
@@ -363,10 +363,13 @@
 
       "test.js": "_javascript_test",
       "spec.js": "_javascript_test",
+
       "test.ts": "_typescript_test",
       "spec.ts": "_typescript_test",
+
       "test.jsx": "_javascript_react_test",
       "spec.jsx": "_javascript_react_test",
+
       "test.tsx": "_typescript_react_test",
       "spec.tsx": "_typescript_react_test",
 
