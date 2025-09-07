@@ -107,6 +107,14 @@
     "_python_test": { "iconPath": "../assets/file/python_test.svg" },
     "_python_test_dark": { "iconPath": "../assets/file/python_test_dark.svg" },
 
+    // c/c++
+    "_c": { "iconPath": "../assets/file/c.svg" },
+    "_c_dark": { "iconPath": "../assets/file/c_dark.svg" },
+    "_cpp": { "iconPath": "../assets/file/cpp.svg" },
+    "_cpp_dark": { "iconPath": "../assets/file/cpp_dark.svg" },
+    "_c_header": { "iconPath": "../assets/file/c_header.svg" },
+    "_c_header_dark": { "iconPath": "../assets/file/c_header_dark.svg" },
+
     // json
     "_json": { "iconPath": "../assets/file/json.svg" },
     "_json_dark": { "iconPath": "../assets/file/json_dark.svg" },
@@ -131,7 +139,11 @@
 
     // CMake
     "_cmake": { "iconPath": "../assets/file/cmake.svg" },
-    "_cmake_dark": { "iconPath": "../assets/file/cmake_dark.svg" }
+    "_cmake_dark": { "iconPath": "../assets/file/cmake_dark.svg" },
+
+    // Makefile
+    "_makefile": { "iconPath": "../assets/file/makefile.svg" },
+    "_makefile_dark": { "iconPath": "../assets/file/makefile_dark.svg" }
   },
 
   "file": "_file_dark",
@@ -199,7 +211,10 @@
     "test.tsx": "_typescript_react_test_dark",
     "spec.tsx": "_typescript_react_test_dark",
 
-    "test.py": "_python_test_dark"
+    "test.py": "_python_test_dark",
+
+    ".h": "_c_header_dark",
+    ".hpp": "_c_header_dark"
   },
   "languageIds": {
     "javascript": "_javascript_dark",
@@ -208,13 +223,16 @@
     "typescriptreact": "_typescript_react_dark",
 
     "python": "_python_dark",
+    "c": "_c_dark",
+    "cpp": "_cpp_dark",
 
     "json": "_json_dark",
     "jsonc": "_jsonc_dark",
     "yaml": "_yaml_dark",
     "markdown": "_markdown_dark",
     "xml": "_xml_dark",
-    "shellscript": "_shell_dark"
+    "shellscript": "_shell_dark",
+    "Makefile": "_makefile_dark"
   },
 
   "folder": "_folder_dark",
@@ -323,7 +341,10 @@
       "test.tsx": "_typescript_react_test",
       "spec.tsx": "_typescript_react_test",
 
-      "test.py": "_python_test"
+      "test.py": "_python_test",
+
+      ".h": "_c_header",
+      ".hpp": "_c_header"
     },
     "languageIds": {
       "javascript": "_javascript",
@@ -333,12 +354,16 @@
 
       "python": "_python",
 
+      "c": "_c",
+      "cpp": "_cpp",
+
       "json": "_json",
       "jsonc": "_jsonc",
       "yaml": "_yaml",
       "markdown": "_markdown",
       "xml": "_xml",
-      "shellscript": "_shell"
+      "shellscript": "_shell",
+      "Makefile": "_makefile"
     },
 
     "folder": "_folder",
