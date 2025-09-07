@@ -156,6 +156,7 @@
     ".gitattributes": "_git_dark",
     ".git-blame-ignore-revs": "_git_dark",
     ".gitconfig": "_git_dark",
+    ".gitmodules": "_git_dark",
 
     ".mailmap": "_mail_dark",
 
@@ -196,7 +197,10 @@
     "LICENSE.txt": "_license_dark",
     "LICENSE.md": "_license_dark",
 
-    "CMakeLists.txt": "_cmake_dark"
+    "CMakeLists.txt": "_cmake_dark",
+    "CMakeCache.txt": "_cmake_dark",
+    "CMakePresets.json": "_cmake_dark",
+    "CMakeUserPresets.json": "_cmake_dark"
   },
   "fileExtensions": {
     "schema.json": "_json_schema_dark",
@@ -242,7 +246,7 @@
     "markdown": "_markdown_dark",
     "xml": "_xml_dark",
     "shellscript": "_shell_dark",
-    "Makefile": "_makefile_dark"
+    "makefile": "_makefile_dark"
   },
 
   "folder": "_folder_dark",
@@ -292,6 +296,7 @@
       ".gitattributes": "_git",
       ".git-blame-ignore-revs": "_git",
       ".gitconfig": "_git",
+      ".gitmodules": "_git",
 
       ".mailmap": "_mail",
 
@@ -332,7 +337,10 @@
       "LICENSE.txt": "_license",
       "LICENSE.md": "_license",
 
-      "CMakeLists.txt": "_cmake"
+      "CMakeLists.txt": "_cmake",
+      "CMakeCache.txt": "_cmake",
+      "CMakePresets.json": "_cmake",
+      "CMakeUserPresets.json": "_cmake"
     },
     "fileExtensions": {
       "schema.json": "_json_schema",
@@ -379,7 +387,7 @@
       "markdown": "_markdown",
       "xml": "_xml",
       "shellscript": "_shell",
-      "Makefile": "_makefile"
+      "makefile": "_makefile"
     },
 
     "folder": "_folder",
