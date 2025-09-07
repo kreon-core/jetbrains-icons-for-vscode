@@ -115,6 +115,10 @@
     "_c_header": { "iconPath": "../assets/file/c_header.svg" },
     "_c_header_dark": { "iconPath": "../assets/file/c_header_dark.svg" },
 
+    // binary
+    "_binary": { "iconPath": "../assets/file/binary.svg" },
+    "_binary_dark": { "iconPath": "../assets/file/binary_dark.svg" },
+
     // json
     "_json": { "iconPath": "../assets/file/json.svg" },
     "_json_dark": { "iconPath": "../assets/file/json_dark.svg" },
@@ -213,8 +217,14 @@
 
     "test.py": "_python_test_dark",
 
-    ".h": "_c_header_dark",
-    ".hpp": "_c_header_dark"
+    "h": "_c_header_dark",
+    "hpp": "_c_header_dark",
+
+    "out": "_binary_dark",
+    "exe": "_binary_dark",
+    "o": "_binary_dark",
+    "so": "_binary_dark",
+    "dll": "_binary_dark"
   },
   "languageIds": {
     "javascript": "_javascript_dark",
@@ -343,8 +353,14 @@
 
       "test.py": "_python_test",
 
-      ".h": "_c_header",
-      ".hpp": "_c_header"
+      "h": "_c_header",
+      "hpp": "_c_header",
+
+      "out": "_binary",
+      "exe": "_binary",
+      "o": "_binary",
+      "so": "_binary",
+      "dll": "_binary"
     },
     "languageIds": {
       "javascript": "_javascript",
