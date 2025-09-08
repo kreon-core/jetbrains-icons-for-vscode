@@ -9,12 +9,18 @@
     //* normal folder
     "_folder": { "iconPath": "../assets/folder/folder.svg" },
     "_folder_dark": { "iconPath": "../assets/folder/folder_dark.svg" },
-    //* hidden folder
-    "_hidden_folder": { "iconPath": "../assets/folder/hidden_folder.svg" },
-    "_hidden_folder_dark": { "iconPath": "../assets/folder/hidden_folder_dark.svg" },
     //* source folder
     "_source_folder": { "iconPath": "../assets/folder/source_folder.svg" },
     "_source_folder_dark": { "iconPath": "../assets/folder/source_folder_dark.svg" },
+    //* hidden folder
+    "_hidden_folder": { "iconPath": "../assets/folder/hidden_folder.svg" },
+    "_hidden_folder_dark": { "iconPath": "../assets/folder/hidden_folder_dark.svg" },
+    //* public folder
+    "_public_folder": { "iconPath": "../assets/folder/public_folder.svg" },
+    "_public_folder_dark": { "iconPath": "../assets/folder/public_folder_dark.svg" },
+    //* config folder
+    "_config_folder": { "iconPath": "../assets/folder/config_folder.svg" },
+    "_config_folder_dark": { "iconPath": "../assets/folder/config_folder_dark.svg" },
     //* assets folder
     "_assets_folder": { "iconPath": "../assets/folder/assets_folder.svg" },
     "_assets_folder_dark": { "iconPath": "../assets/folder/assets_folder_dark.svg" },
@@ -30,6 +36,40 @@
     //* test folder
     "_test_folder": { "iconPath": "../assets/folder/test_folder.svg" },
     "_test_folder_dark": { "iconPath": "../assets/folder/test_folder_dark.svg" },
+
+    //* git folder
+    "_git_folder": { "iconPath": "../assets/folder/git_folder.svg" },
+    "_git_folder_dark": { "iconPath": "../assets/folder/git_folder_dark.svg" },
+    //* vscode folder
+    "_vscode_folder": { "iconPath": "../assets/folder/vscode_folder.svg" },
+    "_vscode_folder_dark": { "iconPath": "../assets/folder/vscode_folder_dark.svg" },
+    //* github folder
+    "_github_folder": { "iconPath": "../assets/folder/github_folder.svg" },
+    "_github_folder_dark": { "iconPath": "../assets/folder/github_folder_dark.svg" },
+
+    //* engine folder
+    "_engine_folder": { "iconPath": "../assets/folder/engine_folder.svg" },
+    "_engine_folder_dark": { "iconPath": "../assets/folder/engine_folder_dark.svg" },
+    //* game folder
+    "_game_folder": { "iconPath": "../assets/folder/game_folder.svg" },
+    "_game_folder_dark": { "iconPath": "../assets/folder/game_folder_dark.svg" },
+    //* shader folder
+    "_shader_folder": { "iconPath": "../assets/folder/shader_folder.svg" },
+    "_shader_folder_dark": { "iconPath": "../assets/folder/shader_folder_dark.svg" },
+
+    //* android folder
+    "_android_folder": { "iconPath": "../assets/folder/android_folder.svg" },
+    "_android_folder_dark": { "iconPath": "../assets/folder/android_folder_dark.svg" },
+    //* ios folder
+    "_ios_folder": { "iconPath": "../assets/folder/ios_folder.svg" },
+    "_ios_folder_dark": { "iconPath": "../assets/folder/ios_folder_dark.svg" },
+
+    //* mail folder
+    "_mail_folder": { "iconPath": "../assets/folder/mail_folder.svg" },
+    "_mail_folder_dark": { "iconPath": "../assets/folder/mail_folder_dark.svg" },
+    //* custom folder
+    "_custom_folder": { "iconPath": "../assets/folder/custom_folder.svg" },
+    "_custom_folder_dark": { "iconPath": "../assets/folder/custom_folder_dark.svg" },
 
     //* ===============================================================================
     //* file icons *//
@@ -258,21 +298,30 @@
 
   "folder": "_folder_dark",
   "folderNames": {
-    ".git": "_hidden_folder_dark",
-    ".vscode": "_hidden_folder_dark",
-    ".github": "_hidden_folder_dark",
-    ".githooks": "_hidden_folder_dark",
     ".idea": "_hidden_folder_dark",
     "node_modules": "_hidden_folder_dark",
+
+    ".git": "_git_folder_dark",
+    ".githooks": "_git_folder_dark",
+
+    ".github": "_github_folder_dark",
+    ".vscode": "_vscode_folder_dark",
 
     "app": "_source_folder_dark",
     "src": "_source_folder_dark",
     "source": "_source_folder_dark",
-    "engine": "_source_folder_dark",
+
+    "config": "_config_folder_dark",
+    "configs": "_config_folder_dark",
+
+    "engine": "_engine_folder_dark",
+    "game": "_game_folder_dark",
+    "shaders": "_shader_folder_dark",
 
     "assets": "_assets_folder_dark",
-    "public": "_assets_folder_dark",
     "static": "_assets_folder_dark",
+
+    "public": "_public_folder_dark",
 
     "db": "_data_folder_dark",
     "data": "_data_folder_dark",
@@ -288,7 +337,15 @@
     "bin": "_build_folder_dark",
 
     "test": "_test_folder_dark",
-    "tests": "_test_folder_dark"
+    "tests": "_test_folder_dark",
+
+    "android": "_android_folder_dark",
+    "ios": "_ios_folder_dark",
+
+    "mail": "_mail_folder_dark",
+    "mails": "_mail_folder_dark",
+
+    "custom": "_custom_folder_dark"
   },
 
   "rootFolder": "_root_folder_dark",
@@ -406,21 +463,30 @@
 
     "folder": "_folder",
     "folderNames": {
-      ".git": "_hidden_folder",
-      ".vscode": "_hidden_folder",
-      ".github": "_hidden_folder",
-      ".githooks": "_hidden_folder",
       ".idea": "_hidden_folder",
       "node_modules": "_hidden_folder",
+
+      ".git": "_git_folder",
+      ".githooks": "_git_folder",
+
+      ".github": "_github_folder",
+      ".vscode": "_vscode_folder",
 
       "app": "_source_folder",
       "src": "_source_folder",
       "source": "_source_folder",
-      "engine": "_source_folder",
+
+      "config": "_config_folder",
+      "configs": "_config_folder",
+
+      "engine": "_engine_folder",
+      "game": "_game_folder",
+      "shaders": "_shader_folder",
 
       "assets": "_assets_folder",
-      "public": "_assets_folder",
       "static": "_assets_folder",
+
+      "public": "_public_folder",
 
       "db": "_data_folder",
       "data": "_data_folder",
@@ -436,7 +502,15 @@
       "bin": "_build_folder",
 
       "test": "_test_folder",
-      "tests": "_test_folder"
+      "tests": "_test_folder",
+
+      "android": "_android_folder",
+      "ios": "_ios_folder",
+
+      "mail": "_mail_folder",
+      "mails": "_mail_folder",
+
+      "custom": "_custom_folder"
     },
 
     "rootFolder": "_root_folder",
