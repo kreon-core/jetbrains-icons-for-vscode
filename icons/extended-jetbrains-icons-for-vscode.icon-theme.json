@@ -98,12 +98,12 @@
     "_mail": { "iconPath": "../assets/file/mail.svg" },
     "_mail_dark": { "iconPath": "../assets/file/mail_dark.svg" },
 
-    //* configuration
+    //* config
     "_config": { "iconPath": "../assets/file/config.svg" },
     "_config_dark": { "iconPath": "../assets/file/config_dark.svg" },
     //* tsconfig
-    "_tsconfig": { "iconPath": "../assets/file/ts_config.svg" },
-    "_tsconfig_dark": { "iconPath": "../assets/file/ts_config_dark.svg" },
+    "_tsconfig": { "iconPath": "../assets/file/tsconfig.svg" },
+    "_tsconfig_dark": { "iconPath": "../assets/file/tsconfig_dark.svg" },
     //* webpack
     "_webpack": { "iconPath": "../assets/file/webpack.svg" },
     "_webpack_dark": { "iconPath": "../assets/file/webpack_dark.svg" },
@@ -138,6 +138,7 @@
     //* typescript react test (tsx)
     "_typescript_react_test": { "iconPath": "../assets/file/tsx_test.svg" },
     "_typescript_react_test_dark": { "iconPath": "../assets/file/tsx_test_dark.svg" },
+
     //* python
     "_python": { "iconPath": "../assets/file/python.svg" },
     "_python_dark": { "iconPath": "../assets/file/python_dark.svg" },
@@ -150,13 +151,17 @@
     //* c++
     "_cpp": { "iconPath": "../assets/file/cpp.svg" },
     "_cpp_dark": { "iconPath": "../assets/file/cpp_dark.svg" },
-    //* c/c++ header
+    //* c header
     "_c_header": { "iconPath": "../assets/file/c_header.svg" },
     "_c_header_dark": { "iconPath": "../assets/file/c_header_dark.svg" },
+    //* c++ header
+    "_cpp_header": { "iconPath": "../assets/file/cpp_header.svg" },
+    "_cpp_header_dark": { "iconPath": "../assets/file/cpp_header_dark.svg" },
 
     //* binary
     "_binary": { "iconPath": "../assets/file/binary.svg" },
     "_binary_dark": { "iconPath": "../assets/file/binary_dark.svg" },
+
     //* json
     "_json": { "iconPath": "../assets/file/json.svg" },
     "_json_dark": { "iconPath": "../assets/file/json_dark.svg" },
@@ -166,6 +171,7 @@
     //* json schema
     "_json_schema": { "iconPath": "../assets/file/json_schema.svg" },
     "_json_schema_dark": { "iconPath": "../assets/file/json_schema_dark.svg" },
+
     //* markdown
     "_markdown": { "iconPath": "../assets/file/markdown.svg" },
     "_markdown_dark": { "iconPath": "../assets/file/markdown_dark.svg" },
@@ -175,12 +181,21 @@
     //* xml
     "_xml": { "iconPath": "../assets/file/xml.svg" },
     "_xml_dark": { "iconPath": "../assets/file/xml_dark.svg" },
-    //* shellscript
+
+    //* shell
     "_shell": { "iconPath": "../assets/file/shell.svg" },
     "_shell_dark": { "iconPath": "../assets/file/shell_dark.svg" },
+
     //* cmake
     "_cmake": { "iconPath": "../assets/file/cmake.svg" },
     "_cmake_dark": { "iconPath": "../assets/file/cmake_dark.svg" },
+    //* cmake test
+    "_cmake_test": { "iconPath": "../assets/file/cmake_test.svg" },
+    "_cmake_test_dark": { "iconPath": "../assets/file/cmake_test_dark.svg" },
+    //* cmake debug
+    "_cmake_debug": { "iconPath": "../assets/file/cmake_debug.svg" },
+    "_cmake_debug_dark": { "iconPath": "../assets/file/cmake_debug_dark.svg" },
+
     //* makefile
     "_makefile": { "iconPath": "../assets/file/makefile.svg" },
     "_makefile_dark": { "iconPath": "../assets/file/makefile_dark.svg" },
@@ -200,6 +215,8 @@
     ".mailmap": "_mail_dark",
 
     ".vscodeignore": "_ignore_dark",
+    ".eslintignore": "_ignore_dark",
+    ".prettierignore": "_ignore_dark",
 
     "webpack.config.js": "_webpack_dark",
     "webpack.config.cjs": "_webpack_dark",
@@ -269,7 +286,7 @@
     "test.py": "_python_test_dark",
 
     "h": "_c_header_dark",
-    "hpp": "_c_header_dark",
+    "hpp": "_cpp_header_dark",
 
     "out": "_binary_dark",
     "exe": "_binary_dark",
@@ -365,6 +382,8 @@
       ".mailmap": "_mail",
 
       ".vscodeignore": "_ignore",
+      ".eslintignore": "_ignore",
+      ".prettierignore": "_ignore",
 
       "webpack.config.js": "_webpack",
       "webpack.config.cjs": "_webpack",
@@ -433,7 +452,7 @@
       "test.py": "_python_test",
 
       "h": "_c_header",
-      "hpp": "_c_header",
+      "hpp": "_cpp_header",
 
       "out": "_binary",
       "exe": "_binary",
