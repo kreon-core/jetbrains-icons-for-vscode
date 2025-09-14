@@ -339,6 +339,8 @@
     "app": "_source_folder_dark",
     "src": "_source_folder_dark",
     "source": "_source_folder_dark",
+    "Source": "_source_folder_dark",
+    "Sources": "_source_folder_dark",
     "core": "_source_folder_dark",
 
     "config": "_config_folder_dark",
@@ -354,6 +356,7 @@
 
     "assets": "_asset_folder_dark",
     "static": "_asset_folder_dark",
+    "Content": "_asset_folder_dark",
 
     "public": "_public_folder_dark",
 
@@ -519,6 +522,8 @@
       "app": "_source_folder",
       "src": "_source_folder",
       "source": "_source_folder",
+      "Source": "_source_folder",
+      "Sources": "_source_folder",
       "core": "_source_folder",
 
       "config": "_config_folder",
@@ -534,6 +539,7 @@
 
       "assets": "_asset_folder",
       "static": "_asset_folder",
+      "Content": "_asset_folder",
 
       "public": "_public_folder",
 
