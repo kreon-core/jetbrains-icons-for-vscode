@@ -213,7 +213,7 @@
     "_makefile_dark": { "iconPath": "../assets/file/makefile_dark.svg" },
     //* clangd
     "_clangd": { "iconPath": "../assets/file/clangd.svg" },
-    "_clangd_dark": { "iconPath": "../assets/file/clangd.svg" }
+    "_clangd_dark": { "iconPath": "../assets/file/clangd_dark.svg" }
   },
 
   "file": "_file_dark",
