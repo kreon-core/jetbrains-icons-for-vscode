@@ -2,7 +2,11 @@
   "name": "extended-jetbrains-icons-for-vscode",
   "displayName": "Extended Jetbrains Icons for VsCode",
   "description": "Jetbrains icons with some additional ones.",
-  "version": "1.0.15",
+<<<<<<< HEAD
+  "version": "1.1.0",
+=======
+  "version": "1.0.14",
+>>>>>>> parent of 3ad97f6 (feat: add targets)
   "publisher": "kreon-core",
   "author": {
     "name": "Keiron Dang",

@@ -6,45 +6,59 @@
     //* root folder
     "_root_folder": { "iconPath": "../assets/folder/root_folder.svg" },
     "_root_folder_dark": { "iconPath": "../assets/folder/root_folder_dark.svg" },
+
     //* normal folder
     "_folder": { "iconPath": "../assets/folder/folder.svg" },
     "_folder_dark": { "iconPath": "../assets/folder/folder_dark.svg" },
+
     //* source folder
     "_source_folder": { "iconPath": "../assets/folder/source_folder.svg" },
     "_source_folder_dark": { "iconPath": "../assets/folder/source_folder_dark.svg" },
+
     //* hidden folder
     "_hidden_folder": { "iconPath": "../assets/folder/hidden_folder.svg" },
     "_hidden_folder_dark": { "iconPath": "../assets/folder/hidden_folder_dark.svg" },
+
     //* public folder
     "_public_folder": { "iconPath": "../assets/folder/public_folder.svg" },
     "_public_folder_dark": { "iconPath": "../assets/folder/public_folder_dark.svg" },
+
     //* config folder
     "_config_folder": { "iconPath": "../assets/folder/config_folder.svg" },
     "_config_folder_dark": { "iconPath": "../assets/folder/config_folder_dark.svg" },
+
     //* script folder
     "_script_folder": { "iconPath": "../assets/folder/script_folder.svg" },
     "_script_folder_dark": { "iconPath": "../assets/folder/script_folder_dark.svg" },
+
     //* assets folder
     "_asset_folder": { "iconPath": "../assets/folder/asset_folder.svg" },
     "_asset_folder_dark": { "iconPath": "../assets/folder/asset_folder_dark.svg" },
+
     //* font folder
     "_font_folder": { "iconPath": "../assets/folder/font_folder.svg" },
     "_font_folder_dark": { "iconPath": "../assets/folder/font_folder_dark.svg" },
+
     //* data folder
     "_data_folder": { "iconPath": "../assets/folder/data_folder.svg" },
     "_data_folder_dark": { "iconPath": "../assets/folder/data_folder_dark.svg" },
+
     //* doc folder
     "_doc_folder": { "iconPath": "../assets/folder/doc_folder.svg" },
     "_doc_folder_dark": { "iconPath": "../assets/folder/doc_folder_dark.svg" },
+
     //* external folder
     "_external_folder": { "iconPath": "../assets/folder/external_folder.svg" },
     "_external_folder_dark": { "iconPath": "../assets/folder/external_folder_dark.svg" },
+
     //* internal folder
     "_internal_folder": { "iconPath": "../assets/folder/internal_folder.svg" },
     "_internal_folder_dark": { "iconPath": "../assets/folder/internal_folder_dark.svg" },
+
     //* build folder
     "_build_folder": { "iconPath": "../assets/folder/build_folder.svg" },
     "_build_folder_dark": { "iconPath": "../assets/folder/build_folder_dark.svg" },
+
     //* test folder
     "_test_folder": { "iconPath": "../assets/folder/test_folder.svg" },
     "_test_folder_dark": { "iconPath": "../assets/folder/test_folder_dark.svg" },
@@ -52,9 +66,11 @@
     //* git folder
     "_git_folder": { "iconPath": "../assets/folder/git_folder.svg" },
     "_git_folder_dark": { "iconPath": "../assets/folder/git_folder_dark.svg" },
+
     //* vscode folder
     "_vscode_folder": { "iconPath": "../assets/folder/vscode_folder.svg" },
     "_vscode_folder_dark": { "iconPath": "../assets/folder/vscode_folder_dark.svg" },
+
     //* github folder
     "_github_folder": { "iconPath": "../assets/folder/github_folder.svg" },
     "_github_folder_dark": { "iconPath": "../assets/folder/github_folder_dark.svg" },
@@ -62,9 +78,11 @@
     //* engine folder
     "_engine_folder": { "iconPath": "../assets/folder/engine_folder.svg" },
     "_engine_folder_dark": { "iconPath": "../assets/folder/engine_folder_dark.svg" },
+
     //* game folder
     "_game_folder": { "iconPath": "../assets/folder/game_folder.svg" },
     "_game_folder_dark": { "iconPath": "../assets/folder/game_folder_dark.svg" },
+
     //* shader folder
     "_shader_folder": { "iconPath": "../assets/folder/shader_folder.svg" },
     "_shader_folder_dark": { "iconPath": "../assets/folder/shader_folder_dark.svg" },
@@ -72,6 +90,7 @@
     //* android folder
     "_android_folder": { "iconPath": "../assets/folder/android_folder.svg" },
     "_android_folder_dark": { "iconPath": "../assets/folder/android_folder_dark.svg" },
+
     //* ios folder
     "_ios_folder": { "iconPath": "../assets/folder/ios_folder.svg" },
     "_ios_folder_dark": { "iconPath": "../assets/folder/ios_folder_dark.svg" },
@@ -79,6 +98,7 @@
     //* mail folder
     "_mail_folder": { "iconPath": "../assets/folder/mail_folder.svg" },
     "_mail_folder_dark": { "iconPath": "../assets/folder/mail_folder_dark.svg" },
+
     //* custom folder
     "_custom_folder": { "iconPath": "../assets/folder/custom_folder.svg" },
     "_custom_folder_dark": { "iconPath": "../assets/folder/custom_folder_dark.svg" },
@@ -93,6 +113,7 @@
     //* image (png/jpg/jpeg)
     "_image": { "iconPath": "../assets/file/image.svg" },
     "_image_dark": { "iconPath": "../assets/file/image_dark.svg" },
+
     //* svg
     "_svg": { "iconPath": "../assets/file/svg.svg" },
     "_svg_dark": { "iconPath": "../assets/file/svg_dark.svg" },
@@ -100,12 +121,15 @@
     //* ignore
     "_ignore": { "iconPath": "../assets/file/ignore.svg" },
     "_ignore_dark": { "iconPath": "../assets/file/ignore_dark.svg" },
+
     //* git
     "_git": { "iconPath": "../assets/file/git.svg" },
     "_git_dark": { "iconPath": "../assets/file/git_dark.svg" },
+
     //* license
     "_license": { "iconPath": "../assets/file/license.svg" },
     "_license_dark": { "iconPath": "../assets/file/license_dark.svg" },
+
     //* mail
     "_mail": { "iconPath": "../assets/file/mail.svg" },
     "_mail_dark": { "iconPath": "../assets/file/mail_dark.svg" },
@@ -113,15 +137,19 @@
     //* config
     "_config": { "iconPath": "../assets/file/config.svg" },
     "_config_dark": { "iconPath": "../assets/file/config_dark.svg" },
+
     //* tsconfig
     "_tsconfig": { "iconPath": "../assets/file/tsconfig.svg" },
     "_tsconfig_dark": { "iconPath": "../assets/file/tsconfig_dark.svg" },
+
     //* webpack
     "_webpack": { "iconPath": "../assets/file/webpack.svg" },
     "_webpack_dark": { "iconPath": "../assets/file/webpack_dark.svg" },
+
     //* eslint
     "_eslint": { "iconPath": "../assets/file/eslint.svg" },
     "_eslint_dark": { "iconPath": "../assets/file/eslint_dark.svg" },
+
     //* prettier
     "_prettier": { "iconPath": "../assets/file/prettier.svg" },
     "_prettier_dark": { "iconPath": "../assets/file/prettier_dark.svg" },
@@ -129,24 +157,31 @@
     //* javascript
     "_javascript": { "iconPath": "../assets/file/javascript.svg" },
     "_javascript_dark": { "iconPath": "../assets/file/javascript_dark.svg" },
+
     //* javascript test
     "_javascript_test": { "iconPath": "../assets/file/javascript_test.svg" },
     "_javascript_test_dark": { "iconPath": "../assets/file/javascript_test_dark.svg" },
+
     //* typescript
     "_typescript": { "iconPath": "../assets/file/typescript.svg" },
     "_typescript_dark": { "iconPath": "../assets/file/typescript_dark.svg" },
+
     //* typescript test
     "_typescript_test": { "iconPath": "../assets/file/typescript_test.svg" },
     "_typescript_test_dark": { "iconPath": "../assets/file/typescript_test_dark.svg" },
+
     //* javascript react (jsx)
     "_javascript_react": { "iconPath": "../assets/file/jsx.svg" },
     "_javascript_react_dark": { "iconPath": "../assets/file/jsx_dark.svg" },
+
     //* javascript react test (jsx)
     "_javascript_react_test": { "iconPath": "../assets/file/jsx_test.svg" },
     "_javascript_react_test_dark": { "iconPath": "../assets/file/jsx_test_dark.svg" },
+
     //* typescript react (tsx)
     "_typescript_react": { "iconPath": "../assets/file/tsx.svg" },
     "_typescript_react_dark": { "iconPath": "../assets/file/tsx_dark.svg" },
+
     //* typescript react test (tsx)
     "_typescript_react_test": { "iconPath": "../assets/file/tsx_test.svg" },
     "_typescript_react_test_dark": { "iconPath": "../assets/file/tsx_test_dark.svg" },
@@ -154,18 +189,23 @@
     //* python
     "_python": { "iconPath": "../assets/file/python.svg" },
     "_python_dark": { "iconPath": "../assets/file/python_dark.svg" },
+
     //* python test
     "_python_test": { "iconPath": "../assets/file/python_test.svg" },
     "_python_test_dark": { "iconPath": "../assets/file/python_test_dark.svg" },
+
     //* c
     "_c": { "iconPath": "../assets/file/c.svg" },
     "_c_dark": { "iconPath": "../assets/file/c_dark.svg" },
+
     //* c++
     "_cpp": { "iconPath": "../assets/file/cpp.svg" },
     "_cpp_dark": { "iconPath": "../assets/file/cpp_dark.svg" },
+
     //* c header
     "_c_header": { "iconPath": "../assets/file/c_header.svg" },
     "_c_header_dark": { "iconPath": "../assets/file/c_header_dark.svg" },
+
     //* c++ header
     "_cpp_header": { "iconPath": "../assets/file/cpp_header.svg" },
     "_cpp_header_dark": { "iconPath": "../assets/file/cpp_header_dark.svg" },
@@ -177,9 +217,11 @@
     //* json
     "_json": { "iconPath": "../assets/file/json.svg" },
     "_json_dark": { "iconPath": "../assets/file/json_dark.svg" },
+
     //* json with comments (jsonc)
     "_jsonc": { "iconPath": "../assets/file/json_w_comment.svg" },
     "_jsonc_dark": { "iconPath": "../assets/file/json_w_comment_dark.svg" },
+
     //* json schema
     "_json_schema": { "iconPath": "../assets/file/json_schema.svg" },
     "_json_schema_dark": { "iconPath": "../assets/file/json_schema_dark.svg" },
@@ -187,9 +229,11 @@
     //* markdown
     "_markdown": { "iconPath": "../assets/file/markdown.svg" },
     "_markdown_dark": { "iconPath": "../assets/file/markdown_dark.svg" },
+
     //* yaml/yml
     "_yaml": { "iconPath": "../assets/file/yaml.svg" },
     "_yaml_dark": { "iconPath": "../assets/file/yaml_dark.svg" },
+
     //* xml
     "_xml": { "iconPath": "../assets/file/xml.svg" },
     "_xml_dark": { "iconPath": "../assets/file/xml_dark.svg" },
@@ -201,9 +245,11 @@
     //* cmake
     "_cmake": { "iconPath": "../assets/file/cmake.svg" },
     "_cmake_dark": { "iconPath": "../assets/file/cmake_dark.svg" },
+
     //* cmake test
     "_cmake_test": { "iconPath": "../assets/file/cmake_test.svg" },
     "_cmake_test_dark": { "iconPath": "../assets/file/cmake_test_dark.svg" },
+
     //* cmake debug
     "_cmake_debug": { "iconPath": "../assets/file/cmake_debug.svg" },
     "_cmake_debug_dark": { "iconPath": "../assets/file/cmake_debug_dark.svg" },
@@ -211,6 +257,7 @@
     //* makefile
     "_makefile": { "iconPath": "../assets/file/makefile.svg" },
     "_makefile_dark": { "iconPath": "../assets/file/makefile_dark.svg" },
+
     //* clangd
     "_clangd": { "iconPath": "../assets/file/clangd.svg" },
     "_clangd_dark": { "iconPath": "../assets/file/clangd_dark.svg" }
@@ -304,7 +351,11 @@
     "exe": "_binary_dark",
     "o": "_binary_dark",
     "so": "_binary_dark",
-    "dll": "_binary_dark"
+    "dll": "_binary_dark",
+
+    "ini": "_config_dark",
+    "cfg": "_config_dark",
+    "conf": "_config_dark"
   },
   "languageIds": {
     "javascript": "_javascript_dark",
@@ -339,8 +390,6 @@
     "app": "_source_folder_dark",
     "src": "_source_folder_dark",
     "source": "_source_folder_dark",
-    "Source": "_source_folder_dark",
-    "Sources": "_source_folder_dark",
     "core": "_source_folder_dark",
 
     "config": "_config_folder_dark",
@@ -356,7 +405,6 @@
 
     "assets": "_asset_folder_dark",
     "static": "_asset_folder_dark",
-    "Content": "_asset_folder_dark",
 
     "public": "_public_folder_dark",
 
@@ -486,7 +534,11 @@
       "exe": "_binary",
       "o": "_binary",
       "so": "_binary",
-      "dll": "_binary"
+      "dll": "_binary",
+
+      "ini": "_config",
+      "cfg": "_config",
+      "conf": "_config"
     },
     "languageIds": {
       "javascript": "_javascript",
@@ -522,8 +574,6 @@
       "app": "_source_folder",
       "src": "_source_folder",
       "source": "_source_folder",
-      "Source": "_source_folder",
-      "Sources": "_source_folder",
       "core": "_source_folder",
 
       "config": "_config_folder",
@@ -539,7 +589,6 @@
 
       "assets": "_asset_folder",
       "static": "_asset_folder",
-      "Content": "_asset_folder",
 
       "public": "_public_folder",
 
