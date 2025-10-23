@@ -260,11 +260,24 @@
 
     //* clangd
     "_clangd": { "iconPath": "../assets/file/clangd.svg" },
-    "_clangd_dark": { "iconPath": "../assets/file/clangd_dark.svg" }
+    "_clangd_dark": { "iconPath": "../assets/file/clangd_dark.svg" },
+
+    //* golang
+    "_go": { "iconPath": "../assets/file/go.svg" },
+    "_go_dark": { "iconPath": "../assets/file/go_dark.svg" },
+    "_go_test": { "iconPath": "../assets/file/go_test.svg" },
+    "_go_test_dark": { "iconPath": "../assets/file/go_test_dark.svg" },
+    "_go_mod": { "iconPath": "../assets/file/go_mod.svg" },
+    "_go_mod_dark": { "iconPath": "../assets/file/go_mod_dark.svg" },
+    "_go_sum": { "iconPath": "../assets/file/go_sum.svg" },
+    "_go_sum_dark": { "iconPath": "../assets/file/go_sum_dark.svg" }
   },
 
   "file": "_file_dark",
   "fileNames": {
+    "go.mod": "_go_mod_dark",
+    "go.sum": "_go_sum_dark",
+
     ".gitignore": "_git_dark",
     ".gitattributes": "_git_dark",
     ".git-blame-ignore-revs": "_git_dark",
@@ -322,6 +335,8 @@
     ".clang-tidy": "_clangd_dark"
   },
   "fileExtensions": {
+    "test.go": "_go_test_dark",
+
     "schema.json": "_json_schema_dark",
 
     "png": "_image_dark",
@@ -358,6 +373,8 @@
     "conf": "_config_dark"
   },
   "languageIds": {
+    "go": "_go_dark",
+
     "javascript": "_javascript_dark",
     "typescript": "_typescript_dark",
     "javascriptreact": "_javascript_react_dark",
@@ -449,6 +466,9 @@
   "light": {
     "file": "_file",
     "fileNames": {
+      "go.mod": "_go_mod",
+      "go.sum": "_go_sum",
+
       ".gitignore": "_git",
       ".gitattributes": "_git",
       ".git-blame-ignore-revs": "_git",
@@ -506,6 +526,8 @@
       ".clang-tidy": "_clangd"
     },
     "fileExtensions": {
+      "test.go": "_go_test",
+
       "schema.json": "_json_schema",
 
       "png": "_image",
@@ -541,6 +563,8 @@
       "conf": "_config"
     },
     "languageIds": {
+      "go": "_go",
+
       "javascript": "_javascript",
       "typescript": "_typescript",
       "javascriptreact": "_javascript_react",
