@@ -270,11 +270,30 @@
     "_go_mod": { "iconPath": "../assets/file/go_mod.svg" },
     "_go_mod_dark": { "iconPath": "../assets/file/go_mod_dark.svg" },
     "_go_sum": { "iconPath": "../assets/file/go_sum.svg" },
-    "_go_sum_dark": { "iconPath": "../assets/file/go_sum_dark.svg" }
+    "_go_sum_dark": { "iconPath": "../assets/file/go_sum_dark.svg" },
+
+    //* docker
+    "_docker": { "iconPath": "../assets/file/docker.svg" },
+    "_docker_dark": { "iconPath": "../assets/file/docker_dark.svg" },
+    "_docker_compose": { "iconPath": "../assets/file/docker_compose.svg" },
+    "_docker_compose_dark": { "iconPath": "../assets/file/docker_compose_dark.svg" },
+    "_docker_ignore": { "iconPath": "../assets/file/docker_ignore.svg" },
+    "_docker_ignore_dark": { "iconPath": "../assets/file/docker_ignore_dark.svg" },
+
+    //* helm
+    "_helm_chart": { "iconPath": "../assets/file/helm_chart.svg" },
+    "_helm_chart_dark": { "iconPath": "../assets/file/helm_chart_dark.svg" },
+    "_helm_values": { "iconPath": "../assets/file/helm_values.svg" },
+    "_helm_values_dark": { "iconPath": "../assets/file/helm_values_dark.svg" }
   },
 
   "file": "_file_dark",
   "fileNames": {
+    "Chart.yaml": "_helm_chart_dark",
+    "values.yaml": "_helm_values_dark",
+
+    ".dockerignore": "_docker_ignore_dark",
+
     "go.mod": "_go_mod_dark",
     "go.sum": "_go_sum_dark",
 
@@ -373,6 +392,9 @@
     "conf": "_config_dark"
   },
   "languageIds": {
+    "dockerfile": "_docker_dark",
+    "dockercompose": "_docker_compose_dark",
+
     "go": "_go_dark",
 
     "javascript": "_javascript_dark",
@@ -466,6 +488,11 @@
   "light": {
     "file": "_file",
     "fileNames": {
+      "Chart.yaml": "_helm_chart",
+      "values.yaml": "_helm_values",
+
+      ".dockerignore": "_docker_ignore",
+
       "go.mod": "_go_mod",
       "go.sum": "_go_sum",
 
@@ -563,6 +590,9 @@
       "conf": "_config"
     },
     "languageIds": {
+      "dockerfile": "_docker",
+      "dockercompose": "_docker_compose",
+
       "go": "_go",
 
       "javascript": "_javascript",
