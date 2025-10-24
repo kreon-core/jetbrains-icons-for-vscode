@@ -284,7 +284,11 @@
     "_helm_chart": { "iconPath": "../assets/file/helm_chart.svg" },
     "_helm_chart_dark": { "iconPath": "../assets/file/helm_chart_dark.svg" },
     "_helm_values": { "iconPath": "../assets/file/helm_values.svg" },
-    "_helm_values_dark": { "iconPath": "../assets/file/helm_values_dark.svg" }
+    "_helm_values_dark": { "iconPath": "../assets/file/helm_values_dark.svg" },
+
+    //* proto3
+    "_proto": { "iconPath": "../assets/file/proto.svg" },
+    "_proto_dark": { "iconPath": "../assets/file/proto_dark.svg" }
   },
 
   "file": "_file_dark",
@@ -392,6 +396,8 @@
     "conf": "_config_dark"
   },
   "languageIds": {
+    "proto3": "_proto_dark",
+
     "dockerfile": "_docker_dark",
     "dockercompose": "_docker_compose_dark",
 
@@ -590,6 +596,8 @@
       "conf": "_config"
     },
     "languageIds": {
+      "proto3": "_proto",
+
       "dockerfile": "_docker",
       "dockercompose": "_docker_compose",
 
