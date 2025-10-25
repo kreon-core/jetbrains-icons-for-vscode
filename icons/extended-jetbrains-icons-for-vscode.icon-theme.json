@@ -288,7 +288,11 @@
 
     //* proto3
     "_proto": { "iconPath": "../assets/file/proto.svg" },
-    "_proto_dark": { "iconPath": "../assets/file/proto_dark.svg" }
+    "_proto_dark": { "iconPath": "../assets/file/proto_dark.svg" },
+
+    //* properties / env
+    "_properties": { "iconPath": "../assets/file/properties.svg" },
+    "_properties_dark": { "iconPath": "../assets/file/properties_dark.svg" }
   },
 
   "file": "_file_dark",
@@ -396,6 +400,8 @@
     "conf": "_config_dark"
   },
   "languageIds": {
+    "properties": "_properties_dark",
+
     "proto3": "_proto_dark",
 
     "dockerfile": "_docker_dark",
@@ -596,6 +602,8 @@
       "conf": "_config"
     },
     "languageIds": {
+      "properties": "_properties",
+
       "proto3": "_proto",
 
       "dockerfile": "_docker",
