@@ -292,7 +292,19 @@
 
     //* properties / env
     "_properties": { "iconPath": "../assets/file/properties.svg" },
-    "_properties_dark": { "iconPath": "../assets/file/properties_dark.svg" }
+    "_properties_dark": { "iconPath": "../assets/file/properties_dark.svg" },
+
+    //* diagram
+    "_diagram": { "iconPath": "../assets/file/diagram.svg" },
+    "_diagram_dark": { "iconPath": "../assets/file/diagram_dark.svg" },
+
+    //* erd_diagram
+    "_erd_diagram": { "iconPath": "../assets/file/erd_diagram.svg" },
+    "_erd_diagram_dark": { "iconPath": "../assets/file/erd_diagram_dark.svg" },
+
+    //* http
+    "_http": { "iconPath": "../assets/file/http.svg" },
+    "_http_dark": { "iconPath": "../assets/file/http_dark.svg" }
   },
 
   "file": "_file_dark",
@@ -362,6 +374,10 @@
     ".clang-tidy": "_clangd_dark"
   },
   "fileExtensions": {
+    "http": "_http_dark",
+    "erd.json": "_erd_diagram_dark",
+    "drawio": "_diagram_dark",
+
     "test.go": "_go_test_dark",
 
     "schema.json": "_json_schema_dark",
@@ -565,6 +581,10 @@
       ".clang-tidy": "_clangd"
     },
     "fileExtensions": {
+      "http": "_http",
+      "erd.json": "_erd_diagram",
+      "drawio": "_diagram",
+
       "test.go": "_go_test",
 
       "schema.json": "_json_schema",
