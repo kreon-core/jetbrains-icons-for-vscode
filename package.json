@@ -1,8 +1,8 @@
 {
-  "name": "extended-jetbrains-icons-for-vscode",
-  "displayName": "Extended Jetbrains Icons for VsCode",
+  "name": "jetbrains-icons-for-vscode",
+  "displayName": "Jetbrains Icons for VsCode",
   "description": "Jetbrains icons with some additional ones.",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "publisher": "kreon-core",
   "author": {
     "name": "Keiron Dang",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keirond/extended-jetbrains-icons-for-vscode"
+    "url": "https://github.com/kreon-core/ext-jetbrains-icons-for-vscode"
   },
   "keywords": [
     "icons",
@@ -27,7 +27,7 @@
   "categories": [
     "Themes"
   ],
-  "main": "dist/extended-jetbrains-icons-for-vscode.bundle.js",
+  "main": "dist/jetbrains-icons-for-vscode.bundle.js",
   "icon": "assets/logo.png",
   "type": "commonjs",
   "scripts": {
@@ -55,7 +55,8 @@
     "eslint": "^9.34.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-prettier": "^5.5.4"
+    "eslint-plugin-prettier": "^5.5.4",
+    "@typescript-eslint/eslint-plugin": "^8.46.2"
   },
   "extensionKind": [
     "ui",
@@ -67,23 +68,23 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "extended-jetbrains-icons-for-vscode.icon-theme",
+        "id": "jetbrains-icons-for-vscode.icon-theme",
         "label": "Jetbrains Icons",
-        "path": "./icons/extended-jetbrains-icons-for-vscode.icon-theme.json"
+        "path": "./icons/jetbrains-icon-theme.json"
       }
     ],
     "productIconThemes": [
       {
-        "id": "extended-jetbrains-icons-for-vscode.product-icon-theme",
+        "id": "jetbrains-icons-for-vscode.product-icon-theme",
         "label": "Jetbrains Product Icons",
-        "path": "./product-icons/extended-jetbrains-icons-for-vscode.product-icon-theme.json"
+        "path": "./icons/jetbrains-product-icon-theme.json"
       }
     ],
     "commands": [
       {
         "category": "Icons",
-        "command": "extended-jetbrains-icons-for-vscode.activate-icons",
-        "title": "Extended Jetbrains Icons for VsCode: Activate Icons",
+        "command": "jetbrains-icons-for-vscode.activate-icons",
+        "title": "Jetbrains Icons for VsCode: Activate Icons",
         "callback": "activateCommand",
         "enablement": "!isWeb"
       }

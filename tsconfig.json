@@ -21,6 +21,7 @@
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
 
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@root/*": ["*"],
