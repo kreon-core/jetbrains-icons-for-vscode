@@ -26,7 +26,13 @@ jobs:
         id: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release --no-ci
+        run: npx semantic-release
+
+      - name: Update package.json version from git tag
+        run: |
+          VERSION=$(git describe --tags --abbrev=0)
+          jq --arg v "${VERSION#v}" '.version=$v' package.json > package.tmp.json
+          mv package.tmp.json package.json
 
       - name: Publish VSCE Package
         if: success()
