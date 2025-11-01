@@ -11,7 +11,7 @@ const getConfig = (_env: any, argv: any): Configuration => ({
     clean: true,
     libraryTarget: "commonjs2",
     path: resolve(__dirname, "dist"),
-    filename: "extended-jetbrains-icons-for-vscode.bundle.js"
+    filename: "jetbrains-icons-for-vscode.bundle.js"
   },
   devtool: argv.mode === "development" ? "source-map" : false,
   externals: { vscode: "commonjs vscode" },
