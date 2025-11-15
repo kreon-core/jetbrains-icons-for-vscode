@@ -2,7 +2,7 @@
   "name": "jetbrains-icons-for-vscode",
   "displayName": "Jetbrains Icons for VsCode",
   "description": "Jetbrains icons with some additional ones.",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "publisher": "kreon-core",
   "author": {
     "name": "Keiron Dang",
@@ -31,6 +31,7 @@
   "icon": "assets/logo.png",
   "type": "commonjs",
   "scripts": {
+    "build": "node ./icons/generate-icon-theme.js",
     "lint": "eslint src",
     "format": "prettier --write .",
     "compile": "webpack --mode development",

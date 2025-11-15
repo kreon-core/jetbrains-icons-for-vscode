@@ -1,0 +1,213 @@
+{
+  "file": "_file",
+  "fileNames": {
+    "Chart.yaml": "_helm_chart",
+    "values.yaml": "_helm_values",
+
+    ".dockerignore": "_docker_ignore",
+
+    "go.mod": "_go_mod",
+    "go.sum": "_go_sum",
+
+    ".gitignore": "_git",
+    ".gitattributes": "_git",
+    ".git-blame-ignore-revs": "_git",
+    ".gitconfig": "_git",
+    ".gitmodules": "_git",
+
+    ".mailmap": "_mail",
+
+    ".vscodeignore": "_ignore",
+    ".eslintignore": "_ignore",
+    ".prettierignore": "_ignore",
+
+    "webpack.config.js": "_webpack",
+    "webpack.config.cjs": "_webpack",
+    "webpack.config.mjs": "_webpack",
+    "webpack.config.ts": "_webpack",
+
+    "eslint.config.js": "_eslint",
+    "eslint.config.cjs": "_eslint",
+    "eslint.config.mjs": "_eslint",
+    "eslint.config.ts": "_eslint",
+    ".eslintrc.js": "_eslint",
+    ".eslintrc.cjs": "_eslint",
+    ".eslintrc.json": "_eslint",
+    ".eslintrc.yaml": "_eslint",
+    ".eslintrc.yml": "_eslint",
+
+    "prettier.config.js": "_prettier",
+    "prettier.config.cjs": "_prettier",
+    "prettier.config.mjs": "_prettier",
+    "prettier.config.ts": "_prettier",
+    ".prettierrc": "_prettier",
+    ".prettierrc.js": "_prettier",
+    ".prettierrc.cjs": "_prettier",
+    ".prettierrc.json": "_prettier",
+    ".prettierrc.yaml": "_prettier",
+    ".prettierrc.yml": "_prettier",
+
+    "tsconfig.json": "_tsconfig",
+    "tsconfig.prod.json": "_tsconfig",
+
+    ".editorconfig": "_config",
+
+    "LICENSE": "_license",
+    "LICENSE.txt": "_license",
+    "LICENSE.md": "_license",
+
+    "CMakeLists.txt": "_cmake",
+    "CMakeCache.txt": "_cmake",
+    "CMakePresets.json": "_cmake",
+    "CMakeUserPresets.json": "_cmake",
+
+    ".clangd": "_clangd",
+    ".clang-format": "_clangd",
+    ".clang-tidy": "_clangd"
+  },
+  "fileExtensions": {
+    "http": "_http",
+    "erd.json": "_erd_diagram",
+    "drawio": "_diagram",
+
+    "test.go": "_go_test",
+
+    "schema.json": "_json_schema",
+
+    "png": "_image",
+    "jpg": "_image",
+    "jpeg": "_image",
+
+    "svg": "_svg",
+
+    "test.js": "_javascript_test",
+    "spec.js": "_javascript_test",
+
+    "test.ts": "_typescript_test",
+    "spec.ts": "_typescript_test",
+
+    "test.jsx": "_javascript_react_test",
+    "spec.jsx": "_javascript_react_test",
+
+    "test.tsx": "_typescript_react_test",
+    "spec.tsx": "_typescript_react_test",
+
+    "test.py": "_python_test",
+
+    "h": "_c_header",
+    "hpp": "_cpp_header",
+
+    "out": "_binary",
+    "exe": "_binary",
+    "o": "_binary",
+    "so": "_binary",
+    "dll": "_binary",
+
+    "ini": "_config",
+    "cfg": "_config",
+    "conf": "_config"
+  },
+  "languageIds": {
+    "properties": "_properties",
+
+    "proto3": "_proto",
+
+    "dockerfile": "_docker",
+    "dockercompose": "_docker_compose",
+
+    "go": "_go",
+
+    "javascript": "_javascript",
+    "typescript": "_typescript",
+    "javascriptreact": "_javascript_react",
+    "typescriptreact": "_typescript_react",
+
+    "python": "_python",
+
+    "c": "_c",
+    "cpp": "_cpp",
+
+    "json": "_json",
+    "jsonc": "_jsonc",
+    "yaml": "_yaml",
+    "markdown": "_markdown",
+    "xml": "_xml",
+    "shellscript": "_shell",
+    "makefile": "_makefile"
+  },
+
+  "folder": "_folder",
+  "folderNames": {
+    ".idea": "_hidden_folder",
+    "node_modules": "_hidden_folder",
+
+    ".git": "_git_folder",
+    ".githooks": "_git_folder",
+
+    ".github": "_github_folder",
+    ".vscode": "_vscode_folder",
+
+    "app": "_source_folder",
+    "apps": "_source_folder",
+    "src": "_source_folder",
+    "core": "_source_folder",
+    "source": "_source_folder",
+    "sources": "_source_folder",
+    "server": "_source_folder",
+    "servers": "_source_folder",
+
+    "config": "_config_folder",
+    "configs": "_config_folder",
+
+    "cmd": "_script_folder",
+    "script": "_script_folder",
+    "scripts": "_script_folder",
+
+    "engine": "_engine_folder",
+    "game": "_game_folder",
+    "shaders": "_shader_folder",
+
+    "assets": "_asset_folder",
+    "static": "_asset_folder",
+
+    "public": "_public_folder",
+
+    "font": "_font_folder",
+    "fonts": "_font_folder",
+
+    "db": "_data_folder",
+    "data": "_data_folder",
+    "database": "_data_folder",
+    "databases": "_data_folder",
+
+    "doc": "_doc_folder",
+    "docs": "_doc_folder",
+
+    "external": "_external_folder",
+    "vendor": "_external_folder",
+    "lib": "_external_folder",
+
+    "internal": "_internal_folder",
+
+    "build": "_build_folder",
+    "dist": "_build_folder",
+    "out": "_build_folder",
+    "bin": "_build_folder",
+
+    "test": "_test_folder",
+    "tests": "_test_folder",
+
+    "android": "_android_folder",
+    "ios": "_ios_folder",
+
+    "mail": "_mail_folder",
+    "mails": "_mail_folder",
+
+    "custom": "_custom_folder"
+  },
+
+  "rootFolder": "_root_folder",
+
+  "hidesExplorerArrows": false,
+  "showLanguageModeIcons": true
+}
