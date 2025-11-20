@@ -1,0 +1,35 @@
+{
+  "folder": "_folder",
+  "folderNames": {
+    "config": "_folder_config",
+    "configs": "_folder_config",
+    "configuration": "_folder_config",
+    "configurations": "_folder_config",
+
+    ".git": "_folder_git",
+    ".githooks": "_folder_git",
+
+    ".github": "_folder_github",
+
+    ".idea": "_folder_idea",
+
+    "app": "_folder_src",
+    "apps": "_folder_src",
+    "src": "_folder_src",
+    "source": "_folder_src",
+    "sources": "_folder_src",
+    "core": "_folder_src",
+    "server": "_folder_src",
+    "servers": "_folder_src",
+    "engine": "_folder_src",
+    "game": "_folder_src",
+
+    "test": "_folder_test",
+    "tests": "_folder_test",
+
+    ".vscode": "_folder_vscode"
+  },
+  "rootFolder": "_folder_root",
+  "hidesExplorerArrows": false,
+  "showLanguageModeIcons": true
+}

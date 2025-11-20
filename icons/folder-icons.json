@@ -1,76 +1,28 @@
 {
-  "_root_folder": { "iconPath": "../assets/folder/root_folder.svg" },
-  "_root_folder_dark": { "iconPath": "../assets/folder/root_folder_dark.svg" },
+  "_folder_config": { "iconPath": "../assets/folder/light/folder_config.svg" },
+  "_folder_config_dark": { "iconPath": "../assets/folder/dark/folder_config.svg" },
 
-  "_folder": { "iconPath": "../assets/folder/folder.svg" },
-  "_folder_dark": { "iconPath": "../assets/folder/folder_dark.svg" },
+  "_folder_git": { "iconPath": "../assets/folder/light/folder_git.svg" },
+  "_folder_git_dark": { "iconPath": "../assets/folder/dark/folder_git.svg" },
 
-  "_source_folder": { "iconPath": "../assets/folder/source_folder.svg" },
-  "_source_folder_dark": { "iconPath": "../assets/folder/source_folder_dark.svg" },
+  "_folder_github": { "iconPath": "../assets/folder/light/folder_github.svg" },
+  "_folder_github_dark": { "iconPath": "../assets/folder/dark/folder_github.svg" },
 
-  "_hidden_folder": { "iconPath": "../assets/folder/hidden_folder.svg" },
-  "_hidden_folder_dark": { "iconPath": "../assets/folder/hidden_folder_dark.svg" },
+  "_folder_idea": { "iconPath": "../assets/folder/light/folder_idea.svg" },
+  "_folder_idea_dark": { "iconPath": "../assets/folder/dark/folder_idea.svg" },
 
-  "_public_folder": { "iconPath": "../assets/folder/public_folder.svg" },
-  "_public_folder_dark": { "iconPath": "../assets/folder/public_folder_dark.svg" },
+  "_folder_root": { "iconPath": "../assets/folder/light/folder_root.svg" },
+  "_folder_root_dark": { "iconPath": "../assets/folder/dark/folder_root.svg" },
 
-  "_config_folder": { "iconPath": "../assets/folder/config_folder.svg" },
-  "_config_folder_dark": { "iconPath": "../assets/folder/config_folder_dark.svg" },
+  "_folder_src": { "iconPath": "../assets/folder/light/folder_src.svg" },
+  "_folder_src_dark": { "iconPath": "../assets/folder/dark/folder_src.svg" },
 
-  "_script_folder": { "iconPath": "../assets/folder/script_folder.svg" },
-  "_script_folder_dark": { "iconPath": "../assets/folder/script_folder_dark.svg" },
+  "_folder_test": { "iconPath": "../assets/folder/light/folder_test.svg" },
+  "_folder_test_dark": { "iconPath": "../assets/folder/dark/folder_test.svg" },
 
-  "_asset_folder": { "iconPath": "../assets/folder/asset_folder.svg" },
-  "_asset_folder_dark": { "iconPath": "../assets/folder/asset_folder_dark.svg" },
+  "_folder_vscode": { "iconPath": "../assets/folder/light/folder_vscode.svg" },
+  "_folder_vscode_dark": { "iconPath": "../assets/folder/dark/folder_vscode.svg" },
 
-  "_font_folder": { "iconPath": "../assets/folder/font_folder.svg" },
-  "_font_folder_dark": { "iconPath": "../assets/folder/font_folder_dark.svg" },
-
-  "_data_folder": { "iconPath": "../assets/folder/data_folder.svg" },
-  "_data_folder_dark": { "iconPath": "../assets/folder/data_folder_dark.svg" },
-
-  "_doc_folder": { "iconPath": "../assets/folder/doc_folder.svg" },
-  "_doc_folder_dark": { "iconPath": "../assets/folder/doc_folder_dark.svg" },
-
-  "_external_folder": { "iconPath": "../assets/folder/external_folder.svg" },
-  "_external_folder_dark": { "iconPath": "../assets/folder/external_folder_dark.svg" },
-
-  "_internal_folder": { "iconPath": "../assets/folder/internal_folder.svg" },
-  "_internal_folder_dark": { "iconPath": "../assets/folder/internal_folder_dark.svg" },
-
-  "_build_folder": { "iconPath": "../assets/folder/build_folder.svg" },
-  "_build_folder_dark": { "iconPath": "../assets/folder/build_folder_dark.svg" },
-
-  "_test_folder": { "iconPath": "../assets/folder/test_folder.svg" },
-  "_test_folder_dark": { "iconPath": "../assets/folder/test_folder_dark.svg" },
-
-  "_git_folder": { "iconPath": "../assets/folder/git_folder.svg" },
-  "_git_folder_dark": { "iconPath": "../assets/folder/git_folder_dark.svg" },
-
-  "_vscode_folder": { "iconPath": "../assets/folder/vscode_folder.svg" },
-  "_vscode_folder_dark": { "iconPath": "../assets/folder/vscode_folder_dark.svg" },
-
-  "_github_folder": { "iconPath": "../assets/folder/github_folder.svg" },
-  "_github_folder_dark": { "iconPath": "../assets/folder/github_folder_dark.svg" },
-
-  "_engine_folder": { "iconPath": "../assets/folder/engine_folder.svg" },
-  "_engine_folder_dark": { "iconPath": "../assets/folder/engine_folder_dark.svg" },
-
-  "_game_folder": { "iconPath": "../assets/folder/game_folder.svg" },
-  "_game_folder_dark": { "iconPath": "../assets/folder/game_folder_dark.svg" },
-
-  "_shader_folder": { "iconPath": "../assets/folder/shader_folder.svg" },
-  "_shader_folder_dark": { "iconPath": "../assets/folder/shader_folder_dark.svg" },
-
-  "_android_folder": { "iconPath": "../assets/folder/android_folder.svg" },
-  "_android_folder_dark": { "iconPath": "../assets/folder/android_folder_dark.svg" },
-
-  "_ios_folder": { "iconPath": "../assets/folder/ios_folder.svg" },
-  "_ios_folder_dark": { "iconPath": "../assets/folder/ios_folder_dark.svg" },
-
-  "_mail_folder": { "iconPath": "../assets/folder/mail_folder.svg" },
-  "_mail_folder_dark": { "iconPath": "../assets/folder/mail_folder_dark.svg" },
-
-  "_custom_folder": { "iconPath": "../assets/folder/custom_folder.svg" },
-  "_custom_folder_dark": { "iconPath": "../assets/folder/custom_folder_dark.svg" }
+  "_folder": { "iconPath": "../assets/folder/light/folder.svg" },
+  "_folder_dark": { "iconPath": "../assets/folder/dark/folder.svg" }
 }

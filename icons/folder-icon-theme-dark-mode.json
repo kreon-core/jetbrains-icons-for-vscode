@@ -1,0 +1,35 @@
+{
+  "folder": "_folder_dark",
+  "folderNames": {
+    "config": "_folder_config_dark",
+    "configs": "_folder_config_dark",
+    "configuration": "_folder_config_dark",
+    "configurations": "_folder_config_dark",
+
+    ".git": "_folder_git_dark",
+    ".githooks": "_folder_git_dark",
+
+    ".github": "_folder_github_dark",
+
+    ".idea": "_folder_idea_dark",
+
+    "app": "_folder_src_dark",
+    "apps": "_folder_src_dark",
+    "src": "_folder_src_dark",
+    "source": "_folder_src_dark",
+    "sources": "_folder_src_dark",
+    "core": "_folder_src_dark",
+    "server": "_folder_src_dark",
+    "servers": "_folder_src_dark",
+    "engine": "_folder_src_dark",
+    "game": "_folder_src_dark",
+
+    "test": "_folder_test_dark",
+    "tests": "_folder_test_dark",
+
+    ".vscode": "_folder_vscode_dark"
+  },
+  "rootFolder": "_folder_root_dark",
+  "hidesExplorerArrows": false,
+  "showLanguageModeIcons": true
+}
