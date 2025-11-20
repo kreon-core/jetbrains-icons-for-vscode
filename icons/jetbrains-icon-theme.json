@@ -1,501 +1,471 @@
 {
   "iconDefinitions": {
-    "_root_folder": {
-      "iconPath": "../assets/folder/root_folder.svg"
+    "_folder_config": {
+      "iconPath": "../assets/folder/light/folder_config.svg"
     },
-    "_root_folder_dark": {
-      "iconPath": "../assets/folder/root_folder_dark.svg"
+    "_folder_config_dark": {
+      "iconPath": "../assets/folder/dark/folder_config.svg"
+    },
+    "_folder_git": {
+      "iconPath": "../assets/folder/light/folder_git.svg"
+    },
+    "_folder_git_dark": {
+      "iconPath": "../assets/folder/dark/folder_git.svg"
+    },
+    "_folder_github": {
+      "iconPath": "../assets/folder/light/folder_github.svg"
+    },
+    "_folder_github_dark": {
+      "iconPath": "../assets/folder/dark/folder_github.svg"
+    },
+    "_folder_idea": {
+      "iconPath": "../assets/folder/light/folder_idea.svg"
+    },
+    "_folder_idea_dark": {
+      "iconPath": "../assets/folder/dark/folder_idea.svg"
+    },
+    "_folder_root": {
+      "iconPath": "../assets/folder/light/folder_root.svg"
+    },
+    "_folder_root_dark": {
+      "iconPath": "../assets/folder/dark/folder_root.svg"
+    },
+    "_folder_src": {
+      "iconPath": "../assets/folder/light/folder_src.svg"
+    },
+    "_folder_src_dark": {
+      "iconPath": "../assets/folder/dark/folder_src.svg"
+    },
+    "_folder_test": {
+      "iconPath": "../assets/folder/light/folder_test.svg"
+    },
+    "_folder_test_dark": {
+      "iconPath": "../assets/folder/dark/folder_test.svg"
+    },
+    "_folder_vscode": {
+      "iconPath": "../assets/folder/light/folder_vscode.svg"
+    },
+    "_folder_vscode_dark": {
+      "iconPath": "../assets/folder/dark/folder_vscode.svg"
     },
     "_folder": {
-      "iconPath": "../assets/folder/folder.svg"
+      "iconPath": "../assets/folder/light/folder.svg"
     },
     "_folder_dark": {
-      "iconPath": "../assets/folder/folder_dark.svg"
-    },
-    "_source_folder": {
-      "iconPath": "../assets/folder/source_folder.svg"
-    },
-    "_source_folder_dark": {
-      "iconPath": "../assets/folder/source_folder_dark.svg"
-    },
-    "_hidden_folder": {
-      "iconPath": "../assets/folder/hidden_folder.svg"
-    },
-    "_hidden_folder_dark": {
-      "iconPath": "../assets/folder/hidden_folder_dark.svg"
-    },
-    "_public_folder": {
-      "iconPath": "../assets/folder/public_folder.svg"
-    },
-    "_public_folder_dark": {
-      "iconPath": "../assets/folder/public_folder_dark.svg"
-    },
-    "_config_folder": {
-      "iconPath": "../assets/folder/config_folder.svg"
-    },
-    "_config_folder_dark": {
-      "iconPath": "../assets/folder/config_folder_dark.svg"
-    },
-    "_script_folder": {
-      "iconPath": "../assets/folder/script_folder.svg"
-    },
-    "_script_folder_dark": {
-      "iconPath": "../assets/folder/script_folder_dark.svg"
-    },
-    "_asset_folder": {
-      "iconPath": "../assets/folder/asset_folder.svg"
-    },
-    "_asset_folder_dark": {
-      "iconPath": "../assets/folder/asset_folder_dark.svg"
-    },
-    "_font_folder": {
-      "iconPath": "../assets/folder/font_folder.svg"
-    },
-    "_font_folder_dark": {
-      "iconPath": "../assets/folder/font_folder_dark.svg"
-    },
-    "_data_folder": {
-      "iconPath": "../assets/folder/data_folder.svg"
-    },
-    "_data_folder_dark": {
-      "iconPath": "../assets/folder/data_folder_dark.svg"
-    },
-    "_doc_folder": {
-      "iconPath": "../assets/folder/doc_folder.svg"
-    },
-    "_doc_folder_dark": {
-      "iconPath": "../assets/folder/doc_folder_dark.svg"
-    },
-    "_external_folder": {
-      "iconPath": "../assets/folder/external_folder.svg"
-    },
-    "_external_folder_dark": {
-      "iconPath": "../assets/folder/external_folder_dark.svg"
-    },
-    "_internal_folder": {
-      "iconPath": "../assets/folder/internal_folder.svg"
-    },
-    "_internal_folder_dark": {
-      "iconPath": "../assets/folder/internal_folder_dark.svg"
-    },
-    "_build_folder": {
-      "iconPath": "../assets/folder/build_folder.svg"
-    },
-    "_build_folder_dark": {
-      "iconPath": "../assets/folder/build_folder_dark.svg"
-    },
-    "_test_folder": {
-      "iconPath": "../assets/folder/test_folder.svg"
-    },
-    "_test_folder_dark": {
-      "iconPath": "../assets/folder/test_folder_dark.svg"
-    },
-    "_git_folder": {
-      "iconPath": "../assets/folder/git_folder.svg"
-    },
-    "_git_folder_dark": {
-      "iconPath": "../assets/folder/git_folder_dark.svg"
-    },
-    "_vscode_folder": {
-      "iconPath": "../assets/folder/vscode_folder.svg"
-    },
-    "_vscode_folder_dark": {
-      "iconPath": "../assets/folder/vscode_folder_dark.svg"
-    },
-    "_github_folder": {
-      "iconPath": "../assets/folder/github_folder.svg"
-    },
-    "_github_folder_dark": {
-      "iconPath": "../assets/folder/github_folder_dark.svg"
-    },
-    "_engine_folder": {
-      "iconPath": "../assets/folder/engine_folder.svg"
-    },
-    "_engine_folder_dark": {
-      "iconPath": "../assets/folder/engine_folder_dark.svg"
-    },
-    "_game_folder": {
-      "iconPath": "../assets/folder/game_folder.svg"
-    },
-    "_game_folder_dark": {
-      "iconPath": "../assets/folder/game_folder_dark.svg"
-    },
-    "_shader_folder": {
-      "iconPath": "../assets/folder/shader_folder.svg"
-    },
-    "_shader_folder_dark": {
-      "iconPath": "../assets/folder/shader_folder_dark.svg"
-    },
-    "_android_folder": {
-      "iconPath": "../assets/folder/android_folder.svg"
-    },
-    "_android_folder_dark": {
-      "iconPath": "../assets/folder/android_folder_dark.svg"
-    },
-    "_ios_folder": {
-      "iconPath": "../assets/folder/ios_folder.svg"
-    },
-    "_ios_folder_dark": {
-      "iconPath": "../assets/folder/ios_folder_dark.svg"
-    },
-    "_mail_folder": {
-      "iconPath": "../assets/folder/mail_folder.svg"
-    },
-    "_mail_folder_dark": {
-      "iconPath": "../assets/folder/mail_folder_dark.svg"
-    },
-    "_custom_folder": {
-      "iconPath": "../assets/folder/custom_folder.svg"
-    },
-    "_custom_folder_dark": {
-      "iconPath": "../assets/folder/custom_folder_dark.svg"
-    },
-    "_file": {
-      "iconPath": "../assets/file/file.svg"
-    },
-    "_file_dark": {
-      "iconPath": "../assets/file/file_dark.svg"
-    },
-    "_image": {
-      "iconPath": "../assets/file/image.svg"
-    },
-    "_image_dark": {
-      "iconPath": "../assets/file/image_dark.svg"
-    },
-    "_svg": {
-      "iconPath": "../assets/file/svg.svg"
-    },
-    "_svg_dark": {
-      "iconPath": "../assets/file/svg_dark.svg"
-    },
-    "_ignore": {
-      "iconPath": "../assets/file/ignore.svg"
-    },
-    "_ignore_dark": {
-      "iconPath": "../assets/file/ignore_dark.svg"
-    },
-    "_git": {
-      "iconPath": "../assets/file/git.svg"
-    },
-    "_git_dark": {
-      "iconPath": "../assets/file/git_dark.svg"
-    },
-    "_license": {
-      "iconPath": "../assets/file/license.svg"
-    },
-    "_license_dark": {
-      "iconPath": "../assets/file/license_dark.svg"
-    },
-    "_mail": {
-      "iconPath": "../assets/file/mail.svg"
-    },
-    "_mail_dark": {
-      "iconPath": "../assets/file/mail_dark.svg"
-    },
-    "_config": {
-      "iconPath": "../assets/file/config.svg"
-    },
-    "_config_dark": {
-      "iconPath": "../assets/file/config_dark.svg"
-    },
-    "_tsconfig": {
-      "iconPath": "../assets/file/tsconfig.svg"
-    },
-    "_tsconfig_dark": {
-      "iconPath": "../assets/file/tsconfig_dark.svg"
-    },
-    "_webpack": {
-      "iconPath": "../assets/file/webpack.svg"
-    },
-    "_webpack_dark": {
-      "iconPath": "../assets/file/webpack_dark.svg"
-    },
-    "_eslint": {
-      "iconPath": "../assets/file/eslint.svg"
-    },
-    "_eslint_dark": {
-      "iconPath": "../assets/file/eslint_dark.svg"
-    },
-    "_prettier": {
-      "iconPath": "../assets/file/prettier.svg"
-    },
-    "_prettier_dark": {
-      "iconPath": "../assets/file/prettier_dark.svg"
-    },
-    "_javascript": {
-      "iconPath": "../assets/file/javascript.svg"
-    },
-    "_javascript_dark": {
-      "iconPath": "../assets/file/javascript_dark.svg"
-    },
-    "_javascript_test": {
-      "iconPath": "../assets/file/javascript_test.svg"
-    },
-    "_javascript_test_dark": {
-      "iconPath": "../assets/file/javascript_test_dark.svg"
-    },
-    "_typescript": {
-      "iconPath": "../assets/file/typescript.svg"
-    },
-    "_typescript_dark": {
-      "iconPath": "../assets/file/typescript_dark.svg"
-    },
-    "_typescript_test": {
-      "iconPath": "../assets/file/typescript_test.svg"
-    },
-    "_typescript_test_dark": {
-      "iconPath": "../assets/file/typescript_test_dark.svg"
-    },
-    "_javascript_react": {
-      "iconPath": "../assets/file/jsx.svg"
-    },
-    "_javascript_react_dark": {
-      "iconPath": "../assets/file/jsx_dark.svg"
-    },
-    "_javascript_react_test": {
-      "iconPath": "../assets/file/jsx_test.svg"
-    },
-    "_javascript_react_test_dark": {
-      "iconPath": "../assets/file/jsx_test_dark.svg"
-    },
-    "_typescript_react": {
-      "iconPath": "../assets/file/tsx.svg"
-    },
-    "_typescript_react_dark": {
-      "iconPath": "../assets/file/tsx_dark.svg"
-    },
-    "_typescript_react_test": {
-      "iconPath": "../assets/file/tsx_test.svg"
-    },
-    "_typescript_react_test_dark": {
-      "iconPath": "../assets/file/tsx_test_dark.svg"
-    },
-    "_python": {
-      "iconPath": "../assets/file/python.svg"
-    },
-    "_python_dark": {
-      "iconPath": "../assets/file/python_dark.svg"
-    },
-    "_python_test": {
-      "iconPath": "../assets/file/python_test.svg"
-    },
-    "_python_test_dark": {
-      "iconPath": "../assets/file/python_test_dark.svg"
-    },
-    "_c": {
-      "iconPath": "../assets/file/c.svg"
-    },
-    "_c_dark": {
-      "iconPath": "../assets/file/c_dark.svg"
-    },
-    "_cpp": {
-      "iconPath": "../assets/file/cpp.svg"
-    },
-    "_cpp_dark": {
-      "iconPath": "../assets/file/cpp_dark.svg"
-    },
-    "_c_header": {
-      "iconPath": "../assets/file/c_header.svg"
-    },
-    "_c_header_dark": {
-      "iconPath": "../assets/file/c_header_dark.svg"
-    },
-    "_cpp_header": {
-      "iconPath": "../assets/file/cpp_header.svg"
-    },
-    "_cpp_header_dark": {
-      "iconPath": "../assets/file/cpp_header_dark.svg"
+      "iconPath": "../assets/folder/dark/folder.svg"
     },
     "_binary": {
-      "iconPath": "../assets/file/binary.svg"
+      "iconPath": "../assets/file/light/binary.svg"
     },
     "_binary_dark": {
-      "iconPath": "../assets/file/binary_dark.svg"
+      "iconPath": "../assets/file/dark/binary.svg"
     },
-    "_json": {
-      "iconPath": "../assets/file/json.svg"
+    "_c_h": {
+      "iconPath": "../assets/file/light/c_h.svg"
     },
-    "_json_dark": {
-      "iconPath": "../assets/file/json_dark.svg"
+    "_c_h_dark": {
+      "iconPath": "../assets/file/dark/c_h.svg"
     },
-    "_jsonc": {
-      "iconPath": "../assets/file/json_w_comment.svg"
+    "_c": {
+      "iconPath": "../assets/file/light/c.svg"
     },
-    "_jsonc_dark": {
-      "iconPath": "../assets/file/json_w_comment_dark.svg"
-    },
-    "_json_schema": {
-      "iconPath": "../assets/file/json_schema.svg"
-    },
-    "_json_schema_dark": {
-      "iconPath": "../assets/file/json_schema_dark.svg"
-    },
-    "_markdown": {
-      "iconPath": "../assets/file/markdown.svg"
-    },
-    "_markdown_dark": {
-      "iconPath": "../assets/file/markdown_dark.svg"
-    },
-    "_yaml": {
-      "iconPath": "../assets/file/yaml.svg"
-    },
-    "_yaml_dark": {
-      "iconPath": "../assets/file/yaml_dark.svg"
-    },
-    "_xml": {
-      "iconPath": "../assets/file/xml.svg"
-    },
-    "_xml_dark": {
-      "iconPath": "../assets/file/xml_dark.svg"
-    },
-    "_shell": {
-      "iconPath": "../assets/file/shell.svg"
-    },
-    "_shell_dark": {
-      "iconPath": "../assets/file/shell_dark.svg"
-    },
-    "_cmake": {
-      "iconPath": "../assets/file/cmake.svg"
-    },
-    "_cmake_dark": {
-      "iconPath": "../assets/file/cmake_dark.svg"
-    },
-    "_cmake_test": {
-      "iconPath": "../assets/file/cmake_test.svg"
-    },
-    "_cmake_test_dark": {
-      "iconPath": "../assets/file/cmake_test_dark.svg"
-    },
-    "_cmake_debug_dark": {
-      "iconPath": "../assets/file/cmake_debug_dark.svg"
-    },
-    "_makefile": {
-      "iconPath": "../assets/file/makefile.svg"
-    },
-    "_makefile_dark": {
-      "iconPath": "../assets/file/makefile_dark.svg"
+    "_c_dark": {
+      "iconPath": "../assets/file/dark/c.svg"
     },
     "_clangd": {
-      "iconPath": "../assets/file/clangd.svg"
+      "iconPath": "../assets/file/light/clangd.svg"
     },
     "_clangd_dark": {
-      "iconPath": "../assets/file/clangd_dark.svg"
+      "iconPath": "../assets/file/dark/clangd.svg"
     },
-    "_go": {
-      "iconPath": "../assets/file/go.svg"
+    "_cmake_debug": {
+      "iconPath": "../assets/file/light/cmake_debug.svg"
     },
-    "_go_dark": {
-      "iconPath": "../assets/file/go_dark.svg"
+    "_cmake_debug_dark": {
+      "iconPath": "../assets/file/dark/cmake_debug.svg"
     },
-    "_go_test": {
-      "iconPath": "../assets/file/go_test.svg"
+    "_cmake_test": {
+      "iconPath": "../assets/file/light/cmake_test.svg"
     },
-    "_go_test_dark": {
-      "iconPath": "../assets/file/go_test_dark.svg"
+    "_cmake_test_dark": {
+      "iconPath": "../assets/file/dark/cmake_test.svg"
     },
-    "_go_mod": {
-      "iconPath": "../assets/file/go_mod.svg"
+    "_cmake": {
+      "iconPath": "../assets/file/light/cmake.svg"
     },
-    "_go_mod_dark": {
-      "iconPath": "../assets/file/go_mod_dark.svg"
+    "_cmake_dark": {
+      "iconPath": "../assets/file/dark/cmake.svg"
     },
-    "_go_sum": {
-      "iconPath": "../assets/file/go_sum.svg"
+    "_config": {
+      "iconPath": "../assets/file/light/config.svg"
     },
-    "_go_sum_dark": {
-      "iconPath": "../assets/file/go_sum_dark.svg"
+    "_config_dark": {
+      "iconPath": "../assets/file/dark/config.svg"
     },
-    "_docker": {
-      "iconPath": "../assets/file/docker.svg"
+    "_cpp_h": {
+      "iconPath": "../assets/file/light/cpp_h.svg"
     },
-    "_docker_dark": {
-      "iconPath": "../assets/file/docker_dark.svg"
+    "_cpp_h_dark": {
+      "iconPath": "../assets/file/dark/cpp_h.svg"
     },
-    "_docker_compose": {
-      "iconPath": "../assets/file/docker_compose.svg"
+    "_cpp": {
+      "iconPath": "../assets/file/light/cpp.svg"
     },
-    "_docker_compose_dark": {
-      "iconPath": "../assets/file/docker_compose_dark.svg"
-    },
-    "_docker_ignore": {
-      "iconPath": "../assets/file/docker_ignore.svg"
-    },
-    "_docker_ignore_dark": {
-      "iconPath": "../assets/file/docker_ignore_dark.svg"
-    },
-    "_helm_chart": {
-      "iconPath": "../assets/file/helm_chart.svg"
-    },
-    "_helm_chart_dark": {
-      "iconPath": "../assets/file/helm_chart_dark.svg"
-    },
-    "_helm_values": {
-      "iconPath": "../assets/file/helm_values.svg"
-    },
-    "_helm_values_dark": {
-      "iconPath": "../assets/file/helm_values_dark.svg"
-    },
-    "_proto": {
-      "iconPath": "../assets/file/proto.svg"
-    },
-    "_proto_dark": {
-      "iconPath": "../assets/file/proto_dark.svg"
-    },
-    "_properties": {
-      "iconPath": "../assets/file/properties.svg"
-    },
-    "_properties_dark": {
-      "iconPath": "../assets/file/properties_dark.svg"
+    "_cpp_dark": {
+      "iconPath": "../assets/file/dark/cpp.svg"
     },
     "_diagram": {
-      "iconPath": "../assets/file/diagram.svg"
+      "iconPath": "../assets/file/light/diagram.svg"
     },
     "_diagram_dark": {
-      "iconPath": "../assets/file/diagram_dark.svg"
+      "iconPath": "../assets/file/dark/diagram.svg"
+    },
+    "_docker_compose": {
+      "iconPath": "../assets/file/light/docker_compose.svg"
+    },
+    "_docker_compose_dark": {
+      "iconPath": "../assets/file/dark/docker_compose.svg"
+    },
+    "_docker_ignore": {
+      "iconPath": "../assets/file/light/docker_ignore.svg"
+    },
+    "_docker_ignore_dark": {
+      "iconPath": "../assets/file/dark/docker_ignore.svg"
+    },
+    "_docker": {
+      "iconPath": "../assets/file/light/docker.svg"
+    },
+    "_docker_dark": {
+      "iconPath": "../assets/file/dark/docker.svg"
     },
     "_erd_diagram": {
-      "iconPath": "../assets/file/erd_diagram.svg"
+      "iconPath": "../assets/file/light/erd_diagram.svg"
     },
     "_erd_diagram_dark": {
-      "iconPath": "../assets/file/erd_diagram_dark.svg"
+      "iconPath": "../assets/file/dark/erd_diagram.svg"
+    },
+    "_eslint": {
+      "iconPath": "../assets/file/light/eslint.svg"
+    },
+    "_eslint_dark": {
+      "iconPath": "../assets/file/dark/eslint.svg"
+    },
+    "_file": {
+      "iconPath": "../assets/file/light/file.svg"
+    },
+    "_file_dark": {
+      "iconPath": "../assets/file/dark/file.svg"
+    },
+    "_git": {
+      "iconPath": "../assets/file/light/git.svg"
+    },
+    "_git_dark": {
+      "iconPath": "../assets/file/dark/git.svg"
+    },
+    "_go_mod": {
+      "iconPath": "../assets/file/light/go_mod.svg"
+    },
+    "_go_mod_dark": {
+      "iconPath": "../assets/file/dark/go_mod.svg"
+    },
+    "_go_sum": {
+      "iconPath": "../assets/file/light/go_sum.svg"
+    },
+    "_go_sum_dark": {
+      "iconPath": "../assets/file/dark/go_sum.svg"
+    },
+    "_go_test": {
+      "iconPath": "../assets/file/light/go_test.svg"
+    },
+    "_go_test_dark": {
+      "iconPath": "../assets/file/dark/go_test.svg"
+    },
+    "_go": {
+      "iconPath": "../assets/file/light/go.svg"
+    },
+    "_go_dark": {
+      "iconPath": "../assets/file/dark/go.svg"
+    },
+    "_helm_chart": {
+      "iconPath": "../assets/file/light/helm_chart.svg"
+    },
+    "_helm_chart_dark": {
+      "iconPath": "../assets/file/dark/helm_chart.svg"
+    },
+    "_helm_values": {
+      "iconPath": "../assets/file/light/helm_values.svg"
+    },
+    "_helm_values_dark": {
+      "iconPath": "../assets/file/dark/helm_values.svg"
     },
     "_http": {
-      "iconPath": "../assets/file/http.svg"
+      "iconPath": "../assets/file/light/http.svg"
     },
     "_http_dark": {
-      "iconPath": "../assets/file/http_dark.svg"
+      "iconPath": "../assets/file/dark/http.svg"
+    },
+    "_ignore": {
+      "iconPath": "../assets/file/light/ignore.svg"
+    },
+    "_ignore_dark": {
+      "iconPath": "../assets/file/dark/ignore.svg"
+    },
+    "_image": {
+      "iconPath": "../assets/file/light/image.svg"
+    },
+    "_image_dark": {
+      "iconPath": "../assets/file/dark/image.svg"
+    },
+    "_javascript_test": {
+      "iconPath": "../assets/file/light/javascript_test.svg"
+    },
+    "_javascript_test_dark": {
+      "iconPath": "../assets/file/dark/javascript_test.svg"
+    },
+    "_javascript": {
+      "iconPath": "../assets/file/light/javascript.svg"
+    },
+    "_javascript_dark": {
+      "iconPath": "../assets/file/dark/javascript.svg"
+    },
+    "_json_schema": {
+      "iconPath": "../assets/file/light/json_schema.svg"
+    },
+    "_json_schema_dark": {
+      "iconPath": "../assets/file/dark/json_schema.svg"
+    },
+    "_json": {
+      "iconPath": "../assets/file/light/json.svg"
+    },
+    "_json_dark": {
+      "iconPath": "../assets/file/dark/json.svg"
+    },
+    "_jsonc": {
+      "iconPath": "../assets/file/light/jsonc.svg"
+    },
+    "_jsonc_dark": {
+      "iconPath": "../assets/file/dark/jsonc.svg"
+    },
+    "_jsx_test": {
+      "iconPath": "../assets/file/light/jsx_test.svg"
+    },
+    "_jsx_test_dark": {
+      "iconPath": "../assets/file/dark/jsx_test.svg"
+    },
+    "_jsx": {
+      "iconPath": "../assets/file/light/jsx.svg"
+    },
+    "_jsx_dark": {
+      "iconPath": "../assets/file/dark/jsx.svg"
+    },
+    "_license": {
+      "iconPath": "../assets/file/light/license.svg"
+    },
+    "_license_dark": {
+      "iconPath": "../assets/file/dark/license.svg"
+    },
+    "_mail": {
+      "iconPath": "../assets/file/light/mail.svg"
+    },
+    "_mail_dark": {
+      "iconPath": "../assets/file/dark/mail.svg"
+    },
+    "_makefile": {
+      "iconPath": "../assets/file/light/makefile.svg"
+    },
+    "_makefile_dark": {
+      "iconPath": "../assets/file/dark/makefile.svg"
+    },
+    "_markdown": {
+      "iconPath": "../assets/file/light/markdown.svg"
+    },
+    "_markdown_dark": {
+      "iconPath": "../assets/file/dark/markdown.svg"
+    },
+    "_prettier": {
+      "iconPath": "../assets/file/light/prettier.svg"
+    },
+    "_prettier_dark": {
+      "iconPath": "../assets/file/dark/prettier.svg"
+    },
+    "_properties": {
+      "iconPath": "../assets/file/light/properties.svg"
+    },
+    "_properties_dark": {
+      "iconPath": "../assets/file/dark/properties.svg"
+    },
+    "_proto": {
+      "iconPath": "../assets/file/light/proto.svg"
+    },
+    "_proto_dark": {
+      "iconPath": "../assets/file/dark/proto.svg"
+    },
+    "_python_test": {
+      "iconPath": "../assets/file/light/python_test.svg"
+    },
+    "_python_test_dark": {
+      "iconPath": "../assets/file/dark/python_test.svg"
+    },
+    "_python": {
+      "iconPath": "../assets/file/light/python.svg"
+    },
+    "_python_dark": {
+      "iconPath": "../assets/file/dark/python.svg"
+    },
+    "_shell": {
+      "iconPath": "../assets/file/light/shell.svg"
+    },
+    "_shell_dark": {
+      "iconPath": "../assets/file/dark/shell.svg"
+    },
+    "_sql": {
+      "iconPath": "../assets/file/light/sql.svg"
+    },
+    "_sql_dark": {
+      "iconPath": "../assets/file/dark/sql.svg"
+    },
+    "_svg": {
+      "iconPath": "../assets/file/light/svg.svg"
+    },
+    "_svg_dark": {
+      "iconPath": "../assets/file/dark/svg.svg"
+    },
+    "_tsconfig": {
+      "iconPath": "../assets/file/light/tsconfig.svg"
+    },
+    "_tsconfig_dark": {
+      "iconPath": "../assets/file/dark/tsconfig.svg"
+    },
+    "_tsx_test": {
+      "iconPath": "../assets/file/light/tsx_test.svg"
+    },
+    "_tsx_test_dark": {
+      "iconPath": "../assets/file/dark/tsx_test.svg"
+    },
+    "_tsx": {
+      "iconPath": "../assets/file/light/tsx.svg"
+    },
+    "_tsx_dark": {
+      "iconPath": "../assets/file/dark/tsx.svg"
+    },
+    "_typescript_test": {
+      "iconPath": "../assets/file/light/typescript_test.svg"
+    },
+    "_typescript_test_dark": {
+      "iconPath": "../assets/file/dark/typescript_test.svg"
+    },
+    "_typescript": {
+      "iconPath": "../assets/file/light/typescript.svg"
+    },
+    "_typescript_dark": {
+      "iconPath": "../assets/file/dark/typescript.svg"
+    },
+    "_webpack": {
+      "iconPath": "../assets/file/light/webpack.svg"
+    },
+    "_webpack_dark": {
+      "iconPath": "../assets/file/dark/webpack.svg"
+    },
+    "_xml": {
+      "iconPath": "../assets/file/light/xml.svg"
+    },
+    "_xml_dark": {
+      "iconPath": "../assets/file/dark/xml.svg"
+    },
+    "_yaml": {
+      "iconPath": "../assets/file/light/yaml.svg"
+    },
+    "_yaml_dark": {
+      "iconPath": "../assets/file/dark/yaml.svg"
     }
   },
   "light": {
     "file": "_file",
+    "languageIds": {
+      "c": "_c",
+      "cpp": "_cpp",
+      "dockercompose": "_docker_compose",
+      "dockerfile": "_docker",
+      "go": "_go",
+      "http": "_http",
+      "javascript": "_javascript",
+      "typescript": "_typescript",
+      "javascriptreact": "_jsx",
+      "typescriptreact": "_tsx",
+      "ini": "_config",
+      "ignore": "_ignore",
+      "json": "_json",
+      "jsonc": "_jsonc",
+      "makefile": "_makefile",
+      "markdown": "_markdown",
+      "properties": "_properties",
+      "proto3": "_proto",
+      "python": "_python",
+      "shellscript": "_shell",
+      "sql": "_sql",
+      "xml": "_xml",
+      "yaml": "_yaml"
+    },
+    "fileExtensions": {
+      "o": "_binary",
+      "out": "_binary",
+      "exe": "_binary",
+      "so": "_binary",
+      "dll": "_binary",
+      "h": "_c_h",
+      "hpp": "_cpp_h",
+      "drawio": "_diagram",
+      "erd.json": "_erd_diagram",
+      "test.go": "_go_test",
+      "http": "_http",
+      "rest": "_http",
+      "png": "_image",
+      "jpg": "_image",
+      "jpeg": "_image",
+      "test.js": "_javascript_test",
+      "test.jsx": "_jsx_test",
+      "test.ts": "_typescript_test",
+      "test.tsx": "_tsx_test",
+      "schema.json": "_json_schema",
+      "test.py": "_python_test",
+      "svg": "_svg"
+    },
     "fileNames": {
-      "Chart.yaml": "_helm_chart",
-      "values.yaml": "_helm_values",
+      ".clangd": "_clangd",
+      ".clang-format": "_clangd",
+      ".clang-tidy": "_clangd",
+      "CMakeLists.txt": "_cmake",
+      "CMakeCache.txt": "_cmake",
+      "CMakePresets.json": "_cmake",
+      "CMakeUserPresets.json": "_cmake",
+      ".editorconfig": "_config",
       ".dockerignore": "_docker_ignore",
-      "go.mod": "_go_mod",
-      "go.sum": "_go_sum",
-      ".gitignore": "_git",
-      ".gitattributes": "_git",
-      ".git-blame-ignore-revs": "_git",
-      ".gitconfig": "_git",
-      ".gitmodules": "_git",
-      ".mailmap": "_mail",
-      ".vscodeignore": "_ignore",
-      ".eslintignore": "_ignore",
-      ".prettierignore": "_ignore",
-      "webpack.config.js": "_webpack",
-      "webpack.config.cjs": "_webpack",
-      "webpack.config.mjs": "_webpack",
-      "webpack.config.ts": "_webpack",
       "eslint.config.js": "_eslint",
       "eslint.config.cjs": "_eslint",
       "eslint.config.mjs": "_eslint",
       "eslint.config.ts": "_eslint",
       ".eslintrc.js": "_eslint",
       ".eslintrc.cjs": "_eslint",
+      ".eslintrc.mjs": "_eslint",
       ".eslintrc.json": "_eslint",
       ".eslintrc.yaml": "_eslint",
       ".eslintrc.yml": "_eslint",
+      ".gitignore": "_git",
+      ".gitattributes": "_git",
+      ".git-blame-ignore-revs": "_git",
+      ".gitmodules": "_git",
+      ".gitconfig": "_git",
+      "go.mod": "_go_mod",
+      "go.sum": "_go_sum",
+      "Chart.yaml": "_helm_chart",
+      "values.yaml": "_helm_values",
+      ".vscodeignore": "_ignore",
+      ".eslintignore": "_ignore",
+      ".prettierignore": "_ignore",
+      "LICENSE": "_license",
+      "LICENSE.txt": "_license",
+      "LICENSE.md": "_license",
+      ".mailmap": "_mail",
       "prettier.config.js": "_prettier",
       "prettier.config.cjs": "_prettier",
       "prettier.config.mjs": "_prettier",
@@ -503,158 +473,135 @@
       ".prettierrc": "_prettier",
       ".prettierrc.js": "_prettier",
       ".prettierrc.cjs": "_prettier",
+      ".prettierrc.mjs": "_prettier",
       ".prettierrc.json": "_prettier",
       ".prettierrc.yaml": "_prettier",
       ".prettierrc.yml": "_prettier",
       "tsconfig.json": "_tsconfig",
+      "tsconfig.local.json": "_tsconfig",
+      "tsconfig.dev.json": "_tsconfig",
+      "tsconfig.test.json": "_tsconfig",
+      "tsconfig.stg.json": "_tsconfig",
       "tsconfig.prod.json": "_tsconfig",
-      ".editorconfig": "_config",
-      "LICENSE": "_license",
-      "LICENSE.txt": "_license",
-      "LICENSE.md": "_license",
-      "CMakeLists.txt": "_cmake",
-      "CMakeCache.txt": "_cmake",
-      "CMakePresets.json": "_cmake",
-      "CMakeUserPresets.json": "_cmake",
-      ".clangd": "_clangd",
-      ".clang-format": "_clangd",
-      ".clang-tidy": "_clangd"
-    },
-    "fileExtensions": {
-      "http": "_http",
-      "erd.json": "_erd_diagram",
-      "drawio": "_diagram",
-      "test.go": "_go_test",
-      "schema.json": "_json_schema",
-      "png": "_image",
-      "jpg": "_image",
-      "jpeg": "_image",
-      "svg": "_svg",
-      "test.js": "_javascript_test",
-      "spec.js": "_javascript_test",
-      "test.ts": "_typescript_test",
-      "spec.ts": "_typescript_test",
-      "test.jsx": "_javascript_react_test",
-      "spec.jsx": "_javascript_react_test",
-      "test.tsx": "_typescript_react_test",
-      "spec.tsx": "_typescript_react_test",
-      "test.py": "_python_test",
-      "h": "_c_header",
-      "hpp": "_cpp_header",
-      "out": "_binary",
-      "exe": "_binary",
-      "o": "_binary",
-      "so": "_binary",
-      "dll": "_binary",
-      "ini": "_config",
-      "cfg": "_config",
-      "conf": "_config"
-    },
-    "languageIds": {
-      "properties": "_properties",
-      "proto3": "_proto",
-      "dockerfile": "_docker",
-      "dockercompose": "_docker_compose",
-      "go": "_go",
-      "javascript": "_javascript",
-      "typescript": "_typescript",
-      "javascriptreact": "_javascript_react",
-      "typescriptreact": "_typescript_react",
-      "python": "_python",
-      "c": "_c",
-      "cpp": "_cpp",
-      "json": "_json",
-      "jsonc": "_jsonc",
-      "yaml": "_yaml",
-      "markdown": "_markdown",
-      "xml": "_xml",
-      "shellscript": "_shell",
-      "makefile": "_makefile"
+      "webpack.config.js": "_webpack",
+      "webpack.config.cjs": "_webpack",
+      "webpack.config.mjs": "_webpack",
+      "webpack.config.ts": "_webpack"
     },
     "folder": "_folder",
     "folderNames": {
-      ".idea": "_hidden_folder",
-      "node_modules": "_hidden_folder",
-      ".git": "_git_folder",
-      ".githooks": "_git_folder",
-      ".github": "_github_folder",
-      ".vscode": "_vscode_folder",
-      "app": "_source_folder",
-      "apps": "_source_folder",
-      "src": "_source_folder",
-      "core": "_source_folder",
-      "source": "_source_folder",
-      "sources": "_source_folder",
-      "server": "_source_folder",
-      "servers": "_source_folder",
-      "config": "_config_folder",
-      "configs": "_config_folder",
-      "cmd": "_script_folder",
-      "script": "_script_folder",
-      "scripts": "_script_folder",
-      "engine": "_engine_folder",
-      "game": "_game_folder",
-      "shaders": "_shader_folder",
-      "assets": "_asset_folder",
-      "static": "_asset_folder",
-      "public": "_public_folder",
-      "font": "_font_folder",
-      "fonts": "_font_folder",
-      "db": "_data_folder",
-      "data": "_data_folder",
-      "database": "_data_folder",
-      "databases": "_data_folder",
-      "doc": "_doc_folder",
-      "docs": "_doc_folder",
-      "external": "_external_folder",
-      "vendor": "_external_folder",
-      "lib": "_external_folder",
-      "internal": "_internal_folder",
-      "build": "_build_folder",
-      "dist": "_build_folder",
-      "out": "_build_folder",
-      "bin": "_build_folder",
-      "test": "_test_folder",
-      "tests": "_test_folder",
-      "android": "_android_folder",
-      "ios": "_ios_folder",
-      "mail": "_mail_folder",
-      "mails": "_mail_folder",
-      "custom": "_custom_folder"
+      "config": "_folder_config",
+      "configs": "_folder_config",
+      "configuration": "_folder_config",
+      "configurations": "_folder_config",
+      ".git": "_folder_git",
+      ".githooks": "_folder_git",
+      ".github": "_folder_github",
+      ".idea": "_folder_idea",
+      "app": "_folder_src",
+      "apps": "_folder_src",
+      "src": "_folder_src",
+      "source": "_folder_src",
+      "sources": "_folder_src",
+      "core": "_folder_src",
+      "server": "_folder_src",
+      "servers": "_folder_src",
+      "engine": "_folder_src",
+      "game": "_folder_src",
+      "test": "_folder_test",
+      "tests": "_folder_test",
+      ".vscode": "_folder_vscode"
     },
-    "rootFolder": "_root_folder",
+    "rootFolder": "_folder_root",
     "hidesExplorerArrows": false,
     "showLanguageModeIcons": true
   },
   "file": "_file_dark",
+  "languageIds": {
+    "c": "_c_dark",
+    "cpp": "_cpp_dark",
+    "dockercompose": "_docker_compose_dark",
+    "dockerfile": "_docker_dark",
+    "go": "_go_dark",
+    "http": "_http_dark",
+    "javascript": "_javascript_dark",
+    "typescript": "_typescript_dark",
+    "javascriptreact": "_jsx_dark",
+    "typescriptreact": "_tsx_dark",
+    "ini": "_config_dark",
+    "ignore": "_ignore_dark",
+    "json": "_json_dark",
+    "jsonc": "_jsonc_dark",
+    "makefile": "_makefile_dark",
+    "markdown": "_markdown_dark",
+    "properties": "_properties_dark",
+    "proto3": "_proto_dark",
+    "python": "_python_dark",
+    "shellscript": "_shell_dark",
+    "sql": "_sql_dark",
+    "xml": "_xml_dark",
+    "yaml": "_yaml_dark"
+  },
+  "fileExtensions": {
+    "o": "_binary_dark",
+    "out": "_binary_dark",
+    "exe": "_binary_dark",
+    "so": "_binary_dark",
+    "dll": "_binary_dark",
+    "h": "_c_h_dark",
+    "hpp": "_cpp_h_dark",
+    "drawio": "_diagram_dark",
+    "erd.json": "_erd_diagram_dark",
+    "test.go": "_go_test_dark",
+    "http": "_http_dark",
+    "rest": "_http_dark",
+    "png": "_image_dark",
+    "jpg": "_image_dark",
+    "jpeg": "_image_dark",
+    "test.js": "_javascript_test_dark",
+    "test.jsx": "_jsx_test_dark",
+    "test.ts": "_typescript_test_dark",
+    "test.tsx": "_tsx_test_dark",
+    "schema.json": "_json_schema_dark",
+    "test.py": "_python_test_dark",
+    "svg": "_svg_dark"
+  },
   "fileNames": {
-    "Chart.yaml": "_helm_chart_dark",
-    "values.yaml": "_helm_values_dark",
+    ".clangd": "_clangd_dark",
+    ".clang-format": "_clangd_dark",
+    ".clang-tidy": "_clangd_dark",
+    "CMakeLists.txt": "_cmake_dark",
+    "CMakeCache.txt": "_cmake_dark",
+    "CMakePresets.json": "_cmake_dark",
+    "CMakeUserPresets.json": "_cmake_dark",
+    ".editorconfig": "_config_dark",
     ".dockerignore": "_docker_ignore_dark",
-    "go.mod": "_go_mod_dark",
-    "go.sum": "_go_sum_dark",
-    ".gitignore": "_git_dark",
-    ".gitattributes": "_git_dark",
-    ".git-blame-ignore-revs": "_git_dark",
-    ".gitconfig": "_git_dark",
-    ".gitmodules": "_git_dark",
-    ".mailmap": "_mail_dark",
-    ".vscodeignore": "_ignore_dark",
-    ".eslintignore": "_ignore_dark",
-    ".prettierignore": "_ignore_dark",
-    "webpack.config.js": "_webpack_dark",
-    "webpack.config.cjs": "_webpack_dark",
-    "webpack.config.mjs": "_webpack_dark",
-    "webpack.config.ts": "_webpack_dark",
     "eslint.config.js": "_eslint_dark",
     "eslint.config.cjs": "_eslint_dark",
     "eslint.config.mjs": "_eslint_dark",
     "eslint.config.ts": "_eslint_dark",
     ".eslintrc.js": "_eslint_dark",
     ".eslintrc.cjs": "_eslint_dark",
+    ".eslintrc.mjs": "_eslint_dark",
     ".eslintrc.json": "_eslint_dark",
     ".eslintrc.yaml": "_eslint_dark",
     ".eslintrc.yml": "_eslint_dark",
+    ".gitignore": "_git_dark",
+    ".gitattributes": "_git_dark",
+    ".git-blame-ignore-revs": "_git_dark",
+    ".gitmodules": "_git_dark",
+    ".gitconfig": "_git_dark",
+    "go.mod": "_go_mod_dark",
+    "go.sum": "_go_sum_dark",
+    "Chart.yaml": "_helm_chart_dark",
+    "values.yaml": "_helm_values_dark",
+    ".vscodeignore": "_ignore_dark",
+    ".eslintignore": "_ignore_dark",
+    ".prettierignore": "_ignore_dark",
+    "LICENSE": "_license_dark",
+    "LICENSE.txt": "_license_dark",
+    "LICENSE.md": "_license_dark",
+    ".mailmap": "_mail_dark",
     "prettier.config.js": "_prettier_dark",
     "prettier.config.cjs": "_prettier_dark",
     "prettier.config.mjs": "_prettier_dark",
@@ -662,126 +609,46 @@
     ".prettierrc": "_prettier_dark",
     ".prettierrc.js": "_prettier_dark",
     ".prettierrc.cjs": "_prettier_dark",
+    ".prettierrc.mjs": "_prettier_dark",
     ".prettierrc.json": "_prettier_dark",
     ".prettierrc.yaml": "_prettier_dark",
     ".prettierrc.yml": "_prettier_dark",
     "tsconfig.json": "_tsconfig_dark",
+    "tsconfig.local.json": "_tsconfig_dark",
+    "tsconfig.dev.json": "_tsconfig_dark",
+    "tsconfig.test.json": "_tsconfig_dark",
+    "tsconfig.stg.json": "_tsconfig_dark",
     "tsconfig.prod.json": "_tsconfig_dark",
-    ".editorconfig": "_config_dark",
-    "LICENSE": "_license_dark",
-    "LICENSE.txt": "_license_dark",
-    "LICENSE.md": "_license_dark",
-    "CMakeLists.txt": "_cmake_dark",
-    "CMakeCache.txt": "_cmake_dark",
-    "CMakePresets.json": "_cmake_dark",
-    "CMakeUserPresets.json": "_cmake_dark",
-    ".clangd": "_clangd_dark",
-    ".clang-format": "_clangd_dark",
-    ".clang-tidy": "_clangd_dark"
-  },
-  "fileExtensions": {
-    "http": "_http_dark",
-    "erd.json": "_erd_diagram_dark",
-    "drawio": "_diagram_dark",
-    "test.go": "_go_test_dark",
-    "schema.json": "_json_schema_dark",
-    "png": "_image_dark",
-    "jpg": "_image_dark",
-    "jpeg": "_image_dark",
-    "svg": "_svg_dark",
-    "test.js": "_javascript_test_dark",
-    "spec.js": "_javascript_test_dark",
-    "test.ts": "_typescript_test_dark",
-    "spec.ts": "_typescript_test_dark",
-    "test.jsx": "_javascript_react_test_dark",
-    "spec.jsx": "_javascript_react_test_dark",
-    "test.tsx": "_typescript_react_test_dark",
-    "spec.tsx": "_typescript_react_test_dark",
-    "test.py": "_python_test_dark",
-    "h": "_c_header_dark",
-    "hpp": "_cpp_header_dark",
-    "out": "_binary_dark",
-    "exe": "_binary_dark",
-    "o": "_binary_dark",
-    "so": "_binary_dark",
-    "dll": "_binary_dark",
-    "ini": "_config_dark",
-    "cfg": "_config_dark",
-    "conf": "_config_dark"
-  },
-  "languageIds": {
-    "properties": "_properties_dark",
-    "proto3": "_proto_dark",
-    "dockerfile": "_docker_dark",
-    "dockercompose": "_docker_compose_dark",
-    "go": "_go_dark",
-    "javascript": "_javascript_dark",
-    "typescript": "_typescript_dark",
-    "javascriptreact": "_javascript_react_dark",
-    "typescriptreact": "_typescript_react_dark",
-    "python": "_python_dark",
-    "c": "_c_dark",
-    "cpp": "_cpp_dark",
-    "json": "_json_dark",
-    "jsonc": "_jsonc_dark",
-    "yaml": "_yaml_dark",
-    "markdown": "_markdown_dark",
-    "xml": "_xml_dark",
-    "shellscript": "_shell_dark",
-    "makefile": "_makefile_dark"
+    "webpack.config.js": "_webpack_dark",
+    "webpack.config.cjs": "_webpack_dark",
+    "webpack.config.mjs": "_webpack_dark",
+    "webpack.config.ts": "_webpack_dark"
   },
   "folder": "_folder_dark",
   "folderNames": {
-    ".idea": "_hidden_folder_dark",
-    "node_modules": "_hidden_folder_dark",
-    ".git": "_git_folder_dark",
-    ".githooks": "_git_folder_dark",
-    ".github": "_github_folder_dark",
-    ".vscode": "_vscode_folder_dark",
-    "app": "_source_folder_dark",
-    "apps": "_source_folder_dark",
-    "src": "_source_folder_dark",
-    "core": "_source_folder_dark",
-    "source": "_source_folder_dark",
-    "sources": "_source_folder_dark",
-    "server": "_source_folder_dark",
-    "servers": "_source_folder_dark",
-    "config": "_config_folder_dark",
-    "configs": "_config_folder_dark",
-    "cmd": "_script_folder_dark",
-    "script": "_script_folder_dark",
-    "scripts": "_script_folder_dark",
-    "engine": "_engine_folder_dark",
-    "game": "_game_folder_dark",
-    "shaders": "_shader_folder_dark",
-    "assets": "_asset_folder_dark",
-    "static": "_asset_folder_dark",
-    "public": "_public_folder_dark",
-    "font": "_font_folder_dark",
-    "fonts": "_font_folder_dark",
-    "db": "_data_folder_dark",
-    "data": "_data_folder_dark",
-    "database": "_data_folder_dark",
-    "databases": "_data_folder_dark",
-    "doc": "_doc_folder_dark",
-    "docs": "_doc_folder_dark",
-    "external": "_external_folder_dark",
-    "vendor": "_external_folder_dark",
-    "lib": "_external_folder_dark",
-    "internal": "_internal_folder_dark",
-    "build": "_build_folder_dark",
-    "dist": "_build_folder_dark",
-    "out": "_build_folder_dark",
-    "bin": "_build_folder_dark",
-    "test": "_test_folder_dark",
-    "tests": "_test_folder_dark",
-    "android": "_android_folder_dark",
-    "ios": "_ios_folder_dark",
-    "mail": "_mail_folder_dark",
-    "mails": "_mail_folder_dark",
-    "custom": "_custom_folder_dark"
+    "config": "_folder_config_dark",
+    "configs": "_folder_config_dark",
+    "configuration": "_folder_config_dark",
+    "configurations": "_folder_config_dark",
+    ".git": "_folder_git_dark",
+    ".githooks": "_folder_git_dark",
+    ".github": "_folder_github_dark",
+    ".idea": "_folder_idea_dark",
+    "app": "_folder_src_dark",
+    "apps": "_folder_src_dark",
+    "src": "_folder_src_dark",
+    "source": "_folder_src_dark",
+    "sources": "_folder_src_dark",
+    "core": "_folder_src_dark",
+    "server": "_folder_src_dark",
+    "servers": "_folder_src_dark",
+    "engine": "_folder_src_dark",
+    "game": "_folder_src_dark",
+    "test": "_folder_test_dark",
+    "tests": "_folder_test_dark",
+    ".vscode": "_folder_vscode_dark"
   },
-  "rootFolder": "_root_folder_dark",
+  "rootFolder": "_folder_root_dark",
   "hidesExplorerArrows": false,
   "showLanguageModeIcons": true
 }

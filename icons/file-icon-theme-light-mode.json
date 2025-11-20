@@ -1,0 +1,136 @@
+{
+  "file": "_file",
+  "languageIds": {
+    "c": "_c",
+    "cpp": "_cpp",
+    "dockercompose": "_docker_compose",
+    "dockerfile": "_docker",
+    "go": "_go",
+    "http": "_http",
+    "javascript": "_javascript",
+    "typescript": "_typescript",
+    "javascriptreact": "_jsx",
+    "typescriptreact": "_tsx",
+    "ini": "_config",
+    "ignore": "_ignore",
+    "json": "_json",
+    "jsonc": "_jsonc",
+    "makefile": "_makefile",
+    "markdown": "_markdown",
+    "properties": "_properties",
+    "proto3": "_proto",
+    "python": "_python",
+    "shellscript": "_shell",
+    "sql": "_sql",
+    "xml": "_xml",
+    "yaml": "_yaml"
+  },
+  "fileExtensions": {
+    "o": "_binary",
+    "out": "_binary",
+    "exe": "_binary",
+    "so": "_binary",
+    "dll": "_binary",
+
+    "h": "_c_h",
+
+    "hpp": "_cpp_h",
+
+    "drawio": "_diagram",
+
+    "erd.json": "_erd_diagram",
+
+    "test.go": "_go_test",
+
+    "http": "_http",
+    "rest": "_http",
+
+    "png": "_image",
+    "jpg": "_image",
+    "jpeg": "_image",
+
+    "test.js": "_javascript_test",
+    "test.jsx": "_jsx_test",
+    "test.ts": "_typescript_test",
+    "test.tsx": "_tsx_test",
+
+    "schema.json": "_json_schema",
+
+    "test.py": "_python_test",
+
+    "svg": "_svg"
+  },
+  "fileNames": {
+    ".clangd": "_clangd",
+    ".clang-format": "_clangd",
+    ".clang-tidy": "_clangd",
+
+    "CMakeLists.txt": "_cmake",
+    "CMakeCache.txt": "_cmake",
+    "CMakePresets.json": "_cmake",
+    "CMakeUserPresets.json": "_cmake",
+
+    ".editorconfig": "_config",
+
+    ".dockerignore": "_docker_ignore",
+
+    "eslint.config.js": "_eslint",
+    "eslint.config.cjs": "_eslint",
+    "eslint.config.mjs": "_eslint",
+    "eslint.config.ts": "_eslint",
+    ".eslintrc.js": "_eslint",
+    ".eslintrc.cjs": "_eslint",
+    ".eslintrc.mjs": "_eslint",
+    ".eslintrc.json": "_eslint",
+    ".eslintrc.yaml": "_eslint",
+    ".eslintrc.yml": "_eslint",
+
+    ".gitignore": "_git",
+    ".gitattributes": "_git",
+    ".git-blame-ignore-revs": "_git",
+    ".gitmodules": "_git",
+    ".gitconfig": "_git",
+
+    "go.mod": "_go_mod",
+
+    "go.sum": "_go_sum",
+
+    "Chart.yaml": "_helm_chart",
+
+    "values.yaml": "_helm_values",
+
+    ".vscodeignore": "_ignore",
+    ".eslintignore": "_ignore",
+    ".prettierignore": "_ignore",
+
+    "LICENSE": "_license",
+    "LICENSE.txt": "_license",
+    "LICENSE.md": "_license",
+
+    ".mailmap": "_mail",
+
+    "prettier.config.js": "_prettier",
+    "prettier.config.cjs": "_prettier",
+    "prettier.config.mjs": "_prettier",
+    "prettier.config.ts": "_prettier",
+    ".prettierrc": "_prettier",
+    ".prettierrc.js": "_prettier",
+    ".prettierrc.cjs": "_prettier",
+    ".prettierrc.mjs": "_prettier",
+    ".prettierrc.json": "_prettier",
+    ".prettierrc.yaml": "_prettier",
+    ".prettierrc.yml": "_prettier",
+
+    "tsconfig.json": "_tsconfig",
+    "tsconfig.local.json": "_tsconfig",
+    "tsconfig.dev.json": "_tsconfig",
+    "tsconfig.test.json": "_tsconfig",
+    "tsconfig.stg.json": "_tsconfig",
+    "tsconfig.prod.json": "_tsconfig",
+
+    "webpack.config.js": "_webpack",
+    "webpack.config.cjs": "_webpack",
+    "webpack.config.mjs": "_webpack",
+    "webpack.config.ts": "_webpack"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "file": "_file_dark",
+  "languageIds": {
+    "c": "_c_dark",
+    "cpp": "_cpp_dark",
+    "dockercompose": "_docker_compose_dark",
+    "dockerfile": "_docker_dark",
+    "go": "_go_dark",
+    "http": "_http_dark",
+    "javascript": "_javascript_dark",
+    "typescript": "_typescript_dark",
+    "javascriptreact": "_jsx_dark",
+    "typescriptreact": "_tsx_dark",
+    "ini": "_config_dark",
+    "ignore": "_ignore_dark",
+    "json": "_json_dark",
+    "jsonc": "_jsonc_dark",
+    "makefile": "_makefile_dark",
+    "markdown": "_markdown_dark",
+    "properties": "_properties_dark",
+    "proto3": "_proto_dark",
+    "python": "_python_dark",
+    "shellscript": "_shell_dark",
+    "sql": "_sql_dark",
+    "xml": "_xml_dark",
+    "yaml": "_yaml_dark"
+  },
+  "fileExtensions": {
+    "o": "_binary_dark",
+    "out": "_binary_dark",
+    "exe": "_binary_dark",
+    "so": "_binary_dark",
+    "dll": "_binary_dark",
+
+    "h": "_c_h_dark",
+
+    "hpp": "_cpp_h_dark",
+
+    "drawio": "_diagram_dark",
+
+    "erd.json": "_erd_diagram_dark",
+
+    "test.go": "_go_test_dark",
+
+    "http": "_http_dark",
+    "rest": "_http_dark",
+
+    "png": "_image_dark",
+    "jpg": "_image_dark",
+    "jpeg": "_image_dark",
+
+    "test.js": "_javascript_test_dark",
+    "test.jsx": "_jsx_test_dark",
+    "test.ts": "_typescript_test_dark",
+    "test.tsx": "_tsx_test_dark",
+
+    "schema.json": "_json_schema_dark",
+
+    "test.py": "_python_test_dark",
+
+    "svg": "_svg_dark"
+  },
+  "fileNames": {
+    ".clangd": "_clangd_dark",
+    ".clang-format": "_clangd_dark",
+    ".clang-tidy": "_clangd_dark",
+
+    "CMakeLists.txt": "_cmake_dark",
+    "CMakeCache.txt": "_cmake_dark",
+    "CMakePresets.json": "_cmake_dark",
+    "CMakeUserPresets.json": "_cmake_dark",
+
+    ".editorconfig": "_config_dark",
+
+    ".dockerignore": "_docker_ignore_dark",
+
+    "eslint.config.js": "_eslint_dark",
+    "eslint.config.cjs": "_eslint_dark",
+    "eslint.config.mjs": "_eslint_dark",
+    "eslint.config.ts": "_eslint_dark",
+    ".eslintrc.js": "_eslint_dark",
+    ".eslintrc.cjs": "_eslint_dark",
+    ".eslintrc.mjs": "_eslint_dark",
+    ".eslintrc.json": "_eslint_dark",
+    ".eslintrc.yaml": "_eslint_dark",
+    ".eslintrc.yml": "_eslint_dark",
+
+    ".gitignore": "_git_dark",
+    ".gitattributes": "_git_dark",
+    ".git-blame-ignore-revs": "_git_dark",
+    ".gitmodules": "_git_dark",
+    ".gitconfig": "_git_dark",
+
+    "go.mod": "_go_mod_dark",
+
+    "go.sum": "_go_sum_dark",
+
+    "Chart.yaml": "_helm_chart_dark",
+
+    "values.yaml": "_helm_values_dark",
+
+    ".vscodeignore": "_ignore_dark",
+    ".eslintignore": "_ignore_dark",
+    ".prettierignore": "_ignore_dark",
+
+    "LICENSE": "_license_dark",
+    "LICENSE.txt": "_license_dark",
+    "LICENSE.md": "_license_dark",
+
+    ".mailmap": "_mail_dark",
+
+    "prettier.config.js": "_prettier_dark",
+    "prettier.config.cjs": "_prettier_dark",
+    "prettier.config.mjs": "_prettier_dark",
+    "prettier.config.ts": "_prettier_dark",
+    ".prettierrc": "_prettier_dark",
+    ".prettierrc.js": "_prettier_dark",
+    ".prettierrc.cjs": "_prettier_dark",
+    ".prettierrc.mjs": "_prettier_dark",
+    ".prettierrc.json": "_prettier_dark",
+    ".prettierrc.yaml": "_prettier_dark",
+    ".prettierrc.yml": "_prettier_dark",
+
+    "tsconfig.json": "_tsconfig_dark",
+    "tsconfig.local.json": "_tsconfig_dark",
+    "tsconfig.dev.json": "_tsconfig_dark",
+    "tsconfig.test.json": "_tsconfig_dark",
+    "tsconfig.stg.json": "_tsconfig_dark",
+    "tsconfig.prod.json": "_tsconfig_dark",
+
+    "webpack.config.js": "_webpack_dark",
+    "webpack.config.cjs": "_webpack_dark",
+    "webpack.config.mjs": "_webpack_dark",
+    "webpack.config.ts": "_webpack_dark"
+  }
+}
