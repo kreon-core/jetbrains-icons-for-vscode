@@ -186,6 +186,18 @@
     "_go_dark": {
       "iconPath": "../assets/file/dark/go.svg"
     },
+    "_gradle_kts": {
+      "iconPath": "../assets/file/light/gradle_kts.svg"
+    },
+    "_gradle_kts_dark": {
+      "iconPath": "../assets/file/dark/gradle_kts.svg"
+    },
+    "_gradle": {
+      "iconPath": "../assets/file/light/gradle.svg"
+    },
+    "_gradle_dark": {
+      "iconPath": "../assets/file/dark/gradle.svg"
+    },
     "_helm_chart": {
       "iconPath": "../assets/file/light/helm_chart.svg"
     },
@@ -330,6 +342,12 @@
     "_svg_dark": {
       "iconPath": "../assets/file/dark/svg.svg"
     },
+    "_toml": {
+      "iconPath": "../assets/file/light/toml.svg"
+    },
+    "_toml_dark": {
+      "iconPath": "../assets/file/dark/toml.svg"
+    },
     "_tsconfig": {
       "iconPath": "../assets/file/light/tsconfig.svg"
     },
@@ -403,6 +421,7 @@
       "python": "_python",
       "shellscript": "_shell",
       "sql": "_sql",
+      "toml": "_toml",
       "xml": "_xml",
       "yaml": "_yaml"
     },
@@ -417,6 +436,7 @@
       "drawio": "_diagram",
       "erd.json": "_erd_diagram",
       "test.go": "_go_test",
+      "gradle.kts": "_gradle_kts",
       "http": "_http",
       "rest": "_http",
       "png": "_image",
@@ -457,6 +477,9 @@
       ".gitconfig": "_git",
       "go.mod": "_go_mod",
       "go.sum": "_go_sum",
+      "gradle.properties": "_gradle",
+      "gradle-wrapper.properties": "_gradle",
+      "build.gradle": "_gradle",
       "Chart.yaml": "_helm_chart",
       "values.yaml": "_helm_values",
       ".vscodeignore": "_ignore",
@@ -539,6 +562,7 @@
     "python": "_python_dark",
     "shellscript": "_shell_dark",
     "sql": "_sql_dark",
+    "toml": "_toml_dark",
     "xml": "_xml_dark",
     "yaml": "_yaml_dark"
   },
@@ -553,6 +577,7 @@
     "drawio": "_diagram_dark",
     "erd.json": "_erd_diagram_dark",
     "test.go": "_go_test_dark",
+    "gradle.kts": "_gradle_kts_dark",
     "http": "_http_dark",
     "rest": "_http_dark",
     "png": "_image_dark",
@@ -593,6 +618,9 @@
     ".gitconfig": "_git_dark",
     "go.mod": "_go_mod_dark",
     "go.sum": "_go_sum_dark",
+    "gradle.properties": "_gradle_dark",
+    "gradle-wrapper.properties": "_gradle_dark",
+    "build.gradle": "_gradle_dark",
     "Chart.yaml": "_helm_chart_dark",
     "values.yaml": "_helm_values_dark",
     ".vscodeignore": "_ignore_dark",
