@@ -22,6 +22,7 @@
     "python": "_python",
     "shellscript": "_shell",
     "sql": "_sql",
+    "toml": "_toml",
     "xml": "_xml",
     "yaml": "_yaml"
   },
@@ -41,6 +42,8 @@
     "erd.json": "_erd_diagram",
 
     "test.go": "_go_test",
+
+    "gradle.kts": "_gradle_kts",
 
     "http": "_http",
     "rest": "_http",
@@ -94,6 +97,10 @@
     "go.mod": "_go_mod",
 
     "go.sum": "_go_sum",
+
+    "gradle.properties": "_gradle",
+    "gradle-wrapper.properties": "_gradle",
+    "build.gradle": "_gradle",
 
     "Chart.yaml": "_helm_chart",
 
