@@ -22,6 +22,7 @@
     "python": "_python_dark",
     "shellscript": "_shell_dark",
     "sql": "_sql_dark",
+    "toml": "_toml_dark",
     "xml": "_xml_dark",
     "yaml": "_yaml_dark"
   },
@@ -41,6 +42,8 @@
     "erd.json": "_erd_diagram_dark",
 
     "test.go": "_go_test_dark",
+
+    "gradle.kts": "_gradle_kts_dark",
 
     "http": "_http_dark",
     "rest": "_http_dark",
@@ -94,6 +97,10 @@
     "go.mod": "_go_mod_dark",
 
     "go.sum": "_go_sum_dark",
+
+    "gradle.properties": "_gradle_dark",
+    "gradle-wrapper.properties": "_gradle_dark",
+    "build.gradle": "_gradle_dark",
 
     "Chart.yaml": "_helm_chart_dark",
 

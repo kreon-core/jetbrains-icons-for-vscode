@@ -65,6 +65,12 @@
   "_go": { "iconPath": "../assets/file/light/go.svg" },
   "_go_dark": { "iconPath": "../assets/file/dark/go.svg" },
 
+  "_gradle_kts": { "iconPath": "../assets/file/light/gradle_kts.svg" },
+  "_gradle_kts_dark": { "iconPath": "../assets/file/dark/gradle_kts.svg" },
+
+  "_gradle": { "iconPath": "../assets/file/light/gradle.svg" },
+  "_gradle_dark": { "iconPath": "../assets/file/dark/gradle.svg" },
+
   "_helm_chart": { "iconPath": "../assets/file/light/helm_chart.svg" },
   "_helm_chart_dark": { "iconPath": "../assets/file/dark/helm_chart.svg" },
 
@@ -136,6 +142,9 @@
 
   "_svg": { "iconPath": "../assets/file/light/svg.svg" },
   "_svg_dark": { "iconPath": "../assets/file/dark/svg.svg" },
+
+  "_toml": { "iconPath": "../assets/file/light/toml.svg" },
+  "_toml_dark": { "iconPath": "../assets/file/dark/toml.svg" },
 
   "_tsconfig": { "iconPath": "../assets/file/light/tsconfig.svg" },
   "_tsconfig_dark": { "iconPath": "../assets/file/dark/tsconfig.svg" },
