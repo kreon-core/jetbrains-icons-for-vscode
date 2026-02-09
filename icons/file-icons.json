@@ -168,5 +168,11 @@
   "_xml_dark": { "iconPath": "../assets/file/dark/xml.svg" },
 
   "_yaml": { "iconPath": "../assets/file/light/yaml.svg" },
-  "_yaml_dark": { "iconPath": "../assets/file/dark/yaml.svg" }
+  "_yaml_dark": { "iconPath": "../assets/file/dark/yaml.svg" },
+
+  "_bazel": { "iconPath": "../assets/file/light/bazel.svg" },
+  "_bazel_dark": { "iconPath": "../assets/file/dark/bazel.svg" },
+
+  "_bazel_cfg": { "iconPath": "../assets/file/light/bazel_cfg.svg" },
+  "_bazel_cfg_dark": { "iconPath": "../assets/file/dark/bazel_cfg.svg" }
 }

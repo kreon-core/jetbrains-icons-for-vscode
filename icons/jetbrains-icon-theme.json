@@ -395,6 +395,18 @@
     },
     "_yaml_dark": {
       "iconPath": "../assets/file/dark/yaml.svg"
+    },
+    "_bazel": {
+      "iconPath": "../assets/file/light/bazel.svg"
+    },
+    "_bazel_dark": {
+      "iconPath": "../assets/file/dark/bazel.svg"
+    },
+    "_bazel_cfg": {
+      "iconPath": "../assets/file/light/bazel_cfg.svg"
+    },
+    "_bazel_cfg_dark": {
+      "iconPath": "../assets/file/dark/bazel_cfg.svg"
     }
   },
   "light": {
@@ -509,7 +521,13 @@
       "webpack.config.js": "_webpack",
       "webpack.config.cjs": "_webpack",
       "webpack.config.mjs": "_webpack",
-      "webpack.config.ts": "_webpack"
+      "webpack.config.ts": "_webpack",
+      "BUILD.bazel": "_bazel",
+      "MODULE.bazel": "_bazel",
+      "MODULE.bazel.lock": "_bazel",
+      ".bazelrc": "_bazel_cfg",
+      ".bazelignore": "_bazel_cfg",
+      ".bazelversion": "_bazel_cfg"
     },
     "folder": "_folder",
     "folderNames": {
@@ -650,7 +668,13 @@
     "webpack.config.js": "_webpack_dark",
     "webpack.config.cjs": "_webpack_dark",
     "webpack.config.mjs": "_webpack_dark",
-    "webpack.config.ts": "_webpack_dark"
+    "webpack.config.ts": "_webpack_dark",
+    "BUILD.bazel": "_bazel_dark",
+    "MODULE.bazel": "_bazel_dark",
+    "MODULE.bazel.lock": "_bazel_dark",
+    ".bazelrc": "_bazel_cfg_dark",
+    ".bazelignore": "_bazel_cfg_dark",
+    ".bazelversion": "_bazel_cfg_dark"
   },
   "folder": "_folder_dark",
   "folderNames": {
