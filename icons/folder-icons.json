@@ -1,28 +1,62 @@
 {
-  "_folder_config": { "iconPath": "../assets/folder/light/folder_config.svg" },
-  "_folder_config_dark": { "iconPath": "../assets/folder/dark/folder_config.svg" },
-
-  "_folder_git": { "iconPath": "../assets/folder/light/folder_git.svg" },
-  "_folder_git_dark": { "iconPath": "../assets/folder/dark/folder_git.svg" },
-
-  "_folder_github": { "iconPath": "../assets/folder/light/folder_github.svg" },
-  "_folder_github_dark": { "iconPath": "../assets/folder/dark/folder_github.svg" },
-
-  "_folder_idea": { "iconPath": "../assets/folder/light/folder_idea.svg" },
-  "_folder_idea_dark": { "iconPath": "../assets/folder/dark/folder_idea.svg" },
-
-  "_folder_root": { "iconPath": "../assets/folder/light/folder_root.svg" },
-  "_folder_root_dark": { "iconPath": "../assets/folder/dark/folder_root.svg" },
-
-  "_folder_src": { "iconPath": "../assets/folder/light/folder_src.svg" },
-  "_folder_src_dark": { "iconPath": "../assets/folder/dark/folder_src.svg" },
-
-  "_folder_test": { "iconPath": "../assets/folder/light/folder_test.svg" },
-  "_folder_test_dark": { "iconPath": "../assets/folder/dark/folder_test.svg" },
-
-  "_folder_vscode": { "iconPath": "../assets/folder/light/folder_vscode.svg" },
-  "_folder_vscode_dark": { "iconPath": "../assets/folder/dark/folder_vscode.svg" },
-
-  "_folder": { "iconPath": "../assets/folder/light/folder.svg" },
-  "_folder_dark": { "iconPath": "../assets/folder/dark/folder.svg" }
+  "_folder": {
+    "iconPath": "../assets/folder/light/folder.svg"
+  },
+  "_folder_claude": {
+    "iconPath": "../assets/folder/light/folder_claude.svg"
+  },
+  "_folder_claude_dark": {
+    "iconPath": "../assets/folder/dark/folder_claude.svg"
+  },
+  "_folder_config": {
+    "iconPath": "../assets/folder/light/folder_config.svg"
+  },
+  "_folder_config_dark": {
+    "iconPath": "../assets/folder/dark/folder_config.svg"
+  },
+  "_folder_dark": {
+    "iconPath": "../assets/folder/dark/folder.svg"
+  },
+  "_folder_git": {
+    "iconPath": "../assets/folder/light/folder_git.svg"
+  },
+  "_folder_git_dark": {
+    "iconPath": "../assets/folder/dark/folder_git.svg"
+  },
+  "_folder_github": {
+    "iconPath": "../assets/folder/light/folder_github.svg"
+  },
+  "_folder_github_dark": {
+    "iconPath": "../assets/folder/dark/folder_github.svg"
+  },
+  "_folder_idea": {
+    "iconPath": "../assets/folder/light/folder_idea.svg"
+  },
+  "_folder_idea_dark": {
+    "iconPath": "../assets/folder/dark/folder_idea.svg"
+  },
+  "_folder_root": {
+    "iconPath": "../assets/folder/light/folder_root.svg"
+  },
+  "_folder_root_dark": {
+    "iconPath": "../assets/folder/dark/folder_root.svg"
+  },
+  "_folder_src": {
+    "iconPath": "../assets/folder/light/folder_src.svg"
+  },
+  "_folder_src_dark": {
+    "iconPath": "../assets/folder/dark/folder_src.svg"
+  },
+  "_folder_test": {
+    "iconPath": "../assets/folder/light/folder_test.svg"
+  },
+  "_folder_test_dark": {
+    "iconPath": "../assets/folder/dark/folder_test.svg"
+  },
+  "_folder_vscode": {
+    "iconPath": "../assets/folder/light/folder_vscode.svg"
+  },
+  "_folder_vscode_dark": {
+    "iconPath": "../assets/folder/dark/folder_vscode.svg"
+  }
 }

@@ -1,4 +1,4 @@
-name: ci-release
+name: release
 
 on:
   push:
@@ -29,13 +29,14 @@ jobs:
         run: npx semantic-release
 
       - name: Update package.json version from git tag
+        if: steps.release.outputs.new_release_published == 'true'
         run: |
           VERSION=$(git describe --tags --abbrev=0)
           jq --arg v "${VERSION#v}" '.version=$v' package.json > package.tmp.json
           mv package.tmp.json package.json
 
       - name: Publish VSCE Package
-        if: success()
+        if: steps.release.outputs.new_release_published == 'true'
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
-        run: npx vsce publish -p $VSCE_TOKEN
+        run: npm run build && npx @vscode/vsce publish -p $VSCE_TOKEN

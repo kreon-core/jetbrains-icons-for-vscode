@@ -5,7 +5,7 @@ import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 const getConfig = (_env: any, argv: any): Configuration => ({
   target: "node",
   mode: argv.mode,
-  context: resolve(__dirname, "src"),
+  context: resolve(__dirname, "."),
   entry: "./index.ts",
   output: {
     clean: true,
