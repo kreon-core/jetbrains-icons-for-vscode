@@ -31,10 +31,11 @@
   "icon": "assets/logo.png",
   "type": "commonjs",
   "scripts": {
+    "sort": "node ./icons/sort-icons.js",
     "build": "node ./icons/generate-icon-theme.js",
     "package": "npm run build && webpack --mode production",
     "bump": "npm version patch --no-git-tag-version",
-    "lint": "eslint src",
+    "lint": "eslint index.ts",
     "format": "prettier --write .",
     "compile": "webpack --mode development",
     "watch": "webpack --watch --mode development",
