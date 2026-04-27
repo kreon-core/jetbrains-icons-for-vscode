@@ -5,9 +5,6 @@
     "allowJs": false,
     "resolveJsonModule": true,
 
-    "rootDir": ".",
-    "outDir": "dist",
-
     "sourceMap": true,
 
     "strict": true,
@@ -21,11 +18,10 @@
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
 
-    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "dist",
     "paths": {
-      "@root/*": ["*"],
-      "@constants/*": ["src/constants/*"],
-      "@models/*": ["src/models/*"]
+      "@root/*": ["./*"]
     },
 
     "incremental": true,
@@ -33,6 +29,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*.ts", "test/**/*.ts"],
+  "include": ["index.ts", "test/**/*.ts"],
   "exclude": ["node_modules", "dist", ".vscode-test"]
 }
