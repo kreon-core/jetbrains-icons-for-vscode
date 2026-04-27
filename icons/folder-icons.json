@@ -23,6 +23,9 @@
   "_folder_vscode": { "iconPath": "../assets/folder/light/folder_vscode.svg" },
   "_folder_vscode_dark": { "iconPath": "../assets/folder/dark/folder_vscode.svg" },
 
+  "_folder_claude": { "iconPath": "../assets/folder/light/folder_claude.svg" },
+  "_folder_claude_dark": { "iconPath": "../assets/folder/dark/folder_claude.svg" },
+
   "_folder": { "iconPath": "../assets/folder/light/folder.svg" },
   "_folder_dark": { "iconPath": "../assets/folder/dark/folder.svg" }
 }

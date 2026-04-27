@@ -48,6 +48,12 @@
     "_folder_vscode_dark": {
       "iconPath": "../assets/folder/dark/folder_vscode.svg"
     },
+    "_folder_claude": {
+      "iconPath": "../assets/folder/light/folder_claude.svg"
+    },
+    "_folder_claude_dark": {
+      "iconPath": "../assets/folder/dark/folder_claude.svg"
+    },
     "_folder": {
       "iconPath": "../assets/folder/light/folder.svg"
     },
@@ -407,6 +413,12 @@
     },
     "_bazel_cfg_dark": {
       "iconPath": "../assets/file/dark/bazel_cfg.svg"
+    },
+    "_claude": {
+      "iconPath": "../assets/file/light/claude.svg"
+    },
+    "_claude_dark": {
+      "iconPath": "../assets/file/dark/claude.svg"
     }
   },
   "light": {
@@ -463,6 +475,7 @@
       "svg": "_svg"
     },
     "fileNames": {
+      "CLAUDE.md": "_claude",
       ".clangd": "_clangd",
       ".clang-format": "_clangd",
       ".clang-tidy": "_clangd",
@@ -551,6 +564,7 @@
       "game": "_folder_src",
       "test": "_folder_test",
       "tests": "_folder_test",
+      ".claude": "_folder_claude",
       ".vscode": "_folder_vscode"
     },
     "rootFolder": "_folder_root",
@@ -610,6 +624,7 @@
     "svg": "_svg_dark"
   },
   "fileNames": {
+    "CLAUDE.md": "_claude_dark",
     ".clangd": "_clangd_dark",
     ".clang-format": "_clangd_dark",
     ".clang-tidy": "_clangd_dark",
@@ -698,6 +713,7 @@
     "game": "_folder_src_dark",
     "test": "_folder_test_dark",
     "tests": "_folder_test_dark",
+    ".claude": "_folder_claude_dark",
     ".vscode": "_folder_vscode_dark"
   },
   "rootFolder": "_folder_root_dark",

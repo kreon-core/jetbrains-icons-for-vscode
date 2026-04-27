@@ -174,5 +174,8 @@
   "_bazel_dark": { "iconPath": "../assets/file/dark/bazel.svg" },
 
   "_bazel_cfg": { "iconPath": "../assets/file/light/bazel_cfg.svg" },
-  "_bazel_cfg_dark": { "iconPath": "../assets/file/dark/bazel_cfg.svg" }
+  "_bazel_cfg_dark": { "iconPath": "../assets/file/dark/bazel_cfg.svg" },
+
+  "_claude": { "iconPath": "../assets/file/light/claude.svg" },
+  "_claude_dark": { "iconPath": "../assets/file/dark/claude.svg" }
 }

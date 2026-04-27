@@ -21,6 +21,9 @@
     "game": "_folder_src_dark",
     "test": "_folder_test_dark",
     "tests": "_folder_test_dark",
+
+    ".claude": "_folder_claude_dark",
+
     ".vscode": "_folder_vscode_dark"
   },
   "rootFolder": "_folder_root_dark",

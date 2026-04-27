@@ -1,10 +1,5 @@
-.vscode/**
-!.vscode/extensions.json
-!.vscode/launch.json
-!.vscode/settings.json
-!.vscode/tasks.json
-
 .idea/**
+.vscode/**
 
 node_modules/
 

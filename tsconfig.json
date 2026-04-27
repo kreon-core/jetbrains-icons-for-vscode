@@ -5,9 +5,6 @@
     "allowJs": false,
     "resolveJsonModule": true,
 
-    "rootDir": ".",
-    "outDir": "dist",
-
     "sourceMap": true,
 
     "strict": true,
@@ -21,11 +18,12 @@
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
 
-    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "dist",
     "paths": {
-      "@root/*": ["*"],
-      "@constants/*": ["src/constants/*"],
-      "@models/*": ["src/models/*"]
+      "@root/*": ["./*"],
+      "@constants/*": ["./src/constants/*"],
+      "@models/*": ["./src/models/*"]
     },
 
     "incremental": true,

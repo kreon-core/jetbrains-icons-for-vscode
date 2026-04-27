@@ -52,6 +52,8 @@
     "svg": "_svg_dark"
   },
   "fileNames": {
+    "CLAUDE.md": "_claude_dark",
+
     ".clangd": "_clangd_dark",
     ".clang-format": "_clangd_dark",
     ".clang-tidy": "_clangd_dark",

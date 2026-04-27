@@ -21,6 +21,9 @@
     "game": "_folder_src",
     "test": "_folder_test",
     "tests": "_folder_test",
+
+    ".claude": "_folder_claude",
+
     ".vscode": "_folder_vscode"
   },
   "rootFolder": "_folder_root",
