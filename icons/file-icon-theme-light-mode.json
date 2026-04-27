@@ -5,6 +5,7 @@
     "cpp": "_cpp",
     "dockercompose": "_docker_compose",
     "dockerfile": "_docker",
+    "dotenv": "_properties",
     "go": "_go",
     "http": "_http",
     "ignore": "_ignore",
