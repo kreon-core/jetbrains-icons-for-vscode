@@ -3,10 +3,12 @@
   "languageIds": {
     "c": "_c",
     "cpp": "_cpp",
+    "css": "_css",
     "dockercompose": "_docker_compose",
     "dockerfile": "_docker",
     "dotenv": "_properties",
     "go": "_go",
+    "html": "_html",
     "http": "_http",
     "ignore": "_ignore",
     "ini": "_config",

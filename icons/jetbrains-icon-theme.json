@@ -138,6 +138,12 @@
     "_cpp_h_dark": {
       "iconPath": "../assets/file/dark/cpp_h.svg"
     },
+    "_css": {
+      "iconPath": "../assets/file/light/css.svg"
+    },
+    "_css_dark": {
+      "iconPath": "../assets/file/dark/css.svg"
+    },
     "_diagram": {
       "iconPath": "../assets/file/light/diagram.svg"
     },
@@ -233,6 +239,12 @@
     },
     "_helm_values_dark": {
       "iconPath": "../assets/file/dark/helm_values.svg"
+    },
+    "_html": {
+      "iconPath": "../assets/file/light/html.svg"
+    },
+    "_html_dark": {
+      "iconPath": "../assets/file/dark/html.svg"
     },
     "_http": {
       "iconPath": "../assets/file/light/http.svg"
@@ -426,10 +438,12 @@
     "languageIds": {
       "c": "_c",
       "cpp": "_cpp",
+      "css": "_css",
       "dockercompose": "_docker_compose",
       "dockerfile": "_docker",
       "dotenv": "_properties",
       "go": "_go",
+      "html": "_html",
       "http": "_http",
       "ignore": "_ignore",
       "ini": "_config",
@@ -576,10 +590,12 @@
   "languageIds": {
     "c": "_c_dark",
     "cpp": "_cpp_dark",
+    "css": "_css_dark",
     "dockercompose": "_docker_compose_dark",
     "dockerfile": "_docker_dark",
     "dotenv": "_properties_dark",
     "go": "_go_dark",
+    "html": "_html_dark",
     "http": "_http_dark",
     "ignore": "_ignore_dark",
     "ini": "_config_dark",

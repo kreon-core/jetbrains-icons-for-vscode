@@ -3,10 +3,12 @@
   "languageIds": {
     "c": "_c_dark",
     "cpp": "_cpp_dark",
+    "css": "_css_dark",
     "dockercompose": "_docker_compose_dark",
     "dockerfile": "_docker_dark",
     "dotenv": "_properties_dark",
     "go": "_go_dark",
+    "html": "_html_dark",
     "http": "_http_dark",
     "ignore": "_ignore_dark",
     "ini": "_config_dark",

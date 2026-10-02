@@ -77,6 +77,12 @@
   "_cpp_h_dark": {
     "iconPath": "../assets/file/dark/cpp_h.svg"
   },
+  "_css": {
+    "iconPath": "../assets/file/light/css.svg"
+  },
+  "_css_dark": {
+    "iconPath": "../assets/file/dark/css.svg"
+  },
   "_diagram": {
     "iconPath": "../assets/file/light/diagram.svg"
   },
@@ -172,6 +178,12 @@
   },
   "_helm_values_dark": {
     "iconPath": "../assets/file/dark/helm_values.svg"
+  },
+  "_html": {
+    "iconPath": "../assets/file/light/html.svg"
+  },
+  "_html_dark": {
+    "iconPath": "../assets/file/dark/html.svg"
   },
   "_http": {
     "iconPath": "../assets/file/light/http.svg"
